@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass abnt
 \begin_preamble
 \usepackage {graphicx}
@@ -23,16 +25,18 @@
 \language_package default
 \inputencoding iso8859-1
 \fontencoding global
-\font_roman default
-\font_sans default
-\font_typewriter default
-\font_math auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -75,6 +79,7 @@
 \suppress_date false
 \justification true
 \use_refstyle 0
+\use_minted 0
 \index Índice
 \shortcut idx
 \color #008000
@@ -89,7 +94,10 @@
 \tocdepth 1
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle fancy
@@ -161,6 +169,10 @@ determinação das configurações de equilíbrio em processos bifásicos de inv
 \emph default
 Valida-se os modelos e algoritmos desenvolvidos contra dados experimentais
  de intrusão de mercúrio e de permeabilidade de rochas reservatório de petróleo.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -170,7 +182,7 @@ O primeiro parágrafo da introdução pode ser um super resumo de sua
 \end_inset
 
 monografia/dissertação/tese - veja o exemplo acima.
- A ideia é fazer um resumo do resumo.
+ A ideia é fazer um resumo do resum.
 \end_layout
 
 \begin_layout Section
@@ -256,6 +268,10 @@ Os objetivos deste trabalho são:
 
 \begin_layout Itemize
 Objetivo geral:
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -275,6 +291,10 @@ Note que esta diretamente relacionado ao escopo do problema, a solução do
 \end_deeper
 \begin_layout Itemize
 Objetivos específicos:
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
