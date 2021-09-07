@@ -1,0 +1,5067 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass abnt
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+\end_preamble
+\use_default_options false
+\master Monografia-Dissertacao-Tese-master.lyx
+\maintain_unincluded_children false
+\language brazilian
+\language_package default
+\inputencoding iso8859-1
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement p
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Metodologia
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Metodologia
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Metodologia"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{
+\backslash
+thechapter-Metodologia} 
+\backslash
+rhead{
+\backslash
+thepage} 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Itemize
+Descreva de forma objetiva a metodologia do trabalho a ser desenvolvido,
+ a sequência científica, de forma que outros autores possam reproduzir seu
+ trabalho.
+\end_layout
+
+\begin_layout Itemize
+O objetivo deste capítulo é:
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Indicar a motivação para o tema; a classificação da pesquisa; o método utilizado
+, a área e sub-área de concentração.
+\end_layout
+
+\begin_layout Itemize
+Descrever hipóteses, pressupostos, variáveis.
+\end_layout
+
+\begin_layout Itemize
+Anunciar as ideias mestras adotadas e o plano de trabalho seguido.
+ Pode ser em forma de indagação.
+\end_layout
+
+\begin_layout Itemize
+Instrumentos:
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Materiais: Como foram obtidos/selecionados, classificados (ex: artigos/livros/ma
+nuais).
+\end_layout
+
+\begin_layout Itemize
+Equipamentos: Listar equipamentos, fabricantes, modelos, série.
+\end_layout
+
+\begin_layout Itemize
+Softwares: Listar softwares utilizados, sites, versões.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Dados/Amostras: Indicar a origem dos dados/amostras, como foram/serão obtidos,
+ como serão organizados e usados nos processos, como serão analisados.
+\end_layout
+
+\begin_layout Itemize
+Descrever a ordem em que experimentos, ensaios e simulações serão realizados.
+\end_layout
+
+\begin_layout Itemize
+Estudos estatísticos, testes e validações: Indicar como os resultados serão
+ processados e analisados.
+ Comparação com a bibliografia.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Note que todas estas informações esclarecem aos outros e ao próprio autor
+ o caminho a ser seguido.
+ Lembrando sempre que num trabalho científico um caminho é uma guia e não
+ um dogma.
+ Ao longo do caminho o autor pode identificar problemas e repensar a sequência.
+\end_layout
+
+\begin_layout Section
+Motivação Para o Tema
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Motivação Para o Tema
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Motivacao-Para-o-Tema"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Envolvimento anterior do graduando/mestrando/doutorando com o tema:
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Conhecimentos adquiridos nas disciplinas; lista das disciplinas feitas.
+\end_layout
+
+\begin_layout Itemize
+Trabalhos que já fez e que estão relacionados ao tema.
+\end_layout
+
+\begin_layout Itemize
+A ideia aqui é mostrar que você tem domínio dos conhecimentos necessários
+ ao desenvolvimento do trabalho.
+ Muitas vezes o orientador pode achar que você domina algo que na verdade
+ não domina e isto pode gerar confusões e atrasos.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Fonte de interesse atual pelo tema:
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Discussões com o orientador dos processos físicos envolvidos, realização
+ de exercícios preliminares sobre o assunto.
+\end_layout
+
+\begin_layout Itemize
+A ideia é identificar se, de fato, você tem interesse pelo tema.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Facilidades pessoais do aluno para a abordagem do tema:
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Facilidade no estudo dos conceitos matemáticos/físicos/químicos envolvidos
+ no processo.
+\end_layout
+
+\begin_layout Itemize
+Facilidade na aplicação dos processos com a utilização de simulação no computado
+r.
+ Prática no uso de programas de computador.
+\end_layout
+
+\begin_layout Itemize
+Facilidade no uso dos equipamentos experimentais.
+\end_layout
+
+\begin_layout Itemize
+A ideia aqui é ter a certeza de que já conhece/domina e tem facilidade com
+ as atividades de rotina.
+ Note que se você não domina uma ferramenta matemática, um software ou um
+ equipamento, isto não o impede de fazer o trabalho, basta correr atrás,
+ aprender o necessário.
+ Mas esta informação é fundamental para definir o cronograma das atividades;
+ por exemplo, se não souber usar um equipamento de laboratório, uma das
+ atividades será ir até um local onde tenha o equipamento e fazer o treinamento
+ necessário.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Dificuldades atuais do aluno que podem ser minoradas a partir do trabalho:
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Dificuldades no trato de língua inglesa;
+\end_layout
+
+\begin_layout Itemize
+Necessidade de ampliar conhecimentos em matemática/física/química...
+\end_layout
+
+\begin_layout Itemize
+Não saber programar;
+\end_layout
+
+\begin_layout Itemize
+Não saber usar corretamente/adequadamente/com eficiência equipamentos experiment
+ais.
+\end_layout
+
+\begin_layout Itemize
+Ampliação do conhecimento de alguns conceitos envolvidos no processo.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Usos futuros do conhecimento na área em estudo por parte do aluno:
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Elaboração de softwares aplicativos considerando os conceitos analisados.
+\end_layout
+
+\begin_layout Itemize
+Como tema base para a realização de mestrado/doutorado.
+\end_layout
+
+\begin_layout Itemize
+Análise de outros materiais/equipamentos/sistemas considerando o mesmo processo
+ metodológico.
+\end_layout
+
+\begin_layout Itemize
+Estudo e aperfeiçoamento das variáveis envolvidas.
+\end_layout
+
+\begin_layout Itemize
+Formulação de processo de cálculo simplificado para a aplicação dos conceitos
+ apresentados.
+ Isto ocorre em trabalhos mais tecnológicos, em que ocorrem simplificações
+ no problema e adotam-se procedimentos mais práticos.
+\end_layout
+
+\begin_layout Itemize
+A ideia aqui é mostrar, de forma clara, que aquilo que esta sendo estudado
+ trará benefícios ao aluno que vão além do aprendizado do método científico
+ e do trabalho em sí; o que estudou e aprendeu poderá ser usado/aplicado
+ em outras situações.
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Classificação da Pesquisa
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Classificação da Pesquisa
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Classificacao-da-Pesquisa"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Podemos classificar o tipo de pesquisa sob diferentes aspectos, a seguir,
+ fazemos a classificação deste trabalho quanto ao fim, quando ao tipo de
+ modelagem e quanto ao tipo de análise.
+\end_layout
+
+\begin_layout Subsection
+Quanto ao fim, área, sub-área, tema específico e disciplinas relacionadas
+\end_layout
+
+\begin_layout Itemize
+Quanto ao fim:
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Pura
+\end_layout
+
+\begin_layout Itemize
+Aplicada
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Área e sub-área de estudo:
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+indique a área e sub-área da pesquisa, tome como base a definição das áreas
+ de pesquisa do CNPq.
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Dica: entre no seu curriculun lattes e cadastre seu trabalho, lá terá de
+ informar vários itens.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Subordinação do tema a áreas do conhecimento científico:
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+indique as áreas do conhecimento científico as quais o trabalho esta relacionado.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Disciplinas relacionadas:
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+indique disciplinas relacionadas, note que é diferente das disciplinas feitas;
+ liste apenas as que serão efetivamente utilizadas no seu trabalho.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Áreas não incluidas:
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+indique áreas correlacionadas mas que no seu caso não serão consideradas/utiliza
+das por algum motivo, como falta de tempo.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Quanto ao tipo de modelagem
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Tipo de modelagem
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Quanto-ao-tipo-de-modelagem"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+O presente trabalho é de caráter ...
+\end_layout
+
+\begin_layout Subsubsection
+Modelagem Teórica
+\end_layout
+
+\begin_layout Itemize
+...
+ teórico pois envolve o estudo de modelos físicos e matemáticos, e o desenvolvim
+ento de equações diferenciais que dão resposta ao problema proposto.
+\end_layout
+
+\begin_layout Itemize
+Embora possam ser utilizados modelos experimentais e mesmo numérico-computaciona
+is, a essência do problema científico é tratada através do modelo físico-matemát
+ico.
+\end_layout
+
+\begin_layout Subsubsection
+Modelagem Numérico-Computacional
+\end_layout
+
+\begin_layout Itemize
+...
+ numérico-computacional pois envolve o estudo de modelos numérico-computacionais
+, e o desenvolvimento de algoritmos e programas que dão resposta ao problema
+ proposto.
+\end_layout
+
+\begin_layout Itemize
+Embora possam ser utilizados modelos experimentais e mesmo físico-matemático,
+ a essência do problema científico é tratada através do modelo numérico-computac
+ional.
+\end_layout
+
+\begin_layout Subsubsection
+Modelagem Experimental
+\end_layout
+
+\begin_layout Itemize
+....
+ experimental, pois envolve a montagem e/ou utilização de aparelhos experimentai
+s, incluindo sua concepção e instalação física.
+\end_layout
+
+\begin_layout Itemize
+Embora possam ser utilizados modelos numérico-computacionais e mesmo físico-mate
+mático, a essência do problema científico é tratada através do modelo experiment
+al.
+\end_layout
+
+\begin_layout Itemize
+Note que um trabalho pode ser misto.
+\end_layout
+
+\begin_layout Subsection
+Quanto ao tipo de análise
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Quanto-ao-tipo-de-analise"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Quanto ao tipo de análise podemos classificar a pesquisa em ....
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+indutiva, dedutiva ou analítica.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Indutiva
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "Indução"
+description "Indução"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+A análise indutiva parte do conhecimento de alguns casos e depois generaliza
+ para o todo.
+ Parte de algumas amostras e conclui para toda a população.
+\end_layout
+
+\begin_layout Itemize
+Os resultados devem ser analisados estatisticamente e comparados com modelos
+ numéricos e modelos conceituais (físico-matemáticos).
+\end_layout
+
+\begin_layout Itemize
+Note que requer uma análise estatística detalhada.
+\end_layout
+
+\begin_layout Subsubsection
+Dedutiva
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "Dedução"
+description "Dedução"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+A análise dedutiva parte de conhecimentos gerais e procura particularizar
+ algo.
+ Parte da população para uma amostra.
+\end_layout
+
+\begin_layout Subsubsection
+Analítica - analise e síntese
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "Análise e síntese"
+description "Análise e síntese"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Analisar um fenômeno consiste em partilhar o mesmo de forma a através do
+ estudo das partes chegar as conclusões para o todo.
+\end_layout
+
+\begin_layout Itemize
+Sintetizar é reagrupar os grupos de dados analisados em separado.
+\end_layout
+
+\begin_layout Subsection
+Limitações do trabalho
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Limitacao-do-trabalho"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Apresenta-se nesta seção as limitações deste trabalho.
+\end_layout
+
+\begin_layout Subsubsection
+Limitações
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Limitações
+\end_layout
+
+\end_inset
+
+ espaciais:
+\end_layout
+
+\begin_layout Itemize
+Todo o trabalho será desenvolvido no LENEP/CCT/UENF.
+\end_layout
+
+\begin_layout Itemize
+Os dados adotados e usados nos desenvolvimentos terão como região especifica
+ .....
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+deve-se aqui delimitar claramente o trabalho nos seus aspectos espaciais.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Limitações temporais
+\end_layout
+
+\begin_layout Itemize
+Os dados coletados cobrem o período de ...
+ até ...
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+deve-se aqui delimitar temporalmente o período de coleta dos dados; também
+ considerar prazos para processamentos e análises
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Limitações quanto ao setor da indústria
+\end_layout
+
+\begin_layout Itemize
+O presente trabalho estabelece um estudo ligado a ...
+ e a setores ....
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+indicar quais partes da indústria de petróleo estão relacionadas direta
+ e indiretamente ao seu trabalho; note que o CNPq/Lattes tem um cadastro
+ dos setores; definimos isso quando cadastramos um novo trabalho no lattes.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Limitações quanto a fase do empreendimento atingida
+\end_layout
+
+\begin_layout Itemize
+Exemplo:
+\end_layout
+
+\begin_layout Itemize
+Neste trabalho não se pretende chegar as formulações exatas do problema.
+ Será analizado um único lote de dados.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+geralmente nosso trabalho esta inserido numa subárea de pesquisa mais ampla,
+ e numa linha de pesquisa mais ampla; você deve deliminar claramente qual
+ a fase atingida pelo seu trabalho, como o mesmo se insere na linha/sub-área
+ de pesquisa.
+ Deixar claro o que não vai ser feito por você!
+\end_layout
+
+\begin_layout Plain Layout
+Se a linha de pesquisa esta com vários orientados, pode-se falar do trabalho
+ do grupo e deixar claro qual sua parte.
+ Jamais misture tudo, colocando coisas dos outros como tendo sido feitas
+ por você.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Limitações quanto aos componentes atingidos
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Muitas vezes os objetivos gerais e o contexto do trabalho dão uma falsa
+ ideia de que irão resolver várias coisas, quando na realidade pretendemos
+ resolver apenas alguns de seus aspectos.
+\end_layout
+
+\begin_layout Plain Layout
+Se seu trabalho envolver vários aspectos de um problema, ou usar dados de
+ vários equipamentos/sistemas, indicar quais dados serão efetivamente/realmente
+ alvo do seu trabalho.
+\end_layout
+
+\begin_layout Plain Layout
+Que partes dos equipamentos/sistemas serão realmente analisadas e consideradas
+ no trabalho.
+\end_layout
+
+\begin_layout Plain Layout
+Novamente é importante deixar claro o que você fez e o que o grupo fez.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Pressupostos
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Pressupostos"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Para o presente estudo vamos trabalhar sobre dados disponíveis de ....
+\end_layout
+
+\begin_layout Itemize
+Todas as formulações e dados conseguidos na bibliografia estão corretos
+ ....
+\end_layout
+
+\begin_layout Itemize
+Os dados climáticos utilizados serão fornecidos por medições realizadas
+ na .....
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Se você vai usar dados de terceiros, deve assumir como hipótese que os mesmos
+ estão corretos! a não ser no caso em que queira provar que os mesmos estão
+ errados/equivocados.
+\end_layout
+
+\begin_layout Plain Layout
+Também deve considerar que os dados são suficientes para embasar suas conclusões
+, caso negativo, deve deixar clara a necessidade de análises adicionais.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Hipóteses
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Hipóteses
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Hipoteses"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Nesta seção apresentaremos as hipóteses do trabalho.
+\end_layout
+
+\begin_layout Subsection
+Hipóteses subjacentes
+\end_layout
+
+\begin_layout Plain Layout
+Estabelecer que a margem de erro ao não se considerar ....
+ trás um erro global pequeno, para justificar a sua inclusão nos estudos.
+\end_layout
+
+\begin_layout Plain Layout
+Os estudos demonstram que a consideração de ...
+ são insignificantes.
+\end_layout
+
+\begin_layout Subsection
+Hipóteses de trabalho - Simplificadoras
+\end_layout
+
+\begin_layout Enumerate
+Exemplos:
+\end_layout
+
+\begin_layout Enumerate
+Desconsideram-se efeitos gravitacionais.
+\end_layout
+
+\begin_layout Enumerate
+Não ocorrem reações químicas.
+\end_layout
+
+\begin_layout Enumerate
+Não ocorre variação dimensional no tamanho dos poros da telha em função
+ da variação da temperatura.
+\end_layout
+
+\begin_layout Enumerate
+O coeficiente de condução 
+\begin_inset Formula $k(h)$
+\end_inset
+
+ leva em consideração a transferência de calor devido a diferença de temperatura
+ e a transferência de conteúdo de líquido entre os volumes de controle.
+\end_layout
+
+\begin_layout Enumerate
+Nas medições dos valores de 
+\begin_inset Formula $wl$
+\end_inset
+
+(conteúdo de massa mássico) são desconsideradas quaisquer variações decorrentes
+ de mudanças no formato dos poros.
+\end_layout
+
+\begin_layout Section
+Intrumentos
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Intrumentos"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Apresenta-se nesta seção os materiais, equipamentos e sotfwares utilizados.
+\end_layout
+
+\begin_layout Subsection
+Materiais
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Materiais
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Materiais"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Materiais utilizados nos experimentos (ex: reagentes).
+ Como foram obtidos/selecionados, classificados.
+\end_layout
+
+\begin_layout Itemize
+Exemplo:
+\end_layout
+
+\begin_layout Itemize
+Fiz ensaios de adsorção e dessorção no mestrado os mesmos usavam sais com
+ pureza PA.
+ Foi colocada tabela com as características dos sais usados, isto viabiliza
+ reprodução dos experimentos.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+sempre prever que o ensaio pode dar errado e que vai precisar de mais reagente...ou
+ outro material utilizado
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Equipamentos
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Equipamentos
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Equipamentos"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Listar equipamentos, fabricantes, modelos, série.
+ Isto é importante pois versões mais novas tem funcionalidades e as vezes
+ precisões diferentes.
+ Em alguns casos a forma como a medida é realizada sofreu alterações, o
+ que significa que os resultados obtidos podem ser um pouco diferentes.
+ Isto deve ser comentado.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Como um trabalho científico precisa ser repetido e modelos diferentes de
+ equipamentos podem fazer as coisas de forma diferente; é fundamental informar
+ com clareza os dados dos equipamentos utilizados.
+ Viabiliza-se desta forma a repetitibilidade do experimento.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Softwares
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Softwares
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Softwares"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Listar softwares utilizados, sites, versões.
+ 
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Isto também é importante pois softwares tem bugs, tem diferenças entre versões
+ diferentes.
+ A forma de uso pode sofrer modificações; o formato dos arquivos de entrada/saíd
+a podem sofrer modificações.
+ Um arquivo antigo pode não mais funcionar.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Como um trabalho científico precisa ser repetido e diferentes softwares
+ podem fazer as coisas de forma diferente; é fundamental informar com clareza
+ os dados dos softwares utilizados (incluindo versão).
+ Viabiliza-se desta forma a repetitibilidade das simulações.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Dados/Amostras
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Dados/Amostras
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Dados"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Faça cálculos para definir a quantidade mínima necessária de amostras, primeiro
+ considerando o caso ideal, em que tudo da certo.
+ A seguir considere a ocorrência de amostras danificadas e a necessidade
+ de repetir alguns ensaios.
+\end_layout
+
+\begin_layout Itemize
+Indicar a origem dos dados/amostras (local/período/contatos fornecedor).
+\end_layout
+
+\begin_layout Itemize
+Como foram/serão obtidos.
+\end_layout
+
+\begin_layout Itemize
+Como serão organizados e classificados.
+\end_layout
+
+\begin_layout Itemize
+Como serão analisados e usados nos processos.
+\end_layout
+
+\begin_layout Itemize
+Deve-se estar atento para a questão da repetitibilidade, tanto por outros
+ autores como por você mesmo - no caso de algumas amostras serem danificadas
+ ou insuficientes.
+\end_layout
+
+\begin_layout Itemize
+Se tiver algumas amostras disponíveis, faça estudos pilotos com o objetivo
+ de testar os equipamentos, procedimentos e metodologia adotada.
+ Mas tome o cuidado para não transformar o piloto em resultado final.
+\end_layout
+
+\begin_layout Itemize
+Note que quando for submeter o resultado do seu trabalho a uma revista é
+ possível que algum revisor peça novos experimentos.
+ Considere isso!
+\end_layout
+
+\begin_layout Section
+Experimentos
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Experimentos
+\end_layout
+
+\end_inset
+
+ - Ensaios e Simulações
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Experimentos-Ensaios-e-Simulacoes"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Nesta seção .
+\end_layout
+
+\begin_layout Subsection
+Ensaios
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Ensaios
+\end_layout
+
+\end_inset
+
+ laboratoriais
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Ensaios-laboratoriais"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Sobre inovação em ensaios laboratoriais
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+O leiaute do experimento pode ser inovador, ou pode repetir outros trabalhos
+ (para testes e validações, variações e comparações).
+\end_layout
+
+\begin_layout Itemize
+A inovação pode estar no 
+\emph on
+design
+\emph default
+ do experimento, seja no redesenho do experimento todo, seja no desenvolvimento
+ ou uso de novos elementos no equipamento (como o desenvolvimento e substituição
+ de peças).
+\end_layout
+
+\begin_layout Itemize
+A inovação também pode estar na formulação de novas amostras, no caso de
+ amostras compostas, como exemplo novas composições de fluidos de perfuração.
+\end_layout
+
+\begin_layout Itemize
+Note que se você esta usando equipamentos de mercado, comuns nos laboratórios
+ de engenharia, não existe nenhuma inovação.
+\end_layout
+
+\begin_layout Itemize
+A coleta de uma amostra diferente, numa região diferente, também não se
+ caracteriza como algo inovador.
+ 
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Uma exceção seria desenvolver uma nova metodologia de coleta das amostras,
+ por exemplo, quando se pretende reduzir algum tipo de contaminação das
+ amostras.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Listar ensaios a serem realizados.
+ Caso necessário indicar ordem.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Na maioria dos casos a ordem é fundamental!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Definir os procedimentos experimentais (principalmente as inovações).
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+É fundamental a criação de um roteiro (sequência) para a realização dos
+ experimentos, de forma a diminuir os riscos de erros.
+\end_layout
+
+\begin_layout Itemize
+Verifique se os ensaios a serem realizados tem alguma norma, nacional -
+ ABNT, ou internacional - ISO.
+ Caso tenha siga rigorosamente os procedimentos definidos na norma.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Deve-se tomar todos os cuidados possíveis na sua instalação dos equipamentos,
+ siga as recomendações dos fabricantes.
+\end_layout
+
+\begin_layout Itemize
+Informar a necessidade de pré-ensaios e calibração dos equipamentos.
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Sempre calibre os equipamentos antes de uma bateria de ensaios.
+ Ensaios sem calibração não tem valor.
+ Ou seja, calibre antes e não depois de identificar/constatar problemas!
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Informar como os resultados dos ensaios serão classificados, analisados
+ e validados.
+ Tome como referência outros trabalhos científicos da área.
+ O normal é gerar as tabelas e gráficos usando o mesmo formato dos outros
+ autores.
+ 
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Fazer um gráfico ou tabela mais colorido ou com formatação diferente não
+ ajuda em nada, na verdade só dificulta a comparação de resultados!
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Deve-se estar preparado para erros nas experiências, o que leva a necessidade
+ de conseguir/comprar uma quantidade extra de insumos e amostras, para sua
+ repetição.
+\end_layout
+
+\begin_layout Subsection
+Simulações
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Simulações
+\end_layout
+
+\end_inset
+
+ computacionais
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Simulações-computacionais"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Sobre inovação em modelagem numérica-computacional
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Note que se você esta usando softwares de mercado, comuns nos laboratórios
+ de engenharia, não existe nenhuma inovação.
+ Não existe inovação apenas na mudança dos parâmetros de uma simulação.
+ A inovação seria desenvolver novos modelos físico-matemáticos, sua discretizaçã
+o, implementação, testes e documentação.
+ A inovação seria usar modelos de discretização diferentes, com novos layouts.
+ A inovação seria a implementação usando recursos computacionais inovadores,
+ algoritmos que visem otimizar memória e/ou tempo de processamento, como
+ exemplo uso de modernas técnicas de processamento paralelo e concorrente.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Sobre validação na modelagem numérica-computacional
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+a validação dos modelos passa por diversas etapas, incluindo:
+\end_layout
+
+\begin_layout Itemize
+a validação do modelo físico,
+\end_layout
+
+\begin_layout Itemize
+a validação das equações, isto é, as equações correspondem ao modelo físico.
+\end_layout
+
+\begin_layout Itemize
+a validação das discretizações realizadas, elas estão corretas?
+\end_layout
+
+\begin_layout Itemize
+o modelo numérico adotado é adequado para este tipo de problema?
+\end_layout
+
+\begin_layout Itemize
+a implementação computacional (programa) esta correta? 
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+foram eliminados os bugs?
+\end_layout
+
+\begin_layout Itemize
+existem testes para casos simples?
+\end_layout
+
+\begin_layout Itemize
+os dados de entrada foram verificados?
+\end_layout
+
+\begin_layout Itemize
+foram adicionadas saídas parciais para chegar problemas de convergência,
+ instabilidades numéricas?
+\end_layout
+
+\begin_layout Itemize
+.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Inclua em apêndice informações de como o software pode ser acessado, baixado,
+ compilado e instalado.
+ Se for um software de sua autoria, fruto do trabalho, coloque em DVD anexado
+ as cópias do trabalho enviado para banca (e final).
+\end_layout
+
+\begin_layout Itemize
+Informar como a instalação do software será testada (testes básicos para
+ verificar se foi corretamente instalado e se funciona para casos mais simples).
+\end_layout
+
+\begin_layout Itemize
+Informar como serão feitas análises de sensibilidade.
+ O objetivo é definir a variação dos dados de entrada e o número de simulações.
+\end_layout
+
+\begin_layout Itemize
+Listar previamente as simulações que serão realizadas e seus objetivos.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+a ideia é evitar que o aluno saia fazendo centenas de simulações inúteis!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Informar formato dos resultados.
+ Pode-se adicionar no apêndice que fala da instalação do software, exemplos
+ de arquivos de entrada e saída.
+\end_layout
+
+\begin_layout Itemize
+Informar como os resultados das simulações serão classificados, analisados
+ e validados.
+\end_layout
+
+\begin_layout Itemize
+Note que estes passos devem seguir exemplos de outros autores, por exemplo,
+ o formato de entrada/saída dos resultados deve ser, na medida do possível,
+ compatível com outros softwares.
+\end_layout
+
+\begin_layout Itemize
+Se você usou um software comercial inacessível para os membros da banca
+ ou terceiros - possíveis leitores do seu trabalho, isto complica muito
+ a questão da possibilidade da banca verificar seu trabalho e a possibilidade
+ de outros autores no futuro darem continuidade ao trabalho.
+ De fato, muitas revistas não aceitam artigos que façam referência a softwares
+ comerciais.
+\end_layout
+
+\begin_layout Section
+Estudos Estatísticos
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Estudos Estatísticos
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Estudos-Estatisticos"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Testes e validações: Indicar como os resultados serão processados e analisados.
+\end_layout
+
+\begin_layout Itemize
+Indicar quais métodos e estudos estatísticos serão realizados sobre os dados
+ levantados.
+ Isto é, tipo de análise estatística.
+ Exemplo, média e desvio padrão; testes de hipóteses;...; análise de variância;...
+\end_layout
+
+\begin_layout Itemize
+Indicar critérios para verificação dos erros envolvidos (limites dos erros)
+ e a necessidade ou não de novos ensaios/simulações, novos levantamentos
+ de dados....
+\end_layout
+
+\begin_layout Itemize
+A questão da repetitividade do experimento e de um número mínimo de execuções
+ é fundamental num trabalho para que o mesmo possa ser considerado sério.
+ Note que nos casos em que temos poucos resultados não poderemos fazer generaliz
+ações por causa da falta de dados.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Contém documento original
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Neste capítulo é abordado a metodologia científica utilizada neste trabalho.
+ Apresenta-se nessa seção a caracterização e preparo dos testemunhos, das
+ soluções e suspensões; os equipamentos, bem como os procedimentos para
+ injeção.
+ Por fim será apresentado os dois sistemas de injeção implementados no desenvolv
+imento desse trabalho.
+\end_layout
+
+\begin_layout Section
+Introdução
+\end_layout
+
+\begin_layout Standard
+Os procedimentos experimentais foram planejados para se avaliar a perda
+ de filtrado de fluido de perfuração Base Água em fluxo transversal, à maneira
+ como ocorre na perfuração de poços de petróleo.
+ Na primeira subseção estão os procedimentos gerais que consistem no preparo
+ preparo do testemunho, de soluções, suspensões, análise reológica dos fluidos
+ de perfuração.
+ Por sua vez, a segunda subseção trata dos procedimentos específicos de
+ injeção direta de salmoura para medidas de permeabilidade e a injeção de
+ fluido de perfuração em um 
+\shape italic
+core holder
+\shape default
+ de fluxo transversal.
+\end_layout
+
+\begin_layout Section
+Procedimentos laboratoriais gerais
+\end_layout
+
+\begin_layout Subsection
+Materiais
+\end_layout
+
+\begin_layout Standard
+Os reagentes e materiais utilizados foram: água destilada, água industrial,
+ calcário comercial do fabricante Paraíso, areia com 0,3 mm (NBR7214 n.50)
+ do fabricante IPT, cimento comercial do fabricante Poty, NaCl P.A.
+ do fabricante Isopar, Goma Xantana fornecida pelo CENPES, HPA (Hidroxipropilami
+do) fornecido pelo CENPES, CMC (Carboximetilcelulose), Carbonato de Cálcio
+ em diferentes tamanhos (micronizado, fino, intermediário e médio) fornecidos
+ pelo CENPES, Hidróxido de Sódio fornecido pela Synth e Nitrogênio fornecido
+ pela Aerosoldas.
+\end_layout
+
+\begin_layout Subsection
+Equipamentos e softwares
+\end_layout
+
+\begin_layout Standard
+Os equipamentos utilizados foram: prensa hidráulica (Ribeiro) (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Figura1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+a), plugador (Vince Technologies), cortador abrasivo (Bueghler e Vince Technolog
+ies), mixers modelo HMD400-FANN (Hamilton Beach) (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Figura1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+e), paquímetro digital modelo Marathon 8 polegadas (200 mm) com precisão
+ de duas casas (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Figura1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+d), balança analítica eletrônica OHAUS AR3130 com precisão de três casas
+ (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Figura1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+b), balança de fluidos modelo 140 (FANN) (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Figura1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+c), sistema de filtração API (FANN), pHmetreo modelo 827 (Metrohm Pensalab)
+ (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Figura1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+f), viscosímetro modelo 35A equipado com termômetro (FANN) (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Figura1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+g), estufa de esterilização e sacagem modelo Nova Ética 400/2ND (Figura
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Figura1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+h), forno de envelhecimento Roller Oven modelo 704ES (FANN), contador de
+ partícula da HIAC modelo 8000A acoplado a um HIAC ROYCO, sistema de purificação
+ de água Millipore modelo Milli-Q Gradient (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Figura1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+i), Reômetro AR1500 ex.
+ da TA, sistema de saturação à vácuo V800 Buchi com dessecador (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Figura1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+j), sistema de filtração à vácuo (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Figura1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+k) composto por Kitassato, suporte de vidro com filtro de 47 mm de diâmetro,
+ uma membrana de 47 mm de diâmetro e abertura 0,22 
+\begin_inset Formula $\mu m$
+\end_inset
+
+ e uma bomba de vácuo com pressão de trabalho de 50 psi.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figuras/Figura1.png
+	lyxscale 20
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Equipamentos utilizados nos procedimentos laboratoriais gerais
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Figura1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Os softwares para processamento dos dados foram: Labview 8.5 oferecido pela
+ National Instruments, TA data analysis versão V5.7.0 oferecido pela TA Rheology,
+ Cillas oferecido pela Madison, Excel oferecido pela Microsoft e Origin
+ versão 6.0 Pro oferecido pela OriginLab.
+\end_layout
+
+\begin_layout Subsection
+Testemunhos
+\end_layout
+
+\begin_layout Standard
+Os testemunhos utilizados são carbonatos sintéticos fabricados no Laboratório
+ de Instrumentação Geofísica no próprio Lenep/UENF.
+ Contudo, antes da obtenção deles, algumas etapas foram necessárias.
+ A composição padrão do bloco fabricado de onde se retiraram os plugs encontra-s
+e na Tabela 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Constituintes-para-fabricação"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ abaixo:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Formulação do bloco de rocha AT-23 de dimensões 15x10x8 cm
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Constituintes-para-fabricação"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Composição
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Massa (
+\begin_inset Formula $g$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Água industrial
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $630$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cimento
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $945$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Calcita
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1500$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Areia
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $75$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Os componentes secos e em pó foram misturados.
+ Água foi acrescentada aos poucos para homogeinização.
+ Depois de 4 horas de descanso, toda a mistura foi então levada para uma
+ forma em uma prensa hidráulica que aplicou 
+\begin_inset Formula $10$
+\end_inset
+
+ toneladas por 
+\begin_inset Formula $24$
+\end_inset
+
+ horas à temperatura ambiente.
+ O bloco de carbonato formado, cujas dimensões são de 15 cm de comprimento,
+ 10 cm de largura e 8 cm de altura, foi levado a uma estufa a 60
+\begin_inset Formula $\,\textdegree C$
+\end_inset
+
+ por 24 horas.
+ 
+\end_layout
+
+\begin_layout Standard
+Seguiu-se com a etapa de testemunhagem do bloco.
+ Uma máquina hidráulica serra copos retirou 6 plugs ou testemunhos dele.
+ As medidas do comprimento (L) e diâmetro (D) foram tomadas em triplicata
+ utilizando-se para isso o paquímetro digital.
+ Uma média aritmética simples foi usada para melhor precisão dos dados.
+\end_layout
+
+\begin_layout Standard
+Feita a caracterização física, segue-se agora com a caracterização química
+ deles.
+\end_layout
+
+\begin_layout Subsubsection
+Obtenção da porosidade da matriz
+\end_layout
+
+\begin_layout Standard
+Após tomada das medidas os testemunhos seguiram para a estufa a 60
+\begin_inset Formula $\,\textdegree C$
+\end_inset
+
+ por 24 horas para secagem.
+ Foram pesados na balança analítica, anotou-se a massa seca (
+\begin_inset Formula $m_{seca}$
+\end_inset
+
+).
+ Depois, saturados no sistema de saturação à vácuo com dessecador, pressão
+ interna de 2 mbar e salmoura de concentração 30.000 ppm de NaCl.
+ A salmoura foi utilizada como representativa da água da formação.
+ Mais detalhes sobre a fabricação dela serão apresentados na próxima seção.
+ Por hora, para efeitos de cálculos, considerar a massa específica da salmoura
+ como 
+\begin_inset Formula $1,010\,g/cm^{3}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Nas primeiras 2 horas, o testemunho foi parcialmente imerso na salmoura
+ para facilitar a retirada do ar.
+ Decorrido esse tempo, ele foi totalmente submerso, deixado por mais 2 horas.
+ Imediatamente após a saturação, o excesso de salmoura foi retirado bastando-se
+ para isso passar as faces rapidamente sobre um papel manteiga.
+ Logo em seguida, o testemunho foi pesado na balança analítica onde leu-se
+ a massa saturada (
+\begin_inset Formula $m_{sat}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+A partir dos dados anteriores, foi possível estimar a porosidade e o volume
+ poroso dos testemunhos pela Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:phi"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, retirada de (TIAB e DONALDSON, 2004):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\phi=\left(\frac{m_{sat}-m_{seca}}{\rho_{w}V_{R}}\right)\label{eq:phi}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+onde:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\phi\quad$
+\end_inset
+
+ é a porosidade do testemunho;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\rho_{w\quad}$
+\end_inset
+
+é a massa específica da água da formação ou da salmoura;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $V_{R\quad}$
+\end_inset
+
+é o volume do testemunho.
+\end_layout
+
+\begin_layout Standard
+O volume poroso pode ser calculado pela Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:V_p"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+V_{P}=V_{R}\phi=\left(\frac{m_{sat}-m_{seca}}{\rho_{w}}\right)\label{eq:V_p}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Obtenção da permeabilidade da matriz
+\end_layout
+
+\begin_layout Standard
+A permeabilidade da matriz foi obtida no permeâmetro à gás pela injeção
+ direta de nitrogênio.
+ A vazão de injeção de gás variou de 5 a 10 
+\begin_inset Formula $cm^{3}/min$
+\end_inset
+
+, e para cada varição de pressão de 1 psi, tomou-se o ponto de pressão e
+ vazão.
+ Foi possível então calcular a permeabilidade do testemunho através da Equação
+ de Darcy para fluxo linear pela Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Q"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ abaixo:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Q=\frac{kA}{\mu}\frac{\Delta P}{L}\label{eq:Q}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+onde: 
+\begin_inset Formula $Q:$
+\end_inset
+
+ vazão, 
+\begin_inset Formula $A:$
+\end_inset
+
+ área da seção transversal, 
+\begin_inset Formula $k:$
+\end_inset
+
+ permeabilidade da matriz, 
+\begin_inset Formula $\mu:$
+\end_inset
+
+ viscosidade do fluido injetado, 
+\begin_inset Formula $L:$
+\end_inset
+
+ comprimento do testemuho, 
+\begin_inset Formula $\Delta P:$
+\end_inset
+
+ diferencial de pressão.
+\end_layout
+
+\begin_layout Subsubsection
+Fraturamento do testemunho
+\end_layout
+
+\begin_layout Standard
+Cada amostra foi cortada longitudinalmente em 2 partes iguais com o uso
+ de um dispositivo acoplado em um cortador abrasivo.
+ O próximo passo buscou representar um reservatório naturalmente fraturado.
+ Para isso, passou-se cola adesivo Durepoxi da marca 
+\begin_inset Formula $Loctite^{®}$
+\end_inset
+
+ em uma das partes ao longo do comprimento interno.
+ Com o par de calibradores de válvula em mãos, estes que possuem a espessura
+ desejada para a fratura, bastou colocá-los no centro dessa metade.
+ A outra metade do testemunho foi colocada em cima para uní-lo.
+ Algum Durepoxi foi passado na parte externa ao longo do comprimento para
+ completar a vedação lateral.
+ Espera-se como resultado final faces laterais seladas e aberturas frontal
+ e traseira para fluxo.
+ O tempo de secagem na estufa foi de 24 horas a 
+\begin_inset Formula $120\textdegree C$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Feita a fratura, foi preciso obter a porosidade e permeabilidade do sistema
+ matriz-fratura.
+ No entanto, a porosidade é somente definida após medida da permeabilidade
+ do sistema, já que esse cálculo leva em conta as dimensões da fratura,
+ e para encontrar a espessura da fratura é necessário antes encontrar a
+ permeabilidade dela.
+\end_layout
+
+\begin_layout Subsubsection
+Porosidade e permeabilidade do sistema matriz-fratura
+\end_layout
+
+\begin_layout Standard
+O sistema de injeção para medida de permeabilidade permitiu encontrar a
+ permeabilidade do sistema matriz-fratura 
+\begin_inset Formula $\left(k_{mf}\right)$
+\end_inset
+
+.
+ Pelas equações desenvolvidas por Golf-Racht (1982) apresentadas na Revisão
+ Bibliográfica e de posse da permeabilidade da matriz 
+\begin_inset Formula $\left(k_{m}\right)$
+\end_inset
+
+,obtida pelo permeâmetro a gás, encontrou-se a permeabilidade efetiva da
+ fratura pela Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:kmf"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+: 
+\begin_inset Formula $k_{eff}=k_{mf}-k_{m}$
+\end_inset
+
+.
+ Por fim, pela Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Wf"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ encontrou-se a espessura da fratura.
+\end_layout
+
+\begin_layout Standard
+Uma vez encontrada a espessura da fratura foi possível encontrar a porosidade
+ da fratura, determinada pela seguinte relação:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\phi_{f}=\frac{DLW_{f}}{V_{R}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+onde: 
+\begin_inset Formula $\phi_{f}$
+\end_inset
+
+: porosidade da fratura, 
+\begin_inset Formula $D$
+\end_inset
+
+: diâmetro do testemunho, 
+\begin_inset Formula $L$
+\end_inset
+
+: comprimento do testemunho, 
+\begin_inset Formula $W_{f}$
+\end_inset
+
+: espessura da fratura, 
+\begin_inset Formula $V_{R}$
+\end_inset
+
+: volume do testemunho
+\begin_inset Formula $\left(V_{R}=\frac{\pi D^{2}}{4}L\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Preparo da solução de salmoura
+\end_layout
+
+\begin_layout Standard
+Para preparar a solução de NaCl com concentração média de 30000 ppm, salinidade
+ típica da água do mar, utilizou-se Água Grau Tipo I (Ultrapura, proveniente
+ do sistema de purificação de água cuja especificação é ausência de partículas
+ acima de 
+\begin_inset Formula $0,22\,μm$
+\end_inset
+
+ de diâmetros na água de acordo com a ASTM - 
+\shape italic
+Standard Specification for Reagent Water
+\shape default
+) e NaCl.
+ O sal foi diluído na Água Tipo I em aproximadamente metade do volume da
+ solução total.
+ Após essa diluição, a solução foi filtrada no sistema de filtração à vácuo
+ para garantir que nenhum sólido contido no sal ou na água contamine a solução.
+ Feita a filtração, a solução é transferida para um balão volumétrico e
+ avolumada de acordo com o volume especificado no balão.
+\end_layout
+
+\begin_layout Standard
+A massa específica dessa solução foi de 
+\begin_inset Formula $1,010\,g/cm^{3}$
+\end_inset
+
+ medida com auxílio de um picnômetro, à temperatura de 22 
+\begin_inset Formula $\textdegree C$
+\end_inset
+
+.
+ Viscosidade foi considerada 
+\begin_inset Formula $1\,cP$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection
+Preparo do fluido de perfuração
+\end_layout
+
+\begin_layout Standard
+Para este trabalho foram desenvolvidas formulações de fluido de perfuração
+ base água.
+ A base típica segue a formulação fornecida pela Petrobras.
+ A diferença entre elas se dá pela variação do tamanho das partículas de
+ carbonato de cálcio, tal como está apresentado na Tabela 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:WBM"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Vale destacar que apenas um tamanho de obturante foi selecionado por fluido.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Formulação fluido base água
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:WBM"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Base do fluido
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+350 ml de Água Industrial
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Agente viscosificante
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2,1 g de Goma Xantana
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Redutor de filtrado
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5,5 g de HPA
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sal
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1,5 g de NaCl
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Partículas
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $I$
+\end_inset
+
+.
+ 9 g de 
+\begin_inset Formula $CaCO_{3}$
+\end_inset
+
+ micronizado (2 
+\begin_inset Formula $\mu m$
+\end_inset
+
+ - 44 
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $II$
+\end_inset
+
+.
+ 9 g de 
+\begin_inset Formula $CaCO_{3}$
+\end_inset
+
+fino (2 
+\begin_inset Formula $\mu m$
+\end_inset
+
+ - 74 
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $III.$
+\end_inset
+
+ 9 g de 
+\begin_inset Formula $CaCO_{3}$
+\end_inset
+
+ intermediário (44 
+\begin_inset Formula $\mu m$
+\end_inset
+
+ - 194 
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $IV.$
+\end_inset
+
+ 9 g de 
+\begin_inset Formula $CaCO_{3}$
+\end_inset
+
+ médio (74 
+\begin_inset Formula $\mu m$
+\end_inset
+
+ - 800 
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Agente alcalino
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\approx$
+\end_inset
+
+0,5 g de NaOH
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+O preparo do fluido de perfuração segue as seguintes etapas:
+\end_layout
+
+\begin_layout Enumerate
+Adicionar 350ml de água industrial em copo metálico para preparo de fluido
+ de perfuração;
+\end_layout
+
+\begin_layout Enumerate
+Acoplar o copo no mixer HMD400 em velocidade mínima de rotação;
+\end_layout
+
+\begin_layout Enumerate
+Adicionar o agente viscosificante gradativamente, e após a adição total,
+ alterar a velocidade de agitação do mixer para o valor máximo durante 10
+ minutos;
+\end_layout
+
+\begin_layout Enumerate
+Adicionar os outros componentes individualmente na ordem em que aparecem
+ na Tabela 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:WBM"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ e manter em agitação por aproximadamente 10 minutos para cada componente.
+ Note que o tipo de partícula de carbonato define o tipo de fluido;
+\end_layout
+
+\begin_layout Enumerate
+Adicionar o agente alcalino e monitorar o pH com o uso do pHmêtro com valores
+ em torno de 9 - 10;
+\end_layout
+
+\begin_layout Enumerate
+Medir as propriedades do fluido antes de envelhecer (reologia e densidade).
+ A reologia foi aferida com o auxílio do viscosímetro e a densidade foi
+ medida com a balança de fluido;
+\end_layout
+
+\begin_layout Enumerate
+Colocar o fluido para envelher em uma célula própria dento do forno de envelheci
+mento.
+ Após 12 horas de envelhecimento, medir novamente as propriedades do fluido
+ de perfuração.
+ Isso é feito para simular as condições de reservatório e verificar a degradabil
+idade dele.
+\end_layout
+
+\begin_layout Subsubsection
+Análise de partículas
+\end_layout
+
+\begin_layout Standard
+A análise da distribuição de diferentes tamanhos de partículas feita pelo
+ Analisador Cilas 1180 forneceu um histograma para classes de tamanho, o
+ diâmetro médio e concentração óptica.
+ O analisador tem capacidade de medir partículas de tamanhos entre 0,04
+ 
+\begin_inset Formula $\mu m$
+\end_inset
+
+ e 2500 
+\begin_inset Formula $\mu m$
+\end_inset
+
+ por meio da difração de luz além de permitir vizualizar o formato das partícula
+s.
+\end_layout
+
+\begin_layout Standard
+Feito as análises das partículas no Cilas 1180, estas foram classificadas
+ de acordo com a especificação criada pela Petrobras baseada nas normas
+ ABNT.
+ As Tabelas 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Requisitos-de-GranulometriaI,F,M"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ e 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Requisitos-de-GranulometriaMeG"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+apresentam os requisitos granulométricos de classificação das partículas
+ de carbonato de cálcio.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Requisitos de Granulometria - Carbonato de Cálcio Intermediário, Fino e
+ Micronizado (PETROBRAS-N1641, 2006)
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Requisitos-de-GranulometriaI,F,M"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="6">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Intermediário
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fino
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Micronizado
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(44 
+\begin_inset Formula $\mu m$
+\end_inset
+
+ - 194 
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(2 
+\begin_inset Formula $\mu m$
+\end_inset
+
+ - 74 
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(2 
+\begin_inset Formula $\mu m$
+\end_inset
+
+ - 44 
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diâmetro de corte
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diâmetro
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diâmetro de corte
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diâmetro
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diâmetro de corte
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diâmetro
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D (v, 0,1)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+44 (mín)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D (v, 0,1)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2 (mín)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D (v, 0,1)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2 (mín)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D (v, 0,5)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+80 < D < 100
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D (v, 0,5)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+16 < D < 32
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D (v, 0,5)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8 < D < 16
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D (v, 0,9)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+194 (máx)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D (v, 0,9)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+74 (máx)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D (v, 0,9)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+44 (máx)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Requisitos de Granulometria - Carbonato de Cálcio Médio e Grosso (PETROBRAS-N164
+1, 2006)
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Requisitos-de-GranulometriaMeG"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="11" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Grosso (800 5600 
+\begin_inset Formula $\mu m$
+\end_inset
+
+ - 800
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Médio (74 
+\begin_inset Formula $\mu m$
+\end_inset
+
+ - 800 
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Série de
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Retido na peneira, %
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Série de
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Retido na peneira, %
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+peneiras ABNT
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+em massa
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+peneiras ABNT
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+em massa
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+acumulada
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+acumulada
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5,6 mm
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1 (máx.)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+14
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1 (máx.)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5 (mín.) - 20 (máx.)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5 (mín.) - 20 (máx.)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20 (mín.) - 40 (máx.)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+40
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20 (mín.) - 50 (máx.)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+40 (mín.) - 60 (máx.)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+70
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+50 (mín.) - 75 (máx.)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+16
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+60 (mín.) - 80 (máx.)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+200
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+90 (mín.)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+90 (mín.)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Caracterização API do fluido de perfuração
+\end_layout
+
+\begin_layout Standard
+Os fluidos de perfuração produzidos foram submetido à análise reológica
+ segundo as normas Padrão API-RP-13B-1 (2009) logo após a sua fabricação
+ (antes de envelhecer – A.E) e depois do processo de envelhecimento do fluido
+ (D.E).
+ 
+\end_layout
+
+\begin_layout Standard
+As análises das propriedades reológicas no viscosímetro FANN foram feitas
+ a partir de seis leituras dos valores de torque.
+ A viscosidade plástica (VP) é obtida pela diferença das leituras obtidas
+ a 600 rpm e 300 rpm, enquanto que o limite de escoamento é a diferença
+ entre a leitura de 300 rpm e a VP.
+\end_layout
+
+\begin_layout Standard
+Concluída a etapa anterior, depois da etapa de envelhecimento do fluido,
+ foi realizado o teste padrão para avaliar a perda de filtrado.
+ No Teste de Filtrado API, avalia-se a eficiência do reboco formado na membrana
+ permeável (filtro) e a quantidade de filtrado do fluido de perfuração que
+ passa pelo filtro submetido a uma pressão de 100 psi durante 30 minutos.
+ Aproximadamente 100 ml de fluido de perfuração foi acondicionada em uma
+ célula metálica e o filtrado recolhido em uma proveta.
+\end_layout
+
+\begin_layout Standard
+A densidade do fluido de perfuração foi medida com o auxílio da Balança
+ de Fluido FANN.
+\end_layout
+
+\begin_layout Subsubsection
+Análise de reologia do fluido de perfuração
+\end_layout
+
+\begin_layout Standard
+Com o reômetro AR 1500 ex.
+ foi possível analisar a viscosidade dos fluidos de perfuração por meio
+ de curvas reológicas da tensão de cisalhamento versus taxa de cisalhamento.
+ Ele possui um conjunto cone-placa.
+ Na medição foram utilizadas uma placa cônica de 60 mm de diâmetro, angulação
+ de dois graus e placa paralela de 40 mm.
+ O fluido foi previamente agitado por 5 minutos no mixer em velocidade máxima,e
+ decorrido esse tempo, aproximadamente 3 ml dele foram transferidos para
+ medição no reômetro.
+\end_layout
+
+\begin_layout Section
+Procedimentos laboratoriais específicos
+\end_layout
+
+\begin_layout Standard
+Dois sistemas de injeção de fluidos foram desenvolvidos neste trabalho.
+\end_layout
+
+\begin_layout Subsection
+Sistema de injeção para medida de permeabilidade
+\end_layout
+
+\begin_layout Standard
+O primeiro procedimento para a medida da permeabilidade foi configurado
+ de acordo com o sistema experimental apresentado na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:SisInj Permeabilidade direta"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ A Tabela 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:SistInj Permeabilidade Direta"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ enumera os equipamentos utilizados:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figuras/Figura2.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Esquema experimental para medidas de permeabilidade direta 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:SisInj Permeabilidade direta"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Descrição do sistema de injeção direta
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:SistInj Permeabilidade Direta"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="14" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Número
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Descrição
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Célula de confinamento (
+\shape italic
+Core holder
+\shape default
+)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Testemunho
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bomba HPLC
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Béquer
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5, 6, 7, 8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Transdutores de Pressão
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bomba manual (pressão de confinamento)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Manômetro com Válvula
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Garrafa de gás nitrogênio
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\shape italic
+Back pressure regulator
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9, 13, 14
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Válvulas Globo 1/8''
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+16
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Proveta Graduada
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sistema de registro eletrônico de dados
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+18
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Computador
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Segue-se agora um detalhamento sobre as diversas partes que compõem o esquema
+ experimental:
+\end_layout
+
+\begin_layout Itemize
+Célula de confinamento de fluxo transversal (
+\shape italic
+cross-flow core holder
+\shape default
+) do fabricante TEMCO (EUA) da série DFCH tipo hassler (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:SistInj Permeabilidade Direta"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+- 
+\begin_inset Formula $n^{\textdegree}$
+\end_inset
+
+1): tem capacidade para utilizar testemunhos cilíndricos de 2 a 20 cm de
+ comprimento e diâmetro médio de 3,80 cm.
+ Possui um sistema de confinamento de rocha com pressão radial máxima de
+ 7500 psi.
+ Este core holder trabalha com fluxo transversal ou direto de fluidos.
+ Na modalidade transversal, a face da rocha fica exposta ao fluxo tangencial,
+ onde parte do fluxo escoa por ela, com vistas a analisar a interação rocha/flui
+do.
+ Assim, a vazão pode ser medida na saída da rocha e outra parte do fluxo
+ continua sua trajetória.
+ O 
+\shape italic
+core holder
+\shape default
+ é equipado com um ponto de medida de pressão na face do testemunho.
+\end_layout
+
+\begin_layout Itemize
+Bomba de deslocamento inteligente HPLC modelo PU-2086/2087 (Jasco) (Figura
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:SistInj Permeabilidade Direta"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+- 
+\begin_inset Formula $n^{\textdegree}$
+\end_inset
+
+3): esta bomba pode operar com vazão ou pressão constante.
+ A vazão máxima de trabalho é de 50 mL/min.
+\end_layout
+
+\begin_layout Itemize
+Transdutores de pressão Diferencial do fabricante YOKOGAWA e modelo EJA110A
+ (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:SistInj Permeabilidade Direta"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+- 
+\begin_inset Formula $n^{\textdegree}$
+\end_inset
+
+5, 6, 7, 8): sua faixa de medida é de 1 a 1000 psi.
+ Esses transdutores de pressão foram monitorados em tempo real pelo software
+ Labview 8.5.
+ Foram utilizados 4 transdutores: 
+\begin_inset Formula $n^{°}$
+\end_inset
+
+ 5 para monitorar o 
+\shape italic
+back pressure
+\shape default
+ que simulava a pressão dos fluidos contidos no reservatório, 
+\begin_inset Formula $n^{°}$
+\end_inset
+
+ 6 monitorar o ponto de pressão na saída do core holder , 
+\begin_inset Formula $n^{°}$
+\end_inset
+
+ 7 a pressão de confinamento do 
+\shape italic
+core holder
+\shape default
+ e 
+\begin_inset Formula $n^{°}$
+\end_inset
+
+ 8 o diferencial de pressão na face do testemunho.
+\end_layout
+
+\begin_layout Itemize
+Bomba manual do fabricante FLUKE modelo 700HTP - Hidraulic Test Pump (EUA)
+ (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:SistInj Permeabilidade Direta"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+- 
+\begin_inset Formula $n^{\textdegree}$
+\end_inset
+
+13): utilizada para adicionar pressão de confinamento radial no 
+\shape italic
+core holder
+\shape default
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Manômetro do fabricante GENEBRE (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:SistInj Permeabilidade Direta"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+- 
+\begin_inset Formula $n^{\textdegree}$
+\end_inset
+
+10): acoplado às linhas de nitrogênio que pressurizavam o 
+\shape italic
+back pressure.
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+Back Pressure Regulator
+\shape default
+ da Vinci Technologies modelo BPRS (França) (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:SistInj Permeabilidade Direta"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+- 
+\begin_inset Formula $n^{\textdegree}$
+\end_inset
+
+12): foi utilizado para simular a pressão dos fluidos contidos no reservatório.
+\end_layout
+
+\begin_layout Itemize
+Linhas de aço 1/16'', 1/8'' da Swalegok: as linhas de 1/8'' foram usadas
+ nos pontos de tomada de pressão no 
+\shape italic
+back pressure
+\shape default
+, e para injetar salmoura contido no béquer (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:SistInj Permeabilidade Direta"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+- 
+\begin_inset Formula $n^{\textdegree}$
+\end_inset
+
+4).
+ As linhas de 1/16'' estão presentes na bomba.
+\end_layout
+
+\begin_layout Itemize
+Linhas de nylon de 1/8” (Detroit nylon flux 1/8”): essas linhas foram usadas
+ para conectar as bombas HPLC no béquer, para conectar a bomba diretamente
+ ao 
+\shape italic
+core holder
+\shape default
+ , e para conectar o ponto de pressão na saída do 
+\shape italic
+core holder
+\shape default
+ ao transdutor de pressão 
+\begin_inset Formula $n^{°}$
+\end_inset
+
+ 6.
+ 
+\end_layout
+
+\begin_layout Itemize
+Válvulas de 1/8'' da Swalegok (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:SistInj Permeabilidade Direta"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+- 
+\begin_inset Formula $n^{\textdegree}$
+\end_inset
+
+9, 14, 15): foram utilizadas no total 3 válvulas com as seguintes finalidades;
+ 
+\begin_inset Formula $n^{\textdegree}$
+\end_inset
+
+ 9 acoplada ao 
+\shape italic
+core holder
+\shape default
+ para o preenchimento do confinamento, 
+\begin_inset Formula $n^{\textdegree}$
+\end_inset
+
+ 14 ligação entre a linha de nylon proveniente da bomba HPLC à linha de
+ aço 1/8'' proveniente do 
+\shape italic
+core holder
+\shape default
+ e 
+\begin_inset Formula $n^{\textdegree}$
+\end_inset
+
+ 15 na saída do 
+\shape italic
+core holder
+\shape default
+ em direção ao 
+\shape italic
+back pressure
+\shape default
+ para controle de fluxo na saída.
+ 
+\end_layout
+
+\begin_layout Itemize
+Provetas do fabricante FANN (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:SistInj Permeabilidade Direta"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+- 
+\begin_inset Formula $n^{\textdegree}$
+\end_inset
+
+16): foram usadas provetas com capacidade volumétrica de 100 ml, 50 ml e
+ 10 ml.
+\end_layout
+
+\begin_layout Itemize
+Sistema de registro eletrônico de dados (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:SistInj Permeabilidade Direta"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+- 
+\begin_inset Formula $n^{\textdegree}$
+\end_inset
+
+17): foi utilizado um conversor analógico/digital da NDAC National Instruments,
+ computador Dell (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:SistInj Permeabilidade Direta"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+- 
+\begin_inset Formula $n^{\textdegree}$
+\end_inset
+
+18) com processador Core i3, Software LabView 8.5 do fabricante National
+ Instruments.
+\end_layout
+
+\begin_layout Itemize
+Conexões do fabricante Swagelok.
+ foram utilizadas conexões tipo T, união, união/redução, curvas e outras
+ conexões para conectar as linhas de aço de 1/8” e 1/4'' nas linhas de fluxo.
+\end_layout
+
+\begin_layout Standard
+A Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:SisInj Vista "
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ mostra uma vista panorâmica do sistema de injeção para medida de permeabilidade
+ montado no laboratório.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figuras/Figura4.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Sistema de injeção direta de salmoura em um 
+\shape italic
+core holder
+\shape default
+ de fluxo transversal para cálculo da permeabilidade 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:SisInj Vista "
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As medidas de permeabilidade foram obtidas pela injeção direta de salmoura
+ com 30.000 ppm nos testemunhos, com diferentes vazões constantes de injeção
+ (1 a 10 ml/min).
+ Na seguinte subseção, mais detalhes do cálculo da permeabilidade.
+\end_layout
+
+\begin_layout Subsubsection
+Procedimentos para medida de permeabilidade
+\end_layout
+
+\begin_layout Enumerate
+Colocar o testemunho com espessura de fratura desejada previamente saturado
+ no 
+\shape italic
+core holder
+\shape default
+, e após acomodação da rocha, ajustar a pressão de confinamento para 500
+ psi com o auxilio da bomba manual;
+\end_layout
+
+\begin_layout Enumerate
+Montar todas as conexões e válvulas de acordo com a Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:SisInj Permeabilidade direta"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+Retirar o ar do sistema preenchendo-no com salmoura de NaCl (30.000 ppm);
+\end_layout
+
+\begin_layout Enumerate
+Acionar o back pressure até a estabilização da pressão do 
+\shape italic
+core holder
+\shape default
+ (100 psi);
+\end_layout
+
+\begin_layout Enumerate
+Ligar o computador e iniciar o programa de leitura dos dados de pressão
+ (Labview);
+\end_layout
+
+\begin_layout Enumerate
+Iniciar o teste ligando a bomba HPLC com vazão constante variáveis de 1
+ a 10 ml/min;
+\end_layout
+
+\begin_layout Enumerate
+Monitorar a variação de pressão através do transdutor de pressão para cada
+ vazão;
+\end_layout
+
+\begin_layout Enumerate
+Calcular a permeabilidade do testemunho pela Lei de Darcy para fluxo linear.
+\end_layout
+
+\begin_layout Subsection
+Sistema de injeção de fluido de perfuração
+\end_layout
+
+\begin_layout Standard
+O segundo e mais geral aparato experimental teve por finalidade injetar
+ fluido de perfuração tangencialmente à face do testemunho.
+ Os equipamentos utilizados na montagem dele estão esquematizados na Figura
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Sistema de injeção de fluido de perfuração"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ e descritos na Tabela 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Descrição equipamentos sistem de injeção de fluido"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Vale destacar que alguns equipamentos são semelhantes ao sistema anterior
+ por isso foram omitidos.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figuras/Figura3.png
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Esquema do sistema de injeção de fluido de perfuração em um 
+\shape italic
+core holder
+\shape default
+ de fluxo transversal 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Sistema de injeção de fluido de perfuração"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+Descrição do sistema de circulação tranversal
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="16" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Número
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Descrição
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Célula de confinamento (
+\shape italic
+Core holder
+\shape default
+)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Testemunho
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bomba HPLC
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4,15
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Béqueres
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5, 6, 19, 20, 21
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Válvulas Globo 1/8''
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7, 8, 9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Transdutores de Pressão
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Manômetro com Válvula
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Garrafa de gás nitrogênio
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12, 13
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Garrafas de transferência de fluido com mixer
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+14
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\shape italic
+Back pressure regulator
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+16
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bomba manual (pressão de confinamento)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17, 18
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Válvulas Globo 1/4''
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+22
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Proveta Graduada
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+23
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sistema de registro eletrônico de dados
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+24
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Computador
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A seguir tem-se uma descrição mais detalhada de cada um deles.
+\end_layout
+
+\end_body
+\end_document
