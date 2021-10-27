@@ -4707,7 +4707,22 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
 Descrição do sistema de circulação tranversal
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Descrição equipamentos sistem de injeção de fluido"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -5061,6 +5076,857 @@ Computador
 
 \begin_layout Standard
 A seguir tem-se uma descrição mais detalhada de cada um deles.
+\end_layout
+
+\begin_layout Itemize
+Transdutor de pressão Diferencial do fabricante YOKOGAWA e modelo EJA110A
+ (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Sistema de injeção de fluido de perfuração"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ - 
+\begin_inset Formula $n^{\textdegree}$
+\end_inset
+
+ 7, 8, 9): foram utilizados 3 transdutores; 
+\begin_inset Formula $n^{\textdegree}$
+\end_inset
+
+ 7 monitora a pressão do 
+\shape italic
+back pressure
+\shape default
+ que simulava o peso da coluna de fluido de perfuração, 
+\begin_inset Formula $n^{\textdegree}$
+\end_inset
+
+ 8 a pressão de confinamento do 
+\shape italic
+core holder
+\shape default
+ e 
+\begin_inset Formula $n^{\textdegree}$
+\end_inset
+
+ 9 media o diferencial de pressão na face do testemunho.
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+Back Pressure Regulator
+\shape default
+ da Vinci Technologies modelo BPRS (França) (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Sistema de injeção de fluido de perfuração"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ - 
+\begin_inset Formula $n^{\textdegree}$
+\end_inset
+
+ 14): foi utilizado para garantir o peso da coluna de fluido de perfuração.
+\end_layout
+
+\begin_layout Itemize
+Garrafa de transferência de fluido com mixer da fabricante da VINCI (Figura
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Sistema de injeção de fluido de perfuração"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ - 
+\begin_inset Formula $n^{\textdegree}$
+\end_inset
+
+ 12, 13): possuem capacidade de aproximadamente 1,1 L.
+ O mixer na base dela permite a homogeneização do fluido de perfuração contido
+ na garrafa impedindo a gelificação.
+ 
+\end_layout
+
+\begin_layout Itemize
+Linhas de aço 1/8'' e 1/4'' da Swalegok: as linhas de 1/4'' foram utilizadas
+ para conectar as garrafas de transferência de fluido com 
+\shape italic
+mixer
+\shape default
+ ao 
+\shape italic
+core holder
+\shape default
+ e para deslocar o embôlo das garrafas de transferência
+\end_layout
+
+\begin_layout Itemize
+Linhas de nylon de 1/8” (Detroit nylon flux 1/8”): essas linhas foram usadas
+ para conectar o béquer (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Sistema de injeção de fluido de perfuração"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ - 
+\begin_inset Formula $n^{\textdegree}$
+\end_inset
+
+ 4) com água destilada na bombas HPLC.
+\end_layout
+
+\begin_layout Itemize
+Válvulas de 1/8'' e 1/4'' da Swalegok (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Sistema de injeção de fluido de perfuração"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ - 
+\begin_inset Formula $n^{\textdegree}$
+\end_inset
+
+ 5, 6, 19, 20, 21 e 
+\begin_inset Formula $n^{\textdegree}$
+\end_inset
+
+ 17, 18, respectivamente): foram utilizadas no total 7 válvulas com as seguintes
+ finalidades: 
+\begin_inset Formula $n^{\textdegree}$
+\end_inset
+
+ 5, 6 para ligação entre a bomba HPLC e a garrafas de transferência, 
+\begin_inset Formula $n^{\textdegree}$
+\end_inset
+
+ 19 para alívio do sistema, 
+\begin_inset Formula $n^{\textdegree}$
+\end_inset
+
+20 acoplada ao 
+\shape italic
+core holder
+\shape default
+ para o preenchimento do confinamento, 
+\begin_inset Formula $n^{\textdegree}$
+\end_inset
+
+ 21 na saída do 
+\shape italic
+core holder
+\shape default
+ para controle de fluxo na saída, 
+\begin_inset Formula $n^{\textdegree}$
+\end_inset
+
+ 17 e 18 nas saídas das garrafas de transferência.
+\end_layout
+
+\begin_layout Standard
+A Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig: Sistema injeção fluido de perfuração completo"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ mostra uma vista panorâmica do sistema de injeção de fluido de perfuração
+ devidamento montado no laboratório.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figuras/Figura5.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Sistema de injeção de fluido de perfuração.
+ Equipamentos utilizados para a realização dos testes de injeção de fluido
+ de perfuração em fluxo transversal para avaliar a interação fluido rocha
+ e a perda de filtrado para a rocha
+\begin_inset CommandInset label
+LatexCommand label
+name "fig: Sistema injeção fluido de perfuração completo"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Procedimentos para injeção de fluido de perfuração:
+\end_layout
+
+\begin_layout Enumerate
+Colocar o testemunho previamente saturado no core holder, e após acomodação
+ da rocha, ajustar a pressão de confinamento para 500 psi com o auxilio
+ da bomba manual;
+\end_layout
+
+\begin_layout Enumerate
+Preencher com fluido de perfuração as duas garrafas de transferência com
+ mixer.
+ Fluido na parte debaixo e água industrial na parte de cima do pistão;
+\end_layout
+
+\begin_layout Enumerate
+Montar todas as conexões e válvulas tal como mostrado na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Sistema de injeção de fluido de perfuração"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+Retirar o ar do sistema com salmoura de NaCl (30.000 ppm).
+ Todo o sistema deve estar isento dele, exceto as linhas das garrafas com
+ mixer.
+ A presença de ar nas linhas pode gerar problemas de fluxo bifásico ar/água;
+\end_layout
+
+\begin_layout Enumerate
+Acionar o 
+\shape italic
+back pressure
+\shape default
+ até a estabilização da pressão do core holder (100 psi);
+\end_layout
+
+\begin_layout Enumerate
+Ligar o computador e iniciar o programa de leitura dos dados de pressão
+ (Labview);
+\end_layout
+
+\begin_layout Enumerate
+Iniciar o teste ligando a bomba HPLC com vazão constante de 10 ml/min.
+\end_layout
+
+\begin_layout Section
+Modelo matemático do balanço de torques que agem numa partícula de um reboco
+\end_layout
+
+\begin_layout Standard
+Considere a deposição de partículas de fluido de perfuração na parede inferior
+ de uma fratura tal como mostrado na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Balanço-de-forças"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+abaixo:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figuras/Forcas.png
+	lyxscale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Balanço de forças que agem nas partículas depositadas na parede inferior
+ de uma fratura.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Balanço-de-forças"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pela definição de torque, força multiplicada por um braço de alavanca, o
+ balanço de torques para uma dada partícula é:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+F_{D}=f\left(F_{G}+F_{P}\right)\label{eq:balanco}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+onde:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\;\;\;F_{D}:$
+\end_inset
+
+ força de arrasto;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\;\;\;F_{G}:$
+\end_inset
+
+ força gravitacional;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\;\;\;F_{P}:$
+\end_inset
+
+ força permeante;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\;\;\;f:$
+\end_inset
+
+ braço de alavanca resultante do balanço das forças de ambos ao lados da
+ equação.
+\end_layout
+
+\begin_layout Standard
+A força gravitacional 
+\begin_inset Formula $\left(F_{G}\right)$
+\end_inset
+
+ deduzida da definição de empuxo é dada por:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+F_{G}=\left(\rho_{s}-\rho_{f}\right)\frac{4}{3}\pi r_{s}^{3}\label{eq:f_gravitacional}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+onde:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\;\;\;\rho_{s}:$
+\end_inset
+
+ é a massa específica da partícula ou da matriz;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\;\;\;\rho_{f}:$
+\end_inset
+
+ é a massa específica do fluido;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\;\;\;r_{s}:$
+\end_inset
+
+ é o raio da partícula.
+\end_layout
+
+\begin_layout Standard
+Por sua vez a força permeante 
+\begin_inset Formula $\left(F_{P}\right)$
+\end_inset
+
+ é dada pela seguinte equação em função do número de Reynolds:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+F_{P}=\pi r_{s}^{2}\frac{1}{2}\rho_{s}V_{f}^{2}\frac{24}{Re}\label{eq:f_permeante}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Re=\frac{2^{n}r_{s}^{n}V_{f}^{2-n}\rho_{f}}{3^{n-1}\eta}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+onde:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\;\;\;V_{f}$
+\end_inset
+
+ é a velocaidade de fluxo;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\;\;\;Re:$
+\end_inset
+
+ número de Reynolds;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\;\;\;n:$
+\end_inset
+
+ índice de fluxo do fluido;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\;\;\;\eta:$
+\end_inset
+
+ índice de consistência do fluido.
+\end_layout
+
+\begin_layout Standard
+A última das forças a força de arrasto 
+\begin_inset Formula $\left(F_{D}\right)$
+\end_inset
+
+ é:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+F_{D}=4\pi r_{s}^{2}\tau_{w}\label{eq:f_arrasto}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\tau_{w}=\frac{\Delta P}{L}\frac{\epsilon_{ff}}{2}=\frac{\Delta P}{L}\frac{\left(\epsilon-h_{c}\right)}{2}\label{eq:taxa_cisalhamento}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+onde:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\;\;\;\tau_{w}$
+\end_inset
+
+ é a taxa de cisalhamento
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\;\;\;\Delta P:$
+\end_inset
+
+ o diferencial de pressão entre as faces;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\;\;\;\epsilon:$
+\end_inset
+
+ espessura da fratura;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\;\;\;h_{c}:$
+\end_inset
+
+ altura do reboco.
+ 
+\end_layout
+
+\begin_layout Standard
+Definidas as equações, o próximo passo é retornar ao balanço de torques.
+ Substituindo-se as Eqs.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:f_arrasto"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:f_gravitacional"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ e 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:f_permeante"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ na Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:balanco"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ tem-se:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+4\pi r_{s}^{2}\tau_{w}=f\left[\left(\rho_{s}-\rho_{f}\right)\frac{4}{3}\pi r_{s}^{3}+\pi r_{s}^{2}\frac{1}{2}\rho_{s}V_{f}^{2}\frac{24}{Re}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pela definição da 
+\begin_inset Formula $\tau_{w}$
+\end_inset
+
+ da Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:taxa_cisalhamento"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+4\pi r_{s}^{2}\left[\frac{\Delta P}{L}\frac{\left(\epsilon-h_{c}\right)}{2}\right]=f\left[\left(\rho_{s}-\rho_{f}\right)\frac{4}{3}\pi r_{s}^{3}+\pi r_{s}^{2}\frac{1}{2}\rho_{s}V_{f}^{2}\frac{24}{Re}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A velocidade de fluxo 
+\begin_inset Formula $\left(V_{f}\right)$
+\end_inset
+
+é definida por:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+V_{f}=\frac{k_{eq}}{\mu_{Fitrado}}\frac{\Delta P_{Transversal}}{\left(\frac{D-\epsilon}{2}+h_{c}\right)}\label{eq:V_f}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pela definição de leitos escreve-se a permeabilidade equivalente 
+\begin_inset Formula $\left(k_{eq}\right)$
+\end_inset
+
+ como:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{\frac{D-\epsilon}{2}+h_{c}}{k_{eq}}=\frac{\frac{D-\epsilon}{2}}{k}+\frac{h_{c}}{k_{c}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{\frac{D-\epsilon}{2}+h_{c}}{k_{eq}}=\frac{k_{c}\frac{D-\epsilon}{2}+h_{c}k}{kk_{c}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+k_{eq}=\frac{\left(\frac{D-\epsilon}{2}+h_{c}\right)kk_{c}}{k_{c}\frac{D-\epsilon}{2}+h_{c}k}\label{eq:k_eq}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Substituindo-se a Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:k_eq"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ na Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:V_f"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, tem-se:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+V_{f}=\frac{kk_{c}\Delta P_{Transversal}}{\mu_{Fitrado}\left(k_{c}\frac{D-\epsilon}{2}+h_{c}k\right)}\label{eq:V_f-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Retornando a Eq.
+ do balanço de torques substituind-se a definição do número de Reynolds:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+4\pi r_{s}^{2}\left[\frac{\Delta P}{L}\frac{\left(\epsilon-h_{c}\right)}{2}\right]=f\left[\left(\rho_{s}-\rho_{f}\right)\frac{4}{3}\pi r_{s}^{3}+\pi r_{s}^{2}\frac{1}{2}\rho_{s}V_{f}^{2}\frac{24}{1}\left(\frac{3^{n-1}\eta}{2^{n}r_{s}^{n}V_{f}^{2-n}\rho_{f}}\right)\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+4\pi r_{s}^{2}\left[\frac{\Delta P}{L}\frac{\left(\epsilon-h_{c}\right)}{2}\right]=f\left[\left(\rho_{s}-\rho_{f}\right)\frac{4}{3}\pi r_{s}^{3}+\pi r_{s}^{2}\frac{1}{2}\rho_{s}\frac{24}{1}\left(\frac{3^{n-1}\eta}{2^{n}r_{s}^{n}V_{f}^{-n}\rho_{f}}\right)\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+4\pi r_{s}^{2}\left[\frac{\Delta P}{L}\frac{\left(\epsilon-h_{c}\right)}{2}\right]=f\left[\left(\rho_{s}-\rho_{f}\right)\frac{4}{3}\pi r_{s}^{3}+\pi r_{s}^{2}\frac{1}{2}\rho_{s}\frac{2^{3}3}{1}\frac{3^{n-1}\eta V_{f}^{n}}{2^{n}r_{s}^{n}\rho_{f}}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+4\pi r_{s}^{2}\left[\frac{\Delta P}{L}\frac{\left(\epsilon-h_{c}\right)}{2}\right]=f\left[\left(\rho_{s}-\rho_{f}\right)\frac{4}{3}\pi r_{s}^{3}+\pi r_{s}^{2}\rho_{s}\frac{2^{2-n}3^{n}\eta V_{f}^{n}}{r_{s}^{n}\rho_{f}}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+4\pi r_{s}^{2}\left[\frac{\Delta P}{L}\frac{\left(\epsilon-h_{c}\right)}{2}\right]=f\left[\left(\rho_{s}-\rho_{f}\right)\frac{4}{3}\pi r_{s}^{3}+2^{2-n}3^{n}\frac{\pi\rho_{s}\eta V_{f}^{n}}{r_{s}^{n-2}\rho_{f}}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\pi r_{s}^{2}\frac{\Delta P}{L}\frac{\left(\epsilon-h_{c}\right)}{2}=f\left\{ \left(\rho_{s}-\rho_{f}\right)\frac{\pi r_{s}^{3}}{3}+\left(\frac{3}{2}\right)^{n}\frac{\pi\rho_{s}\eta}{r_{s}^{n-2}\rho_{f}}V_{f}^{n}\right\} 
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\pi r_{s}^{2}\frac{\Delta P}{L}\frac{\left(\epsilon-h_{c}\right)}{2}=f\left\{ \left(\rho_{s}-\rho_{f}\right)\frac{\pi r_{s}^{3}}{3}+\left(\frac{3}{2}\right)^{n}\frac{\pi\rho_{s}\eta}{r_{s}^{n-2}\rho_{f}}\left[\frac{kk_{c}\Delta P_{Transversal}}{\mu_{Fitrado}\left(k_{c}\frac{D-\epsilon}{2}+h_{c}k\right)}\right]^{n}\right\} 
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+F\left(h_{c}\right)\equiv\pi r_{s}^{2}\frac{\Delta P}{L}\frac{\left(\epsilon-h_{c}\right)}{2}=f\left\{ \left(\rho_{s}-\rho_{f}\right)\frac{\pi r_{s}^{3}}{3}+\left(\frac{3}{2}\right)^{n}\frac{\pi\rho_{s}\eta}{r_{s}^{n-2}\rho_{f}}\left[\frac{kk_{c}\Delta P_{Transversal}}{\mu_{Fitrado}\left(k_{c}\frac{D-\epsilon}{2}+h_{c}k\right)}\right]^{n}\right\} 
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Análise dos resultados
+\end_layout
+
+\begin_layout Standard
+Os dados dos testes (vazão, pressão), mais as medidas das rochas (diâmetro,
+ comprimento, homogeinidade), além das características dos fluidos de perfuração
+ (reologia, densidade) foram tratados com o softare EXCEL.
+ Os resultados foram consolidados em gráficos e tabelas para .
 \end_layout
 
 \end_body
