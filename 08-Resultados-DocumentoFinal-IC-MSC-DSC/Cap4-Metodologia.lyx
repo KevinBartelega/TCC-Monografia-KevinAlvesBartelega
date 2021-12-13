@@ -1589,12 +1589,11 @@ Contém documento original
 \end_layout
 
 \begin_layout Standard
-Neste capítulo é abordado a metodologia científica utilizada neste trabalho.
- Apresenta-se nessa seção a caracterização e preparo dos testemunhos, das
- soluções e suspensões; os equipamentos, bem como os procedimentos para
- injeção.
- Por fim será apresentado os dois sistemas de injeção implementados no desenvolv
-imento desse trabalho.
+Neste capítulo é abordada a metodologia científica.
+ Apresenta-se a caracterização e preparo dos testemunhos, das soluções e
+ suspensões; os equipamentos, bem como os procedimentos para injeção.
+ Por fim será apresentado em detalhes os dois sistemas de injeção implementados
+ no desenvolvimento dos experimentos.
 \end_layout
 
 \begin_layout Section
@@ -1603,14 +1602,32 @@ Introdução
 
 \begin_layout Standard
 Os procedimentos experimentais foram planejados para se avaliar a perda
- de filtrado de fluido de perfuração Base Água em fluxo transversal, à maneira
+ de filtrado de fluido de perfuração base água em fluxo transversal, à maneira
  como ocorre na perfuração de poços de petróleo.
- Na primeira subseção estão os procedimentos gerais que consistem no preparo
- preparo do testemunho, de soluções, suspensões, análise reológica dos fluidos
- de perfuração.
- Por sua vez, a segunda subseção trata dos procedimentos específicos de
- injeção direta de salmoura para medidas de permeabilidade e a injeção de
- fluido de perfuração em um 
+ Na subseção 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Procedimentos-laboratoriais-gera"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ estão os procedimentos gerais que consistem no preparo preparo dos testemunhos,
+ de soluções, suspensões e análise reológica dos fluidos de perfuração.
+ Por sua vez, a subseção 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Procedimentos-laboratoriais-espe"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ trata dos procedimentos específicos de injeção direta de salmoura para
+ medidas de permeabilidade e a injeção de fluido de perfuração em um 
 \shape italic
 core holder
 \shape default
@@ -1619,6 +1636,13 @@ core holder
 
 \begin_layout Section
 Procedimentos laboratoriais gerais
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Procedimentos-laboratoriais-gera"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -1652,28 +1676,7 @@ noprefix "false"
 \end_inset
 
 a), plugador (Vince Technologies), cortador abrasivo (Bueghler e Vince Technolog
-ies), mixers modelo HMD400-FANN (Hamilton Beach) (Figura 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Figura1"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-e), paquímetro digital modelo Marathon 8 polegadas (200 mm) com precisão
- de duas casas (Figura 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Figura1"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-d), balança analítica eletrônica OHAUS AR3130 com precisão de três casas
+ies), balança analítica eletrônica OHAUS AR3130 com precisão de três casas
  (Figura 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1694,7 +1697,28 @@ noprefix "false"
 
 \end_inset
 
-c), sistema de filtração API (FANN), pHmetreo modelo 827 (Metrohm Pensalab)
+c), paquímetro digital modelo Marathon 8 polegadas (200 mm) com precisão
+ de duas casas (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Figura1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+d), mixers modelo HMD400-FANN (Hamilton Beach) (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Figura1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+e), sistema de filtração API (FANN), pHmetreo modelo 827 (Metrohm Pensalab)
  (Figura 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1772,13 +1796,14 @@ k) composto por Kitassato, suporte de vidro com filtro de 47 mm de diâmetro,
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename Figuras/Figura1.png
 	lyxscale 20
+	scale 18
 
 \end_inset
 
@@ -1821,8 +1846,16 @@ Testemunhos
 \end_layout
 
 \begin_layout Standard
-Os testemunhos utilizados são carbonatos sintéticos fabricados no Laboratório
- de Instrumentação Geofísica no próprio Lenep/UENF.
+Os testemunhos utilizados foram sintéticos e naturais.
+\end_layout
+
+\begin_layout Subsubsection
+Testemunhos sintéticos
+\end_layout
+
+\begin_layout Standard
+Os testemunhos utilizados foram carbonatos fabricados no Laboratório de
+ Instrumentação Geofísica no próprio Lenep/UENF.
  Contudo, antes da obtenção deles, algumas etapas foram necessárias.
  A composição padrão do bloco fabricado de onde se retiraram os plugs encontra-s
 e na Tabela 
@@ -1844,25 +1877,6 @@ placement H
 wide false
 sideways false
 status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Formulação do bloco de rocha AT-23 de dimensões 15x10x8 cm
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:Constituintes-para-fabricação"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -1998,14 +2012,32 @@ Areia
 
 \end_layout
 
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Formulação do bloco de rocha AT-23 de dimensões 15x10x8 cm
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Constituintes-para-fabricação"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-Os componentes secos e em pó foram misturados.
- Água foi acrescentada aos poucos para homogeinização.
+Os componentes foram misturados com água.
  Depois de 4 horas de descanso, toda a mistura foi então levada para uma
  forma em uma prensa hidráulica que aplicou 
 \begin_inset Formula $10$
@@ -2021,7 +2053,7 @@ Os componentes secos e em pó foram misturados.
 \begin_inset Formula $\,\textdegree C$
 \end_inset
 
- por 24 horas.
+ por mais 24 horas.
  
 \end_layout
 
@@ -2029,13 +2061,19 @@ Os componentes secos e em pó foram misturados.
 Seguiu-se com a etapa de testemunhagem do bloco.
  Uma máquina hidráulica serra copos retirou 6 plugs ou testemunhos dele.
  As medidas do comprimento (L) e diâmetro (D) foram tomadas em triplicata
- utilizando-se para isso o paquímetro digital.
+ utilizando-se para isso o paquímetro.
  Uma média aritmética simples foi usada para melhor precisão dos dados.
 \end_layout
 
 \begin_layout Standard
-Feita a caracterização física, segue-se agora com a caracterização química
- deles.
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Feita a caracterização física, seguiu-se com a caracterização química.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2056,10 +2094,14 @@ Após tomada das medidas os testemunhos seguiram para a estufa a 60
  Depois, saturados no sistema de saturação à vácuo com dessecador, pressão
  interna de 2 mbar e salmoura de concentração 30.000 ppm de NaCl.
  A salmoura foi utilizada como representativa da água da formação.
- Mais detalhes sobre a fabricação dela serão apresentados na próxima seção.
- Por hora, para efeitos de cálculos, considerar a massa específica da salmoura
- como 
-\begin_inset Formula $1,010\,g/cm^{3}$
+ Mais detalhes sobre a fabricação dela serão apresentados na subseção 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Preparo-da-solução"
+plural "false"
+caps "false"
+noprefix "false"
+
 \end_inset
 
 .
@@ -2091,7 +2133,15 @@ noprefix "false"
 
 \end_inset
 
-, retirada de (TIAB e DONALDSON, 2004):
+, retirada de 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Tiab_2012"
+literal "false"
+
+\end_inset
+
+:
 \end_layout
 
 \begin_layout Standard
@@ -2107,25 +2157,16 @@ noprefix "false"
 
 \begin_layout Standard
 \noindent
-onde:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\phi\quad$
+onde: 
+\begin_inset Formula $\,\phi\:$
 \end_inset
 
- é a porosidade do testemunho;
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\rho_{w\quad}$
+ é a porosidade do testemunho; 
+\begin_inset Formula $\,\rho_{w\:}$
 \end_inset
 
-é a massa específica da água da formação ou da salmoura;
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $V_{R\quad}$
+é a massa específica da água da formação ou da salmoura; 
+\begin_inset Formula $\,V_{R\:}$
 \end_inset
 
 é o volume do testemunho.
@@ -2161,16 +2202,17 @@ Obtenção da permeabilidade da matriz
 \end_layout
 
 \begin_layout Standard
-A permeabilidade da matriz foi obtida no permeâmetro à gás pela injeção
- direta de nitrogênio.
- A vazão de injeção de gás variou de 5 a 10 
+A permeabilidade da matriz foi obtida no permeâmetro à gás - presente no
+ Laboratório de Petrofísica do LENEP/UENF- pela injeção direta de nitrogênio.
+ A vazão de injeção variou de 5 a 10 
 \begin_inset Formula $cm^{3}/min$
 \end_inset
 
 , e para cada varição de pressão de 1 psi, tomou-se o ponto de pressão e
  vazão.
  Foi possível então calcular a permeabilidade do testemunho através da Equação
- de Darcy para fluxo linear pela Equação 
+ de Darcy (Eq.
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:Q"
@@ -2180,7 +2222,7 @@ noprefix "false"
 
 \end_inset
 
- abaixo:
+ ) para fluxo linear abaixo:
 \end_layout
 
 \begin_layout Standard
@@ -2200,23 +2242,23 @@ onde:
 \begin_inset Formula $Q:$
 \end_inset
 
- vazão, 
+ vazão; 
 \begin_inset Formula $A:$
 \end_inset
 
- área da seção transversal, 
+ área da seção transversal; 
 \begin_inset Formula $k:$
 \end_inset
 
- permeabilidade da matriz, 
+ permeabilidade da matriz; 
 \begin_inset Formula $\mu:$
 \end_inset
 
- viscosidade do fluido injetado, 
+ viscosidade do fluido injetado; 
 \begin_inset Formula $L:$
 \end_inset
 
- comprimento do testemuho, 
+ comprimento do testemuho e 
 \begin_inset Formula $\Delta P:$
 \end_inset
 
@@ -2228,9 +2270,8 @@ Fraturamento do testemunho
 \end_layout
 
 \begin_layout Standard
-Cada amostra foi cortada longitudinalmente em 2 partes iguais com o uso
- de um dispositivo acoplado em um cortador abrasivo.
- O próximo passo buscou representar um reservatório naturalmente fraturado.
+Cada amostra foi cortada longitudinalmente em 2 partes iguais com um cortador
+ abrasivo a fim de se representar um reservatório naturalmente fraturado.
  Para isso, passou-se cola adesivo Durepoxi da marca 
 \begin_inset Formula $Loctite^{®}$
 \end_inset
@@ -2238,7 +2279,7 @@ Cada amostra foi cortada longitudinalmente em 2 partes iguais com o uso
  em uma das partes ao longo do comprimento interno.
  Com o par de calibradores de válvula em mãos, estes que possuem a espessura
  desejada para a fratura, bastou colocá-los no centro dessa metade.
- A outra metade do testemunho foi colocada em cima para uní-lo.
+ A outra metade do testemunho foi colocada em cima para uní-los novamente.
  Algum Durepoxi foi passado na parte externa ao longo do comprimento para
  completar a vedação lateral.
  Espera-se como resultado final faces laterais seladas e aberturas frontal
@@ -2272,19 +2313,104 @@ Porosidade e permeabilidade do sistema matriz-fratura
 \end_layout
 
 \begin_layout Standard
+Considere a seguinte configuração do testemunho desenvolvida por 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Salimi_2011,Salimi_Alikarami_2006"
+literal "true"
+
+\end_inset
+
+ na Figura 
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Porosidade-e-permeabilidade"
+
+\end_inset
+
+.
+ Foi feito um corte longitudinal na amostra e depois aplicada uma pressão
+ para manter as partes unidas a fim de construir uma pequena fratura.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figuras/Salimi_2006.PNG
+	lyxscale 80
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Configuração de uma amostra fraturada 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Salimi_2011,Salimi_Alikarami_2006"
+literal "true"
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Salimi"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 O sistema de injeção para medida de permeabilidade permitiu encontrar a
  permeabilidade do sistema matriz-fratura 
 \begin_inset Formula $\left(k_{mf}\right)$
 \end_inset
 
 .
- Pelas equações desenvolvidas por Golf-Racht (1982) apresentadas na Revisão
- Bibliográfica e de posse da permeabilidade da matriz 
+ Pelo permeâmetro a gás obtivemos a permeabilidade da matriz 
 \begin_inset Formula $\left(k_{m}\right)$
 \end_inset
 
-,obtida pelo permeâmetro a gás, encontrou-se a permeabilidade efetiva da
- fratura pela Equação 
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Golf-Racht_1982"
+literal "false"
+
+\end_inset
+
+ definiu que permeabilidade de um sistema matriz-fratura pode ser representada
+ pela simples adição da permeabilidade da matriz com a permeabilidade da
+ fratura de acordo com a Equação 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:kmf"
@@ -2294,12 +2420,132 @@ noprefix "false"
 
 \end_inset
 
-: 
-\begin_inset Formula $k_{eff}=k_{mf}-k_{m}$
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+k_{mf}=k_{m}+k_{eff}\label{eq:kmf}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+onde
+\begin_inset Formula $k_{mf}$
+\end_inset
+
+ é a permeabilidade da matriz e fratura, 
+\begin_inset Formula $cm^{2}$
+\end_inset
+
+; 
+\begin_inset Formula $k_{m}$
+\end_inset
+
+ a permeabilidade da matriz, 
+\begin_inset Formula $cm^{2}$
+\end_inset
+
+ e 
+\begin_inset Formula $k_{eff}$
+\end_inset
+
+ a permeabilidade da fratura associada, 
+\begin_inset Formula $cm^{2}$
 \end_inset
 
 .
- Por fim, pela Equação 
+\end_layout
+
+\begin_layout Standard
+No entanto, é preciso redefinir que a permeabilidade da fratura propriamente
+ dita, está associada à condutividade medida durante o fluxo de fluido através
+ dela e independente da matriz.
+ É dada pela Equação 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:kff"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+k_{ff}=\frac{W_{f}^{2}}{12}\label{eq:kff}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+onde 
+\begin_inset Formula $W_{f}$
+\end_inset
+
+é a espessura da fratura (
+\begin_inset Formula $cm$
+\end_inset
+
+) e 
+\begin_inset Formula $k_{ff}$
+\end_inset
+
+ permeabilidade da fratura, 
+\begin_inset Formula $cm^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Salimi_2011"
+literal "false"
+
+\end_inset
+
+ apresentaram a relação entre 
+\begin_inset Formula $k_{eff}$
+\end_inset
+
+e 
+\begin_inset Formula $k_{ff}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+k_{eff}=k_{ff}\frac{W_{f}}{A}D\label{eq:keff e kff}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Substituindo-se a área da seção circular 
+\begin_inset Formula $\left(A=\frac{πD^{2}}{4}\right)$
+\end_inset
+
+, a Equação 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:Wf"
@@ -2309,7 +2555,43 @@ noprefix "false"
 
 \end_inset
 
- encontrou-se a espessura da fratura.
+ foi utilizada para o cálculo da espessura da fratura:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+k_{eff}=\frac{W_{f}^{3}}{3\pi D}\label{eq:Wf}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+onde: 
+\begin_inset Formula $k_{eff}$
+\end_inset
+
+: permeabilidade efetiva da fratura, 
+\begin_inset Formula $cm^{2}$
+\end_inset
+
+, 
+\begin_inset Formula $D$
+\end_inset
+
+: diâmetro do testemunho, 
+\begin_inset Formula $cm$
+\end_inset
+
+, 
+\begin_inset Formula $W_{f}$
+\end_inset
+
+: espessura da fratura.
 \end_layout
 
 \begin_layout Standard
@@ -2357,29 +2639,58 @@ onde:
 .
 \end_layout
 
-\begin_layout Subsection
-Preparo da solução de salmoura
+\begin_layout Subsubsection
+Testemunhos naturais
 \end_layout
 
 \begin_layout Standard
-Para preparar a solução de NaCl com concentração média de 30000 ppm, salinidade
- típica da água do mar, utilizou-se Água Grau Tipo I (Ultrapura, proveniente
+Em uma outra abordagem, utilizou-se testemunhos naturais de carbonatos que
+ possuem permeabilidade da ordem de Darcy.
+ Diferentemente das amostras anteriores que possuíam pouca ou nehuma permeabilid
+adde, buscou-se aqui estudar e elucidar os efeitos das forças permeantes
+ em conjunto de forças de arrasto e gravitacionais na geração ou não de
+ um reboco.
+ Maiores detalhes sobre as forças serão apresentadas na subseção 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Modelo-matemático-do"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Os mesmo procedimentos aplicados anteriores sobre fraturamento dos testemunhos,
+ medidas de porosiade e permeabilidade foram aplicados.
+\end_layout
+
+\begin_layout Subsection
+Preparo da solução de salmoura
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Preparo-da-solução"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Para preparar a solução de NaCl com concentração média de 30.000 ppm, salinidade
+ típica da água do mar, utilizou-se Água Grau Tipo II (Ultrapura, proveniente
  do sistema de purificação de água cuja especificação é ausência de partículas
  acima de 
 \begin_inset Formula $0,22\,μm$
 \end_inset
 
- de diâmetros na água de acordo com a ASTM - 
+ de diâmetro na água de acordo com a ASTM - 
 \shape italic
 Standard Specification for Reagent Water
 \shape default
 ) e NaCl.
- O sal foi diluído na Água Tipo I em aproximadamente metade do volume da
- solução total.
- Após essa diluição, a solução foi filtrada no sistema de filtração à vácuo
- para garantir que nenhum sólido contido no sal ou na água contamine a solução.
- Feita a filtração, a solução é transferida para um balão volumétrico e
- avolumada de acordo com o volume especificado no balão.
+ Após dissolução do sal, a solução foi filtrada no sistema de filtração
+ à vácuo e avolumada de acordo com um balão volumétrico.
 \end_layout
 
 \begin_layout Standard
@@ -2392,7 +2703,7 @@ A massa específica dessa solução foi de
 \end_inset
 
 .
- Viscosidade foi considerada 
+ Viscosidade considerada de 
 \begin_inset Formula $1\,cP$
 \end_inset
 
@@ -2405,9 +2716,7 @@ Preparo do fluido de perfuração
 \end_layout
 
 \begin_layout Standard
-Para este trabalho foram desenvolvidas formulações de fluido de perfuração
- base água.
- A base típica segue a formulação fornecida pela Petrobras.
+A base típica de fluido de perfuração base água foi fornecida pela Petrobras.
  A diferença entre elas se dá pela variação do tamanho das partículas de
  carbonato de cálcio, tal como está apresentado na Tabela 
 \begin_inset CommandInset ref
@@ -2419,40 +2728,20 @@ noprefix "false"
 
 \end_inset
 
-.
- Vale destacar que apenas um tamanho de obturante foi selecionado por fluido.
+: 
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float table
+placement H
 wide false
 sideways false
 status collapsed
 
 \begin_layout Plain Layout
 \align center
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Formulação fluido base água
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:WBM"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="9" columns="2">
+<lyxtabular version="3" rows="13" columns="2">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -2470,7 +2759,7 @@ Base do fluido
 \begin_inset Text
 
 \begin_layout Plain Layout
-350 ml de Água Industrial
+350 ml de água industrial
 \end_layout
 
 \end_inset
@@ -2550,15 +2839,31 @@ Partículas
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $I$
-\end_inset
-
-.
- 9 g de 
+9 g de 
 \begin_inset Formula $CaCO_{3}$
 \end_inset
 
- micronizado (2 
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Micronizado (2 
 \begin_inset Formula $\mu m$
 \end_inset
 
@@ -2586,15 +2891,31 @@ Partículas
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $II$
-\end_inset
-
-.
- 9 g de 
+9 g de 
 \begin_inset Formula $CaCO_{3}$
 \end_inset
 
-fino (2 
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fino (2 
 \begin_inset Formula $\mu m$
 \end_inset
 
@@ -2622,14 +2943,31 @@ fino (2
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $III.$
-\end_inset
-
- 9 g de 
+9 g de 
 \begin_inset Formula $CaCO_{3}$
 \end_inset
 
- intermediário (44 
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Intermediário (44 
 \begin_inset Formula $\mu m$
 \end_inset
 
@@ -2657,14 +2995,31 @@ fino (2
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $IV.$
-\end_inset
-
- 9 g de 
+9 g de 
 \begin_inset Formula $CaCO_{3}$
 \end_inset
 
- médio (74 
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Médio (74 
 \begin_inset Formula $\mu m$
 \end_inset
 
@@ -2708,22 +3063,50 @@ Agente alcalino
 
 \end_layout
 
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Formulação fluido base água.
+ Vale destacar que apenas um tamanho de obturante foi selecionado por fluido
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:WBM"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-O preparo do fluido de perfuração segue as seguintes etapas:
+O preparo do fluido de perfuração seguiu as seguintes etapas:
 \end_layout
 
 \begin_layout Enumerate
-Adicionar 350ml de água industrial em copo metálico para preparo de fluido
- de perfuração;
-\end_layout
+Adicionar 350ml de água industrial em copo metálico e acoplá-lo no mixer
+ (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Figura1"
+plural "false"
+caps "false"
+noprefix "false"
 
-\begin_layout Enumerate
-Acoplar o copo no mixer HMD400 em velocidade mínima de rotação;
+\end_inset
+
+e ) em velocidade mínima de rotação;
 \end_layout
 
 \begin_layout Enumerate
@@ -2749,19 +3132,61 @@ noprefix "false"
 \end_layout
 
 \begin_layout Enumerate
-Adicionar o agente alcalino e monitorar o pH com o uso do pHmêtro com valores
- em torno de 9 - 10;
+Adicionar o agente alcalino e monitorar o pH com o uso do pHmêtro (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Figura1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+f ) com valores em torno de 9 - 10;
 \end_layout
 
 \begin_layout Enumerate
-Medir as propriedades do fluido antes de envelhecer (reologia e densidade).
- A reologia foi aferida com o auxílio do viscosímetro e a densidade foi
- medida com a balança de fluido;
+Medir as propriedades do fluido (reologia e densidade) antes de envelhecer.
+ A reologia foi aferida com o auxílio do viscosímetro (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Figura1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+g ) e a densidade foi medida com a balança de fluido (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Figura1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+c ) ;
 \end_layout
 
 \begin_layout Enumerate
 Colocar o fluido para envelher em uma célula própria dento do forno de envelheci
-mento.
+mento (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Figura1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+h ).
  Após 12 horas de envelhecimento, medir novamente as propriedades do fluido
  de perfuração.
  Isso é feito para simular as condições de reservatório e verificar a degradabil
@@ -2819,38 +3244,17 @@ apresentam os requisitos granulométricos de classificação das partículas
 
 \begin_layout Standard
 \begin_inset Float table
+placement H
 wide false
 sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Requisitos de Granulometria - Carbonato de Cálcio Intermediário, Fino e
- Micronizado (PETROBRAS-N1641, 2006)
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:Requisitos-de-GranulometriaI,F,M"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="6" columns="6">
+<lyxtabular version="3" rows="11" columns="4">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -2859,7 +3263,7 @@ name "tab:Requisitos-de-GranulometriaI,F,M"
 \begin_inset Text
 
 \begin_layout Plain Layout
-Intermediário
+Micronizado
 \end_layout
 
 \end_inset
@@ -2891,35 +3295,17 @@ Fino
 
 \end_inset
 </cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Micronizado
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 </row>
 <row>
 <cell multicolumn="1" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-(44 
+(2 
 \begin_inset Formula $\mu m$
 \end_inset
 
- - 194 
+ - 44 
 \begin_inset Formula $\mu m$
 \end_inset
 
@@ -2955,32 +3341,6 @@ Micronizado
 \end_inset
 </cell>
 <cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-(2 
-\begin_inset Formula $\mu m$
-\end_inset
-
- - 44 
-\begin_inset Formula $\mu m$
-\end_inset
-
-)
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3027,44 +3387,8 @@ Diâmetro
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Diâmetro de corte
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Diâmetro
-\end_layout
-
-\end_inset
-</cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-D (v, 0,1)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-44 (mín)
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
@@ -3116,7 +3440,7 @@ D (v, 0,5)
 \begin_inset Text
 
 \begin_layout Plain Layout
-80 < D < 100
+8 < D < 16
 \end_layout
 
 \end_inset
@@ -3139,27 +3463,9 @@ D (v, 0,5)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-D (v, 0,5)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-8 < D < 16
-\end_layout
-
-\end_inset
-</cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3168,43 +3474,7 @@ D (v, 0,9)
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-194 (máx)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-D (v, 0,9)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-74 (máx)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-D (v, 0,9)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3213,8 +3483,244 @@ D (v, 0,9)
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D (v, 0,9)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+74 (máx)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Intermediário (44 
+\begin_inset Formula $\mu m$
+\end_inset
+
+ - 194 
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diâmetro de corte
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diâmetro
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D (v, 0,1)
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+44 (mín)
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D (v, 0,5)
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+80 < D < 100
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D (v, 0,9)
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+194 (máx)
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 </lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Requisitos de Granulometria - Carbonato de Cálcio Intermediário, Fino e
+ Micronizado (PETROBRAS-N1641, 2006)
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Requisitos-de-GranulometriaI,F,M"
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -3228,29 +3734,10 @@ D (v, 0,9)
 
 \begin_layout Standard
 \begin_inset Float table
+placement H
 wide false
 sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Requisitos de Granulometria - Carbonato de Cálcio Médio e Grosso (PETROBRAS-N164
-1, 2006)
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:Requisitos-de-GranulometriaMeG"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -3701,6 +4188,26 @@ acumulada
 
 \end_layout
 
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Requisitos de Granulometria - Carbonato de Cálcio Médio e Grosso (PETROBRAS-N164
+1, 2006)
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Requisitos-de-GranulometriaMeG"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
@@ -3711,10 +4218,17 @@ Caracterização API do fluido de perfuração
 \end_layout
 
 \begin_layout Standard
-Os fluidos de perfuração produzidos foram submetido à análise reológica
- segundo as normas Padrão API-RP-13B-1 (2009) logo após a sua fabricação
- (antes de envelhecer – A.E) e depois do processo de envelhecimento do fluido
- (D.E).
+Os fluidos de perfuração produzidos foram submetidos à análise reológica
+ segundo as normas Padrão
+\begin_inset CommandInset citation
+LatexCommand cite
+key "API_2014"
+literal "false"
+
+\end_inset
+
+ logo após a sua fabricação (antes de envelhecer – A.E) e depois do processo
+ de envelhecimento do fluido (D.E).
  
 \end_layout
 
@@ -3727,18 +4241,11 @@ As análises das propriedades reológicas no viscosímetro FANN foram feitas
 \end_layout
 
 \begin_layout Standard
-Concluída a etapa anterior, depois da etapa de envelhecimento do fluido,
- foi realizado o teste padrão para avaliar a perda de filtrado.
- No Teste de Filtrado API, avalia-se a eficiência do reboco formado na membrana
- permeável (filtro) e a quantidade de filtrado do fluido de perfuração que
- passa pelo filtro submetido a uma pressão de 100 psi durante 30 minutos.
+A seguir for realizado o Teste de Filtrado API para eficiência do reboco
+ formado na membrana permeável (filtro) e a quantidade de filtrado do fluido
+ que passa pelo filtro submetido a uma pressão de 100 psi durante 30 minutos.
  Aproximadamente 100 ml de fluido de perfuração foi acondicionada em uma
  célula metálica e o filtrado recolhido em uma proveta.
-\end_layout
-
-\begin_layout Standard
-A densidade do fluido de perfuração foi medida com o auxílio da Balança
- de Fluido FANN.
 \end_layout
 
 \begin_layout Subsubsection
@@ -3752,13 +4259,20 @@ Com o reômetro AR 1500 ex.
  Ele possui um conjunto cone-placa.
  Na medição foram utilizadas uma placa cônica de 60 mm de diâmetro, angulação
  de dois graus e placa paralela de 40 mm.
- O fluido foi previamente agitado por 5 minutos no mixer em velocidade máxima,e
- decorrido esse tempo, aproximadamente 3 ml dele foram transferidos para
+ O fluido foi previamente agitado por 5 minutos no mixer em velocidade máxima,
+ e decorrido esse tempo, aproximadamente 3 ml dele foram transferidos para
  medição no reômetro.
 \end_layout
 
 \begin_layout Section
 Procedimentos laboratoriais específicos
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Procedimentos-laboratoriais-espe"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3770,8 +4284,9 @@ Sistema de injeção para medida de permeabilidade
 \end_layout
 
 \begin_layout Standard
-O primeiro procedimento para a medida da permeabilidade foi configurado
- de acordo com o sistema experimental apresentado na Figura 
+O primeiro procedimento para a medida foi o da permeabilidade.
+ Este foi configurado de acordo com o sistema experimental apresentado na
+ Figura 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:SisInj Permeabilidade direta"
@@ -3800,12 +4315,13 @@ noprefix "false"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename Figuras/Figura2.png
+	scale 80
 
 \end_inset
 
@@ -3816,7 +4332,7 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Esquema experimental para medidas de permeabilidade direta 
+Esquema experimental para medida de permeabilidade via fluxo direto 
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:SisInj Permeabilidade direta"
@@ -3838,34 +4354,15 @@ name "fig:SisInj Permeabilidade direta"
 
 \begin_layout Standard
 \begin_inset Float table
+placement H
 wide false
 sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Descrição do sistema de injeção direta
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:SistInj Permeabilidade Direta"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="14" columns="2">
+<lyxtabular version="3" rows="16" columns="2">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -3907,11 +4404,9 @@ Descrição
 \begin_inset Text
 
 \begin_layout Plain Layout
-Célula de confinamento (
+
 \shape italic
 Core holder
-\shape default
-)
 \end_layout
 
 \end_inset
@@ -3998,7 +4493,7 @@ Transdutores de Pressão
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4011,7 +4506,27 @@ Transdutores de Pressão
 \begin_inset Text
 
 \begin_layout Plain Layout
-Bomba manual (pressão de confinamento)
+Bomba manual 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(pressão de confinamento)
 \end_layout
 
 \end_inset
@@ -4120,7 +4635,7 @@ Proveta Graduada
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4133,7 +4648,27 @@ Proveta Graduada
 \begin_inset Text
 
 \begin_layout Plain Layout
-Sistema de registro eletrônico de dados
+Sistema de registro 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+eletrônico de dados
 \end_layout
 
 \end_inset
@@ -4160,6 +4695,36 @@ Computador
 </cell>
 </row>
 </lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Descrição dos equipamentos da Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:SisInj Permeabilidade direta"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ que trata do sistema de injeção direta
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:SistInj Permeabilidade Direta"
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -4201,10 +4766,7 @@ noprefix "false"
  7500 psi.
  Este core holder trabalha com fluxo transversal ou direto de fluidos.
  Na modalidade transversal, a face da rocha fica exposta ao fluxo tangencial,
- onde parte do fluxo escoa por ela, com vistas a analisar a interação rocha/flui
-do.
- Assim, a vazão pode ser medida na saída da rocha e outra parte do fluxo
- continua sua trajetória.
+ onde parte do fluxo escoa por ela, e a outra parte continua sua trajetória.
  O 
 \shape italic
 core holder
@@ -4229,11 +4791,15 @@ noprefix "false"
 \end_inset
 
 3): esta bomba pode operar com vazão ou pressão constante.
- A vazão máxima de trabalho é de 50 mL/min.
+ A vazão máxima de trabalho é de 
+\begin_inset Formula $50\,mL/min$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Itemize
-Transdutores de pressão Diferencial do fabricante YOKOGAWA e modelo EJA110A
+Transdutores de pressão Diferencial do fabricante YOKOGAWA modelo EJA110A
  (Figura 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -4375,7 +4941,7 @@ Linhas de nylon de 1/8” (Detroit nylon flux 1/8”): essas linhas foram usadas
 \shape italic
 core holder
 \shape default
- , e para conectar o ponto de pressão na saída do 
+, e para conectar o ponto de pressão na saída do 
 \shape italic
 core holder
 \shape default
@@ -4485,14 +5051,14 @@ noprefix "false"
 \begin_inset Formula $n^{\textdegree}$
 \end_inset
 
-18) com processador Core i3, Software LabView 8.5 do fabricante National
+18) com processador IntelCore i3, Software LabView 8.5 do fabricante National
  Instruments.
 \end_layout
 
 \begin_layout Itemize
-Conexões do fabricante Swagelok.
- foram utilizadas conexões tipo T, união, união/redução, curvas e outras
- conexões para conectar as linhas de aço de 1/8” e 1/4'' nas linhas de fluxo.
+Conexões do fabricante Swagelok: foram utilizadas conexões tipo T, união,
+ união/redução, curvas e outras conexões para conectar as linhas de aço
+ de 1/8” e 1/4'' nas linhas de fluxo.
 \end_layout
 
 \begin_layout Standard
@@ -4515,12 +5081,13 @@ noprefix "false"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename Figuras/Figura4.PNG
+	scale 90
 
 \end_inset
 
@@ -4557,7 +5124,7 @@ name "fig:SisInj Vista "
 
 \begin_layout Standard
 As medidas de permeabilidade foram obtidas pela injeção direta de salmoura
- com 30.000 ppm nos testemunhos, com diferentes vazões constantes de injeção
+ a 30.000 ppm nos testemunhos, com diferentes vazões constantes de injeção
  (1 a 10 ml/min).
  Na seguinte subseção, mais detalhes do cálculo da permeabilidade.
 \end_layout
@@ -4656,6 +5223,7 @@ noprefix "false"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -4664,7 +5232,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename Figuras/Figura3.png
-	scale 75
+	scale 70
 
 \end_inset
 
@@ -4701,29 +5269,10 @@ name "fig:Sistema de injeção de fluido de perfuração"
 
 \begin_layout Standard
 \begin_inset Float table
+placement H
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Descrição do sistema de circulação tranversal
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:Descrição equipamentos sistem de injeção de fluido"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -5069,6 +5618,26 @@ Computador
 
 \end_layout
 
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Descrição do sistema de circulação tranversal
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Descrição equipamentos sistem de injeção de fluido"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
@@ -5171,7 +5740,7 @@ mixer
 \shape italic
 core holder
 \shape default
- e para deslocar o embôlo das garrafas de transferência
+ e para deslocar o embôlo das garrafas de transferência.
 \end_layout
 
 \begin_layout Itemize
@@ -5264,7 +5833,7 @@ noprefix "false"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -5283,7 +5852,7 @@ status collapsed
 Sistema de injeção de fluido de perfuração.
  Equipamentos utilizados para a realização dos testes de injeção de fluido
  de perfuração em fluxo transversal para avaliar a interação fluido rocha
- e a perda de filtrado para a rocha
+ e a perda de filtrado
 \begin_inset CommandInset label
 LatexCommand label
 name "fig: Sistema injeção fluido de perfuração completo"
@@ -5359,6 +5928,13 @@ Iniciar o teste ligando a bomba HPLC com vazão constante de 10 ml/min.
 
 \begin_layout Section
 Modelo matemático do balanço de torques que agem numa partícula de um reboco
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Modelo-matemático-do"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -5378,15 +5954,17 @@ abaixo:
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename Figuras/Forcas.png
 	lyxscale 25
+	scale 15
 
 \end_inset
 
@@ -5472,6 +6050,22 @@ onde:
 \end_layout
 
 \begin_layout Standard
+O torque resultante 
+\begin_inset Formula $\left(T_{r}\right)$
+\end_inset
+
+ é definido da seguinte forma:
+\begin_inset Formula 
+\begin{equation}
+T_{r}\equiv F_{D}-f\left(F_{G}+F_{P}\right)=0\label{eq:T_r-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 A força gravitacional 
 \begin_inset Formula $\left(F_{G}\right)$
 \end_inset
@@ -5553,7 +6147,7 @@ onde:
 \begin_inset Formula $\;\;\;V_{f}$
 \end_inset
 
- é a velocaidade de fluxo;
+ é a velocidade de fluxo;
 \end_layout
 
 \begin_layout Standard
@@ -5641,19 +6235,29 @@ onde:
 \end_layout
 
 \begin_layout Standard
-Definidas as equações, o próximo passo é retornar ao balanço de torques.
- Substituindo-se as Eqs.
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+O próximo passo consistiu-se aplicar o Método de Newton para a resolução
+ da Eq.
  
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "eq:f_arrasto"
+reference "eq:T_r-1"
 plural "false"
 caps "false"
 noprefix "false"
 
 \end_inset
 
-, 
+ do balanço de torques.
+ Para isso, foi necessário calcular as derivadas das forças presentes na
+ Eqs.
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:f_gravitacional"
@@ -5663,7 +6267,7 @@ noprefix "false"
 
 \end_inset
 
- e 
+, 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:f_permeante"
@@ -5673,93 +6277,33 @@ noprefix "false"
 
 \end_inset
 
- na Eq.
- 
+ e 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "eq:balanco"
+reference "eq:f_arrasto"
 plural "false"
 caps "false"
 noprefix "false"
 
 \end_inset
 
- tem-se:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-4\pi r_{s}^{2}\tau_{w}=f\left[\left(\rho_{s}-\rho_{f}\right)\frac{4}{3}\pi r_{s}^{3}+\pi r_{s}^{2}\frac{1}{2}\rho_{s}V_{f}^{2}\frac{24}{Re}\right]
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Pela definição da 
-\begin_inset Formula $\tau_{w}$
-\end_inset
-
- da Eq.
+.
  
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:taxa_cisalhamento"
-plural "false"
-caps "false"
-noprefix "false"
+\end_layout
 
+\begin_layout Standard
+A derivada da força gravitacional 
+\begin_inset Formula $\left(F_{G}\right)$
 \end_inset
 
-:
+ em relação à altura do reboco é nula:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
-\begin{equation}
-4\pi r_{s}^{2}\left[\frac{\Delta P}{L}\frac{\left(\epsilon-h_{c}\right)}{2}\right]=f\left[\left(\rho_{s}-\rho_{f}\right)\frac{4}{3}\pi r_{s}^{3}+\pi r_{s}^{2}\frac{1}{2}\rho_{s}V_{f}^{2}\frac{24}{Re}\right]
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-A velocidade de fluxo 
-\begin_inset Formula $\left(V_{f}\right)$
-\end_inset
-
-é definida por:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-V_{f}=\frac{k_{eq}}{\mu_{Fitrado}}\frac{\Delta P_{Transversal}}{\left(\frac{D-\epsilon}{2}+h_{c}\right)}\label{eq:V_f}
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Pela definição de leitos escreve-se a permeabilidade equivalente 
-\begin_inset Formula $\left(k_{eq}\right)$
-\end_inset
-
- como:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-\frac{\frac{D-\epsilon}{2}+h_{c}}{k_{eq}}=\frac{\frac{D-\epsilon}{2}}{k}+\frac{h_{c}}{k_{c}}
-\end{equation}
+\[
+F_{G}=\left(\rho_{s}-\rho_{f}\right)\frac{4}{3}\pi r_{s}^{3}
+\]
 
 \end_inset
 
@@ -5769,7 +6313,89 @@ Pela definição de leitos escreve-se a permeabilidade equivalente
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\frac{\frac{D-\epsilon}{2}+h_{c}}{k_{eq}}=\frac{k_{c}\frac{D-\epsilon}{2}+h_{c}k}{kk_{c}}
+\frac{dF_{G}}{dh_{c}}=0
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A derivada da força de arrasto 
+\begin_inset Formula $\left(F_{D}\right)$
+\end_inset
+
+ é dada por:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+F_{D}=4\pi r_{s}^{2}\tau_{w}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\begin{cases}
+\frac{dF_{D}}{dh_{c}}=F_{D}\frac{2n}{\epsilon-h_{c}} & ou\\
+\frac{dF_{D}}{dh_{c}}=\frac{8\pi r_{s}^{2}n\eta}{\epsilon-h_{c}}\left[\frac{\left(4+\frac{2}{n}\right)q}{\left(\epsilon-h_{c}\right)^{2}D}\right]^{n}
+\end{cases}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A derivada da força permeante 
+\begin_inset Formula $\left(F_{P}\right)$
+\end_inset
+
+ é dada por:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+F_{P}=\alpha_{p}\pi r_{s}^{2}\frac{1}{2}\rho_{s}V_{f}^{2}\frac{24}{Re}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dF_{P}}{dh_{c}}=-F_{P}\frac{nk}{\left(k_{c}\frac{D-\epsilon}{2}+h_{c}k\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por fim, a derivada do torque resultante 
+\begin_inset Formula $\left(T_{r}\right)$
+\end_inset
+
+ é:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+T_{r}\equiv F_{D}-f\left(F_{G}+F_{P}\right)=0
 \end{equation}
 
 \end_inset
@@ -5780,7 +6406,7 @@ Pela definição de leitos escreve-se a permeabilidade equivalente
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-k_{eq}=\frac{\left(\frac{D-\epsilon}{2}+h_{c}\right)kk_{c}}{k_{c}\frac{D-\epsilon}{2}+h_{c}k}\label{eq:k_eq}
+\frac{dT_{r}}{dh_{c}}\equiv\frac{dF_{D}}{dh_{c}}-f\frac{dF_{P}}{dh_{c}}=0
 \end{equation}
 
 \end_inset
@@ -5789,152 +6415,30 @@ k_{eq}=\frac{\left(\frac{D-\epsilon}{2}+h_{c}\right)kk_{c}}{k_{c}\frac{D-\epsilo
 \end_layout
 
 \begin_layout Standard
-Substituindo-se a Eq.
+Definidas as equações das funções e suas derivadas, pode-se agora aplicar
+ o Método de Newton para resolução do problema.
+ Um programa em linguagem de programação Excel VBA foi desenvolvido em conjunto
+ com o aluno de mestrado Daniel Fernandes sobre supervisão do professor
+ Fernando Diogo.
  
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:k_eq"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- na Eq.
- 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:V_f"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-, tem-se:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-V_{f}=\frac{kk_{c}\Delta P_{Transversal}}{\mu_{Fitrado}\left(k_{c}\frac{D-\epsilon}{2}+h_{c}k\right)}\label{eq:V_f-1}
-\end{equation}
-
+O objetivo do código foi simular e validar os testes experimentais desenvolvidos
+ no laboratório a fim de investigar a formação ou não de reboco variando-se
+ diversos parâmetros.
+ Adotou-se o sinal negativo 
+\begin_inset Formula $\left(-\right)$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-Retornando a Eq.
- do balanço de torques substituind-se a definição do número de Reynolds:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-4\pi r_{s}^{2}\left[\frac{\Delta P}{L}\frac{\left(\epsilon-h_{c}\right)}{2}\right]=f\left[\left(\rho_{s}-\rho_{f}\right)\frac{4}{3}\pi r_{s}^{3}+\pi r_{s}^{2}\frac{1}{2}\rho_{s}V_{f}^{2}\frac{24}{1}\left(\frac{3^{n-1}\eta}{2^{n}r_{s}^{n}V_{f}^{2-n}\rho_{f}}\right)\right]
-\end{equation}
-
+ para deposição e positivo 
+\begin_inset Formula $\left(+\right)$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-4\pi r_{s}^{2}\left[\frac{\Delta P}{L}\frac{\left(\epsilon-h_{c}\right)}{2}\right]=f\left[\left(\rho_{s}-\rho_{f}\right)\frac{4}{3}\pi r_{s}^{3}+\pi r_{s}^{2}\frac{1}{2}\rho_{s}\frac{24}{1}\left(\frac{3^{n-1}\eta}{2^{n}r_{s}^{n}V_{f}^{-n}\rho_{f}}\right)\right]
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-4\pi r_{s}^{2}\left[\frac{\Delta P}{L}\frac{\left(\epsilon-h_{c}\right)}{2}\right]=f\left[\left(\rho_{s}-\rho_{f}\right)\frac{4}{3}\pi r_{s}^{3}+\pi r_{s}^{2}\frac{1}{2}\rho_{s}\frac{2^{3}3}{1}\frac{3^{n-1}\eta V_{f}^{n}}{2^{n}r_{s}^{n}\rho_{f}}\right]
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-4\pi r_{s}^{2}\left[\frac{\Delta P}{L}\frac{\left(\epsilon-h_{c}\right)}{2}\right]=f\left[\left(\rho_{s}-\rho_{f}\right)\frac{4}{3}\pi r_{s}^{3}+\pi r_{s}^{2}\rho_{s}\frac{2^{2-n}3^{n}\eta V_{f}^{n}}{r_{s}^{n}\rho_{f}}\right]
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-4\pi r_{s}^{2}\left[\frac{\Delta P}{L}\frac{\left(\epsilon-h_{c}\right)}{2}\right]=f\left[\left(\rho_{s}-\rho_{f}\right)\frac{4}{3}\pi r_{s}^{3}+2^{2-n}3^{n}\frac{\pi\rho_{s}\eta V_{f}^{n}}{r_{s}^{n-2}\rho_{f}}\right]
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-\pi r_{s}^{2}\frac{\Delta P}{L}\frac{\left(\epsilon-h_{c}\right)}{2}=f\left\{ \left(\rho_{s}-\rho_{f}\right)\frac{\pi r_{s}^{3}}{3}+\left(\frac{3}{2}\right)^{n}\frac{\pi\rho_{s}\eta}{r_{s}^{n-2}\rho_{f}}V_{f}^{n}\right\} 
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-\pi r_{s}^{2}\frac{\Delta P}{L}\frac{\left(\epsilon-h_{c}\right)}{2}=f\left\{ \left(\rho_{s}-\rho_{f}\right)\frac{\pi r_{s}^{3}}{3}+\left(\frac{3}{2}\right)^{n}\frac{\pi\rho_{s}\eta}{r_{s}^{n-2}\rho_{f}}\left[\frac{kk_{c}\Delta P_{Transversal}}{\mu_{Fitrado}\left(k_{c}\frac{D-\epsilon}{2}+h_{c}k\right)}\right]^{n}\right\} 
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-F\left(h_{c}\right)\equiv\pi r_{s}^{2}\frac{\Delta P}{L}\frac{\left(\epsilon-h_{c}\right)}{2}-f\left\{ \left(\rho_{s}-\rho_{f}\right)\frac{\pi r_{s}^{3}}{3}+\left(\frac{3}{2}\right)^{n}\frac{\pi\rho_{s}\eta}{r_{s}^{n-2}\rho_{f}}\left[\frac{kk_{c}\Delta P_{Transversal}}{\mu_{Fitrado}\left(k_{c}\frac{D-\epsilon}{2}+h_{c}k\right)}\right]^{n}\right\} =0
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-F\left(h_{c}\right)\equiv\pi r_{s}^{2}\frac{\Delta P\left(0\right)}{L}\frac{\left(\epsilon-h_{c}\right)}{2}-f\left\{ \left(\rho_{s}-\rho_{f}\right)\frac{\pi r_{s}^{3}}{3}+\left(\frac{3}{2}\right)^{n}\frac{\pi\rho_{s}\eta}{r_{s}^{n-2}\rho_{f}}\left[\frac{kk_{c}\Delta P\left(x\right)}{\mu_{Fitrado}\left(k_{c}\frac{D-\epsilon}{2}+h_{c}k\right)}\right]^{n}\right\} =0
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-\Delta P\left(x\right)=P\left(x\right)-P\left(L\right)=P\left(x\right)-P_{atm}
-\end{equation}
-
+ para não-deposição.
+ A última deposição ocorre na mudança de sinal negativo para positivo.
+ Ele retorna então a altura do reboco 
+\begin_inset Formula $\left(h_{c}\right)$
 \end_inset
 
 
@@ -5948,7 +6452,7 @@ Análise dos resultados
 Os dados dos testes (vazão, pressão), mais as medidas das rochas (diâmetro,
  comprimento, homogeinidade), além das características dos fluidos de perfuração
  (reologia, densidade) foram tratados com o softare EXCEL.
- Os resultados foram consolidados em gráficos e tabelas para .
+ Os resultados foram consolidados em gráficos e tabelas.
 \end_layout
 
 \end_body

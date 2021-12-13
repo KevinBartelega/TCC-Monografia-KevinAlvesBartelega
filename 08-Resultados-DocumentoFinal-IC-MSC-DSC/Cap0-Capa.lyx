@@ -174,7 +174,7 @@ MACAÉ - RJ
 \begin_inset Newline newline
 \end_inset
 
-NOVEMBRO - 2021
+DEZEMBRO - 2021
 \end_layout
 
 \begin_layout Standard
@@ -323,7 +323,7 @@ MACAÉ - RJ
 \begin_inset Newline newline
 \end_inset
 
-NOVEMBRO - 2021
+DEZEMBRO - 2021
 \begin_inset Newline newline
 \end_inset
 
@@ -605,7 +605,7 @@ baselineskip}
 \noindent
 \align left
 Prof.
- Fulano de Tal (Título, FormaçãoMaisElevada) - INSTITUIÇÃO/EMPRESA
+ (Título, FormaçãoMaisElevada) - INSTITUIÇÃO/EMPRESA
 \begin_inset Newline newline
 \end_inset
 
@@ -649,7 +649,7 @@ baselineskip}
 \noindent
 \align left
 Prof.
- Um Dois Três de Oliveira Quatro (D.Sc, Ciências da Computação) - PURO/UFF
+ (D.Sc, Ciências da Computação) - PURO/UFF
 \begin_inset Newline newline
 \end_inset
 
@@ -693,7 +693,7 @@ baselineskip}
 \noindent
 \align left
 Prof.
- Fulano de Tal (Ph.D, Matemática) - LENEP/CCT/UENF
+ (Ph.D, Matemática) - LENEP/CCT/UENF
 \begin_inset Newline newline
 \end_inset
 
@@ -736,18 +736,16 @@ baselineskip}
 \noindent
 \align left
 Prof.
- Fulano de Tal (Ms.C, Engenharia) - LENEP/CCT/UENF - (Orientador)
+ Fernando Diogo de Siqueira, D.Sc.
+ - LENEP/CCT/UENF - (Orientador)
 \end_layout
 
 \begin_layout Standard
-\align block
-\begin_inset Newpage newpage
-\end_inset
+\noindent
+\begin_inset Note Note
+status open
 
-
-\end_layout
-
-\begin_layout Standard
+\begin_layout Plain Layout
 \noindent
 
 \size large
@@ -766,33 +764,16 @@ lhead{Biografia}
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
-\noindent
-[Opcional] 
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-São informações pessoais, sobre você, sua formação.
-\end_layout
-
-\begin_layout Plain Layout
-Veja exemplo na tese de Bueno ou na dissertação de Tiago Schaewer.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \noindent
 
 \size large
@@ -811,25 +792,38 @@ lhead{Prefácio}
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \noindent
-[Opcional] 
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
+\noindent
+[Opcional] 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
 Diz respeito ao trabalho em si, é onde você coloca as dificuldades e problemas
  a realização do trabalho.
- 
 \end_layout
 
 \begin_layout Plain Layout
 Define a origem, características e finalidades do trabalho.
- 
 \end_layout
 
 \begin_layout Plain Layout
 Público a que se dirige, trabalhos já realizados.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -883,17 +877,7 @@ lhead{Dedicatória}
 
 \begin_layout Standard
 \align right
-coloque aqui a dedicação
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-dedicação
-\end_layout
-
-\end_inset
-
- da Tese/Dissertação/Monografia.
+Dedico essa dissertação ao meu pai...
 \end_layout
 
 \begin_layout Standard
@@ -926,97 +910,27 @@ lhead{Agradecimentos}
 \begin_layout Standard
 \paragraph_spacing onehalf
 \align left
-Ao ...
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Agradecimentos
-\end_layout
-
-\end_inset
-
 Agradecimentos
 \end_layout
 
 \begin_layout Standard
-Aos pais...
+Aos meus pais.
 \end_layout
 
 \begin_layout Standard
-Aos amigos ....
+Aos membros da banca, professores.
 \end_layout
 
 \begin_layout Standard
-Aos membros da banca, professores ...
-\end_layout
-
-\begin_layout Standard
-Aos professores e funcionários do LENEP/CCT/UENF....
+Aos professores e funcionários do LENEP/CCT/UENF.
 \end_layout
 
 \begin_layout Standard
 Ao CENPES/PETROBRAS pelo fornecimento de material....
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\paragraph_spacing onehalf
-\align left
-Reconhecer que teve ajuda e apoio é uma característica importante para todo
- profissional e pesquisador.
- 
-\end_layout
-
-\begin_layout Itemize
-\align left
-Lembre-se dos amigos, dos professores, dos funcionários, dos colaboradores.
- Lembre-se de quem emprestou/cedeu material, dados, informações, amostras.
- 
-\end_layout
-
-\begin_layout Itemize
-\align left
-Lembre-se de quem lhe ajudou nos algoritmos/programas;
-\end_layout
-
-\begin_layout Itemize
-\align left
-Lembre-se de quem lhe ajudou na preparação e realização de experimentos
- de laboratório.
- 
-\end_layout
-
-\begin_layout Itemize
-Não economize, seja generoso nos agradecimentos.
-\end_layout
-
-\begin_layout Itemize
-Cada agradecimento deve ser curto e objetivo.
- 
-\end_layout
-
-\begin_layout Itemize
-Troque o genérico "aos amigos" pelo nome completo dos seus amigos e nome
- completo das pessoas que colaboraram com seu trabalho.
- Os nomes das pessoas devem ser completos (não ambíguos).
 \end_layout
 
 \begin_layout Standard
 \paragraph_spacing double
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-\paragraph_spacing double
-(obrigatório para bolsistas prh20-anp/ctpetro) - 
-\end_layout
-
-\end_inset
-
 Ao comitê gestor do PRH20-ANP-CTPETRO/LENEP/CCT/UENF, a Agência Nacional
  do Petróleo, Gás Natural e Biocombustíveis – ANP, a Financiadora de Estudos
  e Projetos – FINEP e ao Ministério da Ciência e Tecnologia – MCT pelo fornecime
@@ -1025,15 +939,6 @@ nto de bolsa de estudos e taxa de bancada por meio do Programa de Recursos
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-(obrigatório para bolsistas prh20-anp/petrobras) - 
-\end_layout
-
-\end_inset
-
 Ao comitê gestor do PRH20-ANP-PETROBRAS/LENEP/CCT/UENF, e a Universidade
  Petrobras pelo fornecimento de bolsa de estudos e taxa de bancada por meio
  do PFRH-PETROBRAS, Programa de Formação de Recursos Humanos da Petrobras.
@@ -1088,9 +993,6 @@ lhead{Epígrafe}
 
 Os cara é grande mas nois é ruim.
  Aqui é Brasil.
- Não tem essa não.
- A gente vai, a gente faz.
- Nós somos o melhor povo.
 \begin_inset Quotes erd
 \end_inset
 
@@ -1101,7 +1003,8 @@ Os cara é grande mas nois é ruim.
 \align right
 
 \emph on
-Bruno Fratus, Jogos Olímpicos de Tokyo 2020
+Bruno Fratus, medalhista de bronze nado livre 50m, Jogos Olímpicos de Tokyo
+ 2020
 \end_layout
 
 \end_body

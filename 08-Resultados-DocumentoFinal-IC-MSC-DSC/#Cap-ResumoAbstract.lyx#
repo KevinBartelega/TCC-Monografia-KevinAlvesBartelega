@@ -1,0 +1,378 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass abnt
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+
+% Comentar linhas abaixo se não estiver usando pacote abntex
+% ou se o pacote ainda não foi instalado.
+% neste caso sugere-se usar citações no padrão apalike (lembra o da anbt).
+\usepackage[alf ,abnt-etal-cite=2 , abnt-year-extra-label=yes , abnt-etal-list=0]{abntcite}
+\usepackage {helvet}
+\renewcommand {\familydefault}{\sfdefault}
+\end_preamble
+\options normaltoc, sumarioincompleto
+\use_default_options false
+\maintain_unincluded_children false
+\language brazilian
+\language_package default
+\inputencoding iso8859-1
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref true
+\pdf_title "Título da Monografia - Dissertação - Tese"
+\pdf_author "Nome do Autor"
+\pdf_subject "Descrever assunto"
+\pdf_keywords "Copiar do resumo"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref page
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\emph on
+Estudo Experimental da Formação de Reboco em Formações Naturalmente Fraturadas
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\shape italic
+\size huge
+\begin_inset VSpace 8mm*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\shape italic
+\size huge
+Resumo
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Resumo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\shape italic
+\size huge
+\begin_inset VSpace 6mm*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{Resumo}
+\backslash
+thispagestyle{plain}
+\backslash
+addcontentsline{toc}{chapter}{Resumo}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Um dos desafios encontrados pela equipe de perfuração de poços é o monitoramento
+ e controle da perda de fluido (filtrado) de perfuração ocorrida durante
+ o trabalho.
+ Diretamente relacionado a isso esta o processo de formação do reboco que
+ ocorre na parede do poço.
+ Basicamente, ele é uma camada fina de baixíssima permeabilidade constituído
+ por parte dos componentes do fluido de perfuração e que se forma dado o
+ influxo deste fluido pela rocha.
+ 
+\end_layout
+
+\begin_layout Standard
+Devido à grande discussão na literatura, o processo de formação de reboco
+ em formações rochosas bem consolidadas bem como a perda de fluido típica
+ esperada em uma perfuração neste cenário são previsíveis com razoável confiança.
+ No entanto, este mesmo desafio em formações naturalmente fraturadas ainda
+ requer estudos mais concisos e detalhados.
+ 
+\end_layout
+
+\begin_layout Standard
+Neste trabalho foi extendida uma metodologia experimental que analisa qualitativ
+amente a perda de fluido de perfuração base água com partículas de carbonato
+ de cálcio com 4 diferentes distribuições do tamanho (micronizado, fino,
+ intermerdiário e médio), aplicadas como materiais controladores de perda
+ de circulação em injeção de fluxo transversal em testemunhos de rochas
+ sintéticas e naturais com fraturas de abertura variando entre 50 e 750
+ 
+\begin_inset Formula $\mu m$
+\end_inset
+
+.
+ Através dessa metodologia foi possível comparar a influência das diferentes
+ distribuições do tamanho de partículas e das aberturas de fratura na dinâmica
+ de perda de fluido em testemunhos fraturados.
+ Além disso, modelou-se o processo de formação do reboco por meio de um
+ balanço de torques para um melhor entendimento de como se dá seu crescimento.
+ Por fim, foi a feita avaliação dos critérios de seleção de partículas para
+ obstrução das fraturas.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+Palavras chave: 
+\series default
+\size default
+Fratura, LCM, filtração, reboco, perda de fluido.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang american
+Experimental Study of Mudcake Formation in Naturally Fractured Formations
+\emph on
+\lang brazilian
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\shape italic
+\size huge
+\begin_inset VSpace 8mm*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\shape italic
+\size huge
+Abstract
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Abstract
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\shape italic
+\size huge
+\begin_inset VSpace 6mm*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{Abstract}
+\backslash
+thispagestyle{plain}
+\backslash
+addcontentsline{toc}{chapter}{Abstract}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang american
+One of the challenges faced by the well drilling team is monitoring and
+ control of drilling fluid (filtrate) loss that occurs during work.
+ Directly related to it, there is the process of mudcake formation that
+ occurs on the well wall.
+ Basically, it is a thin layer of very low permeability consisting of part
+ of the drilling fluid components that is formed during drilling due to
+ the influx of this fluid.
+\end_layout
+
+\begin_layout Standard
+
+\lang american
+Due to the wide discussion in the literature, the process of mudcake formation
+ in consolidated rock formations as well as the typical fluid loss expected
+ from drilling a well in this scenario are predictable with reasonable confidenc
+e.
+ However, this same challenge in naturally fractured formations still requires
+ more concise and detailed studies.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang american
+In this work, an experimental methodology was done extended to qualitatively
+ analyze the loss of water-based drilling fluid with calcium carbonate particles
+ with 4 different particle size distributions (micronized, fine, intermediate,
+ and medium), applied as LCM, in cross flow injection in synthetic and natural
+ rock cores with fracture openings ranging from 50 to 750 um.
+ Through this methodology it was possible to compare the influence of different
+ particle size distributions and fracture openings on the drilling fluid
+ loss dynamics in fractured cores.
+ In addition, mudcake formation process was modeled by means of a torque
+ balance for a better understanding of its growth.
+ Finally, it was made an evaluation of the particle size selection criteria
+ for fracture obstruction.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+Keywords: 
+\series default
+\size default
+\lang american
+Fracture, LCM, filtration, mud cake, fluid loss
+\lang brazilian
+.
+\end_layout
+
+\end_body
+\end_document

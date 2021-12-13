@@ -118,7 +118,7 @@
 \begin_body
 
 \begin_layout Chapter
-Título do Apêndice
+Deduções
 \end_layout
 
 \begin_layout Standard
@@ -131,7 +131,7 @@ status open
 \backslash
 lhead{Apêndice 
 \backslash
-thechapter: Titulo do apêndice}
+theappendix: Deduções}
 \backslash
 rhead{
 \backslash
@@ -143,344 +143,8 @@ thepage}
 
 \end_layout
 
-\begin_layout Standard
-Descreve-se neste apêndice ...
-\end_layout
-
-\begin_layout Itemize
-Tudo aquilo que for importante para a tese mas não essencial, deve ser colocado
- em apêndices.
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Pegue todo aquele material do tipo "encher linguíça" e coloque aqui.
- 
-\end_layout
-
-\begin_layout Plain Layout
-Deixar no meio do texto principal da monografia/tese material que não é
- fundamental ao trabalho, seu desenvolvimento científico, só enche o saco
- do orientador e leitores.
- Na prática o aluno perde ponto!
-\end_layout
-
-\end_inset
-
- Como exemplo, revisão de metodologias, técnicas, modelos matemáticos, ítens
- desenvolvidos por terceiros.
- 
-\end_layout
-
-\begin_layout Itemize
-Algoritmos e programas extensos devem ser colocados no apêndice, assim como
- imagens de programas desenvolvidos/utilizados se forem muitas.
- No capítulo de metodologia coloca-se apenas uma imagem ilustrativa do programa,
- se for mostrar várias imagens e sequências, coloque no apêndice.
-\end_layout
-
-\begin_layout Itemize
-Os anexos ou apêndices contém material auxiliar.
- Por exemplo, tabelas, gráficos, resultados de experimentos, algoritmos,
- códigos e simulações.
-\end_layout
-
-\begin_layout Itemize
-Um apêndice pode incluir assuntos mais gerais (geral demais para estar no
- núcleo do trabalho) ou mais específicos (detalhado demais para estar no
- núcleo do trabalho).
-\end_layout
-
-\begin_layout Itemize
-Pode conter um artigo de auxílio fundamental ao trabalho.
- 
-\end_layout
-
-\begin_layout Itemize
-Pode conter artigos publicados.
-\end_layout
-
-\begin_layout Section
-Variáveis
-\end_layout
-
-\begin_layout Standard
-Variávies:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;\epsilon\::$
-\end_inset
-
-Espessura da fratura 
-\begin_inset Formula $\:\left(\mu m\right)$
-\end_inset
-
-;
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;L\::$
-\end_inset
-
-Comprimento do testemunho
-\begin_inset Formula $\:\left(cm\right)$
-\end_inset
-
-;
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;r_{s,max}\::$
-\end_inset
-
-Raio da partícula 
-\begin_inset Formula $\:\left(\mu m\right)$
-\end_inset
-
-;
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;\Delta P\::$
-\end_inset
-
-Diferencial de pressão
-\begin_inset Formula $\:\left(psia\right)$
-\end_inset
-
-;
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;f\::$
-\end_inset
-
-Fator de friccção;
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;\rho_{s}\::$
-\end_inset
-
-Massa específica da partícula 
-\begin_inset Formula $\:\left(g/cm^{3}\right)$
-\end_inset
-
-;
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;\rho_{f}\::$
-\end_inset
-
-Massa específica do fluido 
-\begin_inset Formula $\:\left(g/cm^{3}\right)$
-\end_inset
-
-;
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;n\::$
-\end_inset
-
-Índice de comportamento do fluido;
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;\eta\::$
-\end_inset
-
-Índice de consistência do fluido 
-\begin_inset Formula $\:\left(Pa.s^{(1-n)}\right)$
-\end_inset
-
-;
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;k\::$
-\end_inset
-
-Permeabilidade da matriz 
-\begin_inset Formula $\:\left(mD\right)$
-\end_inset
-
-;
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;k_{c}\::$
-\end_inset
-
-Permeabilidade do reboco 
-\begin_inset Formula $\:\left(mD\right)$
-\end_inset
-
-;
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;\mu_{Filtrado}\::$
-\end_inset
-
-Viscosidade do filtrado 
-\begin_inset Formula $\:\left(cP\right)$
-\end_inset
-
-;
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;D\::$
-\end_inset
-
-Diâmetro do testemunho
-\begin_inset Formula $\:\left(in\right)$
-\end_inset
-
-;
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;q\::$
-\end_inset
-
-Vazão 
-\begin_inset Formula $\:\left(ml/min\right)$
-\end_inset
-
-;
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;A\::$
-\end_inset
-
-Área da seção transversal 
-\begin_inset Formula $\:\left(in^{2}\right)$
-\end_inset
-
-;
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;u\::$
-\end_inset
-
-Velocidade Darcy 
-\begin_inset Formula $\:\left(m/s\right)$
-\end_inset
-
-;
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;\alpha_{p}\::$
-\end_inset
-
-Fator de forma;
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;h_{c}\;:$
-\end_inset
-
-Altura do reboco
-\begin_inset Formula $\:\left(\mu m\right)$
-\end_inset
-
-;
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;\tau_{w}\::$
-\end_inset
-
- Taxa de cisalhamento;
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;\gamma_{w}\::$
-\end_inset
-
- Tensão de cisalhamento;
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;V_{f}\::$
-\end_inset
-
- Velocidade de filtração
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;Re\::$
-\end_inset
-
- Número de Reynolds;
-\end_layout
-
 \begin_layout Section
 Modelo matemático do balanço de torques que agem numa partícula de um reboco
-\end_layout
-
-\begin_layout Standard
-Considere a deposição de partículas de fluido de perfuração na parede inferior
- de uma fratura tal como mostrado na Figura 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Balanço-de-forças-1"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-abaixo:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename Figuras/Forcas.png
-	lyxscale 25
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Balanço de forças que agem nas partículas depositadas na parede inferior
- de uma fratura.
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Balanço-de-forças-1"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -488,7 +152,7 @@ A força gravitacional
 \begin_inset Formula $\left(F_{G}\right)$
 \end_inset
 
- deduzida da definição de empuxo é dada por:
+ deduzida a partir definição de empuxo é dada por:
 \end_layout
 
 \begin_layout Standard
@@ -500,31 +164,6 @@ F_{G}=\left(\rho_{s}-\rho_{f}\right)\frac{4}{3}\pi r_{s}^{3}\label{eq:f_gravitac
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-onde:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;\rho_{s}:$
-\end_inset
-
- é a massa específica da partícula ou da matriz;
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;\rho_{f}:$
-\end_inset
-
- é a massa específica do fluido;
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;r_{s}:$
-\end_inset
-
- é o raio da partícula.
 \end_layout
 
 \begin_layout Standard
@@ -632,7 +271,8 @@ V_{f}=\frac{k_{eq}}{\mu_{Fitrado}}\frac{\Delta P_{Transversal}}{\left(\frac{D-\e
 \end_layout
 
 \begin_layout Standard
-Pela definição de leitos escreve-se a permeabilidade equivalente 
+Pela definição de leitos em série escreve-se a permeabilidade equivalente
+ 
 \begin_inset Formula $\left(k_{eq}\right)$
 \end_inset
 
@@ -700,47 +340,6 @@ F_{D}=f\left(F_{G}+F_{P}\right)\label{eq:balanco-1}
 \end_layout
 
 \begin_layout Standard
-onde:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;F_{D}:$
-\end_inset
-
- força de arrasto;
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;F_{G}:$
-\end_inset
-
- força gravitacional;
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;F_{P}:$
-\end_inset
-
- força permeante;
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\;\;\;f:$
-\end_inset
-
- braço de alavanca resultante do balanço das forças de ambos ao lados da
- equação.
-\end_layout
-
-\begin_layout Standard
-O torque resultante 
-\begin_inset Formula $\left(T_{r}\right)$
-\end_inset
-
-é definido portanto da seguinte forma:
-\end_layout
-
-\begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
 T_{r}\equiv F_{D}-f\left(F_{G}+F_{P}\right)=0\label{eq:T_r}
@@ -753,6 +352,13 @@ T_{r}\equiv F_{D}-f\left(F_{G}+F_{P}\right)=0\label{eq:T_r}
 
 \begin_layout Section
 Cálculo das Derivadas das Forças para Implementação do Método de Newton
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Cálculo-das-Derivadas"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -817,9 +423,9 @@ F_{D}=4\pi r_{s}^{2}\tau_{w}
 
 \begin_layout Standard
 \begin_inset Formula 
-\begin{equation}
+\[
 \tau_{w}=\eta\gamma_{w}^{n}\;\;\Rightarrow\;\;\frac{d\tau_{w}}{dh_{c}}=\eta n\gamma_{w}^{n-1}\frac{d\gamma_{w}}{dh_{c}}
-\end{equation}
+\]
 
 \end_inset
 
@@ -850,9 +456,9 @@ F_{D}=4\pi r_{s}^{2}\tau_{w}
 
 \begin_layout Standard
 \begin_inset Formula 
-\begin{equation}
+\[
 \frac{d\gamma_{w}}{dh_{c}}=2\frac{\gamma_{w}}{\epsilon-h_{c}}
-\end{equation}
+\]
 
 \end_inset
 
@@ -1057,9 +663,9 @@ V_{f}=\frac{kk_{c}\Delta P_{Transversal}}{\mu_{Fitrado}\left(k_{c}\frac{D-\epsil
 
 \begin_layout Standard
 \begin_inset Formula 
-\begin{equation}
+\[
 \frac{dV_{f}}{dh_{c}}=-V_{f}\frac{k}{\left(k_{c}\frac{D-\epsilon}{2}+h_{c}k\right)}
-\end{equation}
+\]
 
 \end_inset
 
@@ -1079,9 +685,9 @@ V_{f}=\frac{kk_{c}\Delta P_{Transversal}}{\mu_{Fitrado}\left(k_{c}\frac{D-\epsil
 
 \begin_layout Standard
 \begin_inset Formula 
-\begin{equation}
+\[
 \frac{dF_{P}}{dh_{c}}=-F_{P}\frac{nk}{\left(k_{c}\frac{D-\epsilon}{2}+h_{c}k\right)}
-\end{equation}
+\]
 
 \end_inset
 
@@ -1118,17 +724,22 @@ T_{r}\equiv F_{D}-f\left(F_{G}+F_{P}\right)=0
 
 \end_layout
 
+\begin_layout Standard
+Definidas as equações das funções e suas derivadas, pode-se agora aplicar
+ o Método de Newton para resolução do problema.
+\end_layout
+
 \begin_layout Section
 Expressão para Altura do Reboco
 \end_layout
 
 \begin_layout Standard
 Definidas as equações, o próximo passo é retornar ao balanço de torques.
- Substituindo-se as Eqs.
+ Substituindo-se as equações das forças Eq.
  
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "eq:f_arrasto-1"
+reference "eq:f_gravitacional-1"
 plural "false"
 caps "false"
 noprefix "false"
@@ -1138,7 +749,7 @@ noprefix "false"
 , 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "eq:f_gravitacional-1"
+reference "eq:F_D"
 plural "false"
 caps "false"
 noprefix "false"
@@ -1155,41 +766,10 @@ noprefix "false"
 
 \end_inset
 
- na Eq.
- 
+ em 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:balanco-1"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- tem-se:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-4\pi r_{s}^{2}\tau_{w}=f\left[\left(\rho_{s}-\rho_{f}\right)\frac{4}{3}\pi r_{s}^{3}+\pi r_{s}^{2}\frac{1}{2}\rho_{s}V_{f}^{2}\frac{24}{Re}\right]
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Pela definição da 
-\begin_inset Formula $\tau_{w}$
-\end_inset
-
- da Eq.
- 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:taxa_cisalhamento-1"
 plural "false"
 caps "false"
 noprefix "false"
@@ -1201,9 +781,28 @@ noprefix "false"
 
 \begin_layout Standard
 \begin_inset Formula 
-\begin{equation}
+\[
+4\pi r_{s}^{2}\tau_{w}=f\left[\left(\rho_{s}-\rho_{f}\right)\frac{4}{3}\pi r_{s}^{3}+\alpha_{p}\pi r_{s}^{2}\frac{1}{2}\rho_{s}V_{f}^{2}\frac{24}{Re}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pela definição alternativa de 
+\begin_inset Formula $\tau_{w}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
 4\pi r_{s}^{2}\left[\frac{\Delta P}{L}\frac{\left(\epsilon-h_{c}\right)}{2}\right]=f\left[\left(\rho_{s}-\rho_{f}\right)\frac{4}{3}\pi r_{s}^{3}+\pi r_{s}^{2}\frac{1}{2}\rho_{s}V_{f}^{2}\frac{24}{Re}\right]
-\end{equation}
+\]
 
 \end_inset
 
@@ -1211,102 +810,43 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-Retornando a Eq.
- do balanço de torques substituind-se a definição do número de Reynolds:
+Chega-se a seguinte expressão para cálculo da altura do reboco:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
-\begin{equation}
-4\pi r_{s}^{2}\left[\frac{\Delta P}{L}\frac{\left(\epsilon-h_{c}\right)}{2}\right]=f\left[\left(\rho_{s}-\rho_{f}\right)\frac{4}{3}\pi r_{s}^{3}+\pi r_{s}^{2}\frac{1}{2}\rho_{s}V_{f}^{2}\frac{24}{1}\left(\frac{3^{n-1}\eta}{2^{n}r_{s}^{n}V_{f}^{2-n}\rho_{f}}\right)\right]
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-4\pi r_{s}^{2}\left[\frac{\Delta P}{L}\frac{\left(\epsilon-h_{c}\right)}{2}\right]=f\left[\left(\rho_{s}-\rho_{f}\right)\frac{4}{3}\pi r_{s}^{3}+\pi r_{s}^{2}\frac{1}{2}\rho_{s}\frac{24}{1}\left(\frac{3^{n-1}\eta}{2^{n}r_{s}^{n}V_{f}^{-n}\rho_{f}}\right)\right]
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-4\pi r_{s}^{2}\left[\frac{\Delta P}{L}\frac{\left(\epsilon-h_{c}\right)}{2}\right]=f\left[\left(\rho_{s}-\rho_{f}\right)\frac{4}{3}\pi r_{s}^{3}+\pi r_{s}^{2}\frac{1}{2}\rho_{s}\frac{2^{3}3}{1}\frac{3^{n-1}\eta V_{f}^{n}}{2^{n}r_{s}^{n}\rho_{f}}\right]
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-4\pi r_{s}^{2}\left[\frac{\Delta P}{L}\frac{\left(\epsilon-h_{c}\right)}{2}\right]=f\left[\left(\rho_{s}-\rho_{f}\right)\frac{4}{3}\pi r_{s}^{3}+\pi r_{s}^{2}\rho_{s}\frac{2^{2-n}3^{n}\eta V_{f}^{n}}{r_{s}^{n}\rho_{f}}\right]
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-4\pi r_{s}^{2}\left[\frac{\Delta P}{L}\frac{\left(\epsilon-h_{c}\right)}{2}\right]=f\left[\left(\rho_{s}-\rho_{f}\right)\frac{4}{3}\pi r_{s}^{3}+2^{2-n}3^{n}\frac{\pi\rho_{s}\eta V_{f}^{n}}{r_{s}^{n-2}\rho_{f}}\right]
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-\pi r_{s}^{2}\frac{\Delta P}{L}\frac{\left(\epsilon-h_{c}\right)}{2}=f\left\{ \left(\rho_{s}-\rho_{f}\right)\frac{\pi r_{s}^{3}}{3}+\left(\frac{3}{2}\right)^{n}\frac{\pi\rho_{s}\eta}{r_{s}^{n-2}\rho_{f}}V_{f}^{n}\right\} 
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-\pi r_{s}^{2}\frac{\Delta P}{L}\frac{\left(\epsilon-h_{c}\right)}{2}=f\left\{ \left(\rho_{s}-\rho_{f}\right)\frac{\pi r_{s}^{3}}{3}+\left(\frac{3}{2}\right)^{n}\frac{\pi\rho_{s}\eta}{r_{s}^{n-2}\rho_{f}}\left[\frac{kk_{c}\Delta P_{Transversal}}{\mu_{Fitrado}\left(k_{c}\frac{D-\epsilon}{2}+h_{c}k\right)}\right]^{n}\right\} 
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-F\left(h_{c}\right)\equiv\pi r_{s}^{2}\frac{\Delta P}{L}\frac{\left(\epsilon-h_{c}\right)}{2}-f\left\{ \left(\rho_{s}-\rho_{f}\right)\frac{\pi r_{s}^{3}}{3}+\left(\frac{3}{2}\right)^{n}\frac{\pi\rho_{s}\eta}{r_{s}^{n-2}\rho_{f}}\left[\frac{kk_{c}\Delta P_{Transversal}}{\mu_{Fitrado}\left(k_{c}\frac{D-\epsilon}{2}+h_{c}k\right)}\right]^{n}\right\} =0
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
+\[
 F\left(h_{c}\right)\equiv\pi r_{s}^{2}\frac{\Delta P\left(0\right)}{L}\frac{\left(\epsilon-h_{c}\right)}{2}-f\left\{ \left(\rho_{s}-\rho_{f}\right)\frac{\pi r_{s}^{3}}{3}+\left(\frac{3}{2}\right)^{n}\frac{\pi\rho_{s}\eta}{r_{s}^{n-2}\rho_{f}}\left[\frac{kk_{c}\Delta P\left(x\right)}{\mu_{Fitrado}\left(k_{c}\frac{D-\epsilon}{2}+h_{c}k\right)}\right]^{n}\right\} =0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta P\left(x\right)=P\left(x\right)-P\left(L\right)=P\left(x\right)-P_{atm}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Dedução Filtrado
+\end_layout
+
+\begin_layout Standard
+Pela Lei de Darcy temos que:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+u=-\frac{k}{\mu}\frac{\partial P}{\partial z}
 \end{equation}
 
 \end_inset
@@ -1316,13 +856,420 @@ F\left(h_{c}\right)\equiv\pi r_{s}^{2}\frac{\Delta P\left(0\right)}{L}\frac{\lef
 
 \begin_layout Standard
 \begin_inset Formula 
-\begin{equation}
-\Delta P\left(x\right)=P\left(x\right)-P\left(L\right)=P\left(x\right)-P_{atm}
-\end{equation}
+\[
+\frac{q_{f}}{A}=-\frac{k}{\mu}\frac{dP}{dz}
+\]
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{1}{A}\frac{dV_{f}}{dt}=-\frac{k}{\mu}\frac{dP}{dz}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dP}{dz}\approx\frac{\Delta P}{h_{mc}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dV_{f}}{dt}=\frac{kA\Delta P}{\mu h_{mc}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pelo balanço de volumes em massa:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\{Sólidos\:que\:saíram\:do\:fluido\:=\:Sólidos\:no\:reboco\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{cases}
+\left(Volume\:de\:fluido\:gasto\:para\:produzir\:reboco\right)\left(Fração\:sólidos\:no\:fluido\right)=\\
+\left(Volume\:reboco\right)\left(Fração\:volumétrica\:sólidos\:reboco\right)
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f_{sm}V_{m}=f_{sc}V_{c}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f_{sm}V_{m}=f_{sc}h_{mc}A
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f_{sm}V_{m}=\left(1-\phi_{c}\right)h_{mc}A
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left(Volume\:de\:fluido\:gasto\:para\:produzir\:reboco\right)=Volume\:reboco\:+Volume\:filtrado
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V_{m}=Ah_{mc}+V_{f}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f_{sm}\left(Ah_{mc}+V_{f}\right)=f_{sc}h_{mc}A
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f_{sm}Ah_{mc}+f_{sm}V_{f}=f_{sc}h_{mc}A
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f_{sm}Ah_{mc}-f_{sc}h_{mc}A=-f_{sm}V_{f}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f_{sc}h_{mc}A-f_{sm}Ah_{mc}=f_{sm}V_{f}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+h_{mc}A\left(f_{sc}-f_{sm}\right)=f_{sm}V_{f}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+h_{mc}=\frac{f_{sm}}{A\left(f_{sc}-f_{sm}\right)}V_{f}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Voltando na Lei de Darcy:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dV_{f}}{dt}=\frac{kA\Delta P}{\mu h_{mc}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dV_{f}}{dt}=\frac{kA\Delta P}{\mu\left[\frac{f_{sm}}{A\left(f_{sc}-f_{sm}\right)}V_{f}\right]}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V_{f}\frac{dV_{f}}{dt}=\frac{kA^{2}\Delta P}{\mu}\frac{\left(f_{sc}-f_{sm}\right)}{\left(f_{sm}\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V_{f}dV_{f}=\frac{kA^{2}\Delta P}{\mu}\frac{\left(f_{sc}-f_{sm}\right)}{\left(f_{sm}\right)}dt
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Desconsiderando 
+\begin_inset Quotes eld
+\end_inset
+
+Spurt Loss
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V_{f}\left(0\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\int_{0}^{V_{f}}V_{f}dV_{f}=\frac{kA^{2}\Delta P}{\mu}\frac{\left(f_{sc}-f_{sm}\right)}{\left(f_{sm}\right)}\int_{0}^{t}dt
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{V_{f}^{2}}{2}=\frac{kA^{2}\Delta P}{1}\frac{\left(f_{sc}-f_{sm}\right)}{\left(f_{sm}\right)}t
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V_{f}=\sqrt{2k\Delta P\frac{\left(f_{sc}-f_{sm}\right)}{f_{sm}}}A\sqrt{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Considerando 
+\begin_inset Quotes eld
+\end_inset
+
+Spurt Loss
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V_{f}\left(0\right)=V_{sp}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\int_{V_{sp}}^{V_{f}}V_{f}dV_{f}=\frac{kA^{2}\Delta P}{\mu}\frac{\left(f_{sc}-f_{sm}\right)}{\left(f_{sm}\right)}\int_{0}^{t}dt
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V_{f}^{2}-V_{sp}^{2}=2\frac{kA^{2}\Delta P}{\mu}\frac{\left(f_{sc}-f_{sm}\right)}{\left(f_{sm}\right)}t
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V_{f}=\sqrt{V_{sp}^{2}+2\frac{kA^{2}\Delta P}{\mu}\frac{\left(f_{sc}-f_{sm}\right)}{\left(f_{sm}\right)}t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Para tempo 
+\begin_inset Formula $t=30:$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V_{30}^{2}=V_{sp}^{2}+2\frac{kA^{2}\Delta P}{\mu}\frac{\left(f_{sc}-f_{sm}\right)}{\left(f_{sm}\right)}30
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Para tempo 
+\begin_inset Formula $t=7.5:$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V_{7.5}^{2}=V_{sp}^{2}+2\frac{kA^{2}\Delta P}{\mu}\frac{\left(f_{sc}-f_{sm}\right)}{\left(f_{sm}\right)}7.5
+\]
+
+\end_inset
+
+Rearranjando-se as equações e dividindo uma pela outra temos que:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{V_{30}^{2}-V_{sp}^{2}}{V_{7.5}^{2}-V_{sp}^{2}}=4
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V_{30}^{2}=4\left(V_{7.5}^{2}-V_{sp}^{2}\right)+V_{sp}^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+:
 \end_layout
 
 \end_body

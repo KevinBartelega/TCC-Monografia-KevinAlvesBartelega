@@ -156,50 +156,122 @@ pagenumbering{arabic}
 \end_layout
 
 \begin_layout Standard
-No presente trabalho desenvolve-se um estudo das representações reconstruídas
- em 3D, um novo algoritmo para
-\emph on
+Há diversas etapas desde exploração, perfuração, explotação até produção
+ de reservas de petróleo.
+ Através da perfuração do poço pioneiro é possível certificar a existência
+ ou não de hidrocarbonetos nas formações rochosas, e uma vez comprovada
+ a viabilidade econômica desta reserva, são realizadas novas perfurações
  
-\emph default
-determinação das configurações de equilíbrio em processos bifásicos de invasão
- de fluidos e um método para determinação da permeabilidade através do Modelo
- do Grafo de Conexão Serial;
-\emph on
- 
-\emph default
-Valida-se os modelos e algoritmos desenvolvidos contra dados experimentais
- de intrusão de mercúrio e de permeabilidade de rochas reservatório de petróleo.
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\align block
-O primeiro parágrafo da introdução pode ser um super resumo de sua 
-\begin_inset Newline newline
-\end_inset
-
-monografia/dissertação/tese - veja o exemplo acima.
- A ideia é fazer um resumo do resum.
-\end_layout
-
-\begin_layout Section
-Escopo do Problema
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Escopo do Problema
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bourgonye_1986"
+literal "false"
 
 \end_inset
 
+.
+\end_layout
 
-\begin_inset CommandInset label
-LatexCommand label
-name "sec:Escopo-do-Problema"
+\begin_layout Standard
+A perfuração é normalmente realizada de forma 
+\shape italic
+overbalanced
+\shape default
+, processo no qual a pressão dentro do poço exercida pelo peso do fluido
+ de perfuração é mais alta que a pressão do reservatório.
+ Esta forma apresenta benefícios, como a prevenção de 
+\shape italic
+kicks
+\shape default
+ e 
+\shape italic
+blowouts
+\shape default
+, no entanto, causa alguns prejuízos, como a invasão de fluidos que leva
+ a danos à formação 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Rosa_2006"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Para tentar minimizar esses danos, a preparação dos fluidos de perfuração
+ possui um papel decisivo.
+ Além das diversas funções e propriedades que lhes são designadas, tais
+ como lubrificar e resfriar a broca, transportar os detritos pelo espaço
+ anular até a superfície; a adição de material particulado tem ajudado a
+ diminuir o fenômeno da filtração.
+ Isso se traduz em termos práticos pela formação de um reboco de baixa permabili
+dade na parede do poço 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Caenn_2011"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Para o reboco ser formado de forma eficiente, é necessário o ajuste adequado
+ de diversos parâmetros como: a velocidade do fluxo, a distribuição de tamanho
+ de partículas adicionadas ao fluido, adição de polímeros, a reologia do
+ fluido, a permeabilidade do reservatório, o controle de espessura do reboco,
+ controle de invasão de partículas, entre outros 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Caenn_2011,Sharma_1992,Waldmann_2014"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Por mais eficiente que o reboco seja ele não se torna impermeável.
+ Na maioria dos casos o reboco formado para de crescer, lhe proporcionando
+ uma espessura fixa e uma baixa permeabilidade se comparada com a permeabilidade
+ do reservatório.
+ Esta película funciona como um filtro que deixa passar apenas o filtrado
+ do fluido de perfuração com uma vazão constante.
+ O filtrado assim invade continuamente o reservatório enquanto houver exposição
+ ao fluxo 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Dake_2014"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Com a preocupação de minimizar a perda de filtrado e o dano à formação bem
+ como respeitar as normas e políticas ambientais, os fluidos de perfuração
+ sofreram e vêm sofrendo alterações em relação a composição e aditivos.
+ Os mais utilizados são os fluidos base água e base óleo (sintético), no
+ entanto, cada um possui suas características que limitam sua utilização
+ em determinado cenário, devido a questões ambientais, no caso do fluido
+ base óleo, ou devido suas limitações operacionais, no caso do fluido base
+ água.
+ Desta forma, novas formulações de fluido com diferentes bases estão sendo
+ estudadas para tentar suprir tanto as limitações ambientais, quanto as
+ limitações operacionais.
+ Há diversos resultados que mostraram que a glicerina pode ser a revolução
+ na formulação de fluido de perfuração, apresentando tanto as vantagens
+ de um fluido base água e óleo 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Malgaresi_2015,Cunha_2015"
+literal "true"
 
 \end_inset
 
@@ -207,38 +279,206 @@ name "sec:Escopo-do-Problema"
 \end_layout
 
 \begin_layout Standard
-.....
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
-\begin_layout Itemize
-Definir o escopo do problema, a ideia geral.
- Acentuar a sua importância.
- Situá-lo nos aspectos econômicos e sociais.
-\end_layout
+\begin_layout Standard
+Saindo um pouco do fenômeno da perda de filtrado, dada a heterogeneidade
+ dos reservatórios nas bacias brasileiras 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Calcada_2015"
+literal "false"
 
-\begin_layout Itemize
-Descrição do problema tecnológico.
- Delimitar o problema tecnológico.
- Situá-lo no tempo e no espaço.
+\end_inset
+
+, um outro gargalo que se propõe a resolver é a perda de circulação de fluido
+ através das fraturas encontradas no reservatórios 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Morais_2020"
+literal "false"
+
+\end_inset
+
+.
  
 \end_layout
 
-\begin_layout Itemize
-Descrição do problema científico associado.
- Delimitar o problema científico.
- Situá-lo em relação ao desenvolvimento científico.
+\begin_layout Standard
+Reservatórios de petróleo que contém fraturas naturais cujo efeito positivo
+ no escoamento de fluidos é significativo são denominados reservatórios
+ naturalmente fraturados.
+ Nesta categoria se encontram cerca de 20% das reservas mundiais de petróleo
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ezeakacha_2019"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Diferente do que ocorre nos sistemas convencionais de formações areníticas,
+ o comportamento do escoamento em reservatórios naturalmente fraturados
+ ainda é pouco compreendido e apresenta complexidades devido a interação
+ entre a matriz porosa e as fraturas.
+ Fraturas são estruturas tridimensionais, nas quais uma das dimensões (espessura
+) é, em geral, muito inferior às demais, porém, uma vez que estas se apresentam
+ na forma de uma malha suficientemente interligada, configuram trajetórias
+ de altíssima permeabilidade com ordem de grandeza bem maior que a da matriz
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Morais_2020"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Soluções práticas foram recomendadas para evitar perdas de fluido baseadas
+ em dados de perda de lama.
+ Elas identificam e caracterizam as fraturas condutivas que se interceptam
+ no poço e fornecem parâmetros necessários para controlar a perda de circulação.
+ Entretanto, independente do tipo de tratamento, um tempo significativo
+ de sonda pode ser perdido e algumas soluções podem complicar o projeto
+ de poço.
+ Dessa maneira, manter a estabilidade dele é uma tarefa importante durante
+ a perfuração em zonas fraturadas por motivos de segurança e econômicos.
  
 \end_layout
 
-\begin_layout Itemize
-Citar os 2-3 principais trabalhos relacionados e fazer uma breve crítica
- aos mesmos.
+\begin_layout Standard
+Os problemas de estabilidade do poço associados à perfuração nessas zonas
+ estão relacionados à natureza das fraturas pré-existentes (naturais) e
+ induzidas pela perfuração.
+ Assim, várias técnicas preventivas e corretivas já foram desenvolvidas.
+ A primeira medida a ser tomada é o ajuste das propriedades do fluido para
+ diminuir a densidade equivalente de circulação e consequentemente reduzir
+ o volume perdido dele.
+ A segunda medida é o uso de materiais controladores de perda de circulação
+ (LCM, do inglês, 
+\shape italic
+lost circulation materials
+\shape default
+) no fluido, os quais aumentam a rigidez da formação e consequentemente
+ sua estabilidade.
+ Esses aditivos também controlam a perda pela obstrução de canais de poros
+ e fraturas 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ezeakacha_2019,Alsaba_Nygaard_2014,Morais_2020"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Diante da complexidade dos reservatórios fraturados e das perdas bilionárias
+ anuais que a indústria sofre, existe a necessidade de se compreender os
+ fenômenos que ocorrem durante a perfuração deles.
+ Nesse sentido, este trabalho realizou um estudo experimental para reduzir
+ a perda de fluido de perfuração e filtrado pela otimização de formulações
+ de fluidos existentes através da simulação da dinâmica de fechamento de
+ fraturas e criação de reboco.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Apresenta-se a seguir a organização do documento.
+ Esta dissertação foi dividida em seis capítulos, mais 
+\begin_inset Quotes eld
+\end_inset
+
+Referências Bibliográficas
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+O Capítulo 1, 
+\begin_inset Quotes eld
+\end_inset
+
+Introdução
+\begin_inset Quotes erd
+\end_inset
+
+, apresenta uma introdução sobre o tema abordado, bem os objetivos que compõe
+ esta dissertação.
  
 \end_layout
 
-\begin_layout Itemize
-Neste capítulo podem entrar uma e no máximo duas figuras, bem ilustrativas
- (quase leigas).
+\begin_layout Standard
+O Capítulo 2, 
+\begin_inset Quotes eld
+\end_inset
+
+Referências Bibliográficas
+\begin_inset Quotes erd
+\end_inset
+
+, apresentará uma revisão bibliográfica sobre os assuntos relevantes ao
+ trabalho.
+\end_layout
+
+\begin_layout Standard
+O Capítulo 3, 
+\begin_inset Quotes eld
+\end_inset
+
+Metodologia
+\begin_inset Quotes erd
+\end_inset
+
+, apresenta a metodologia experimental utilizada e elaborada para os testes
+ de injeção de fluido de perfuração, modelos matemáticos e equipamentos.
+\end_layout
+
+\begin_layout Standard
+O Capítulo 4, 
+\begin_inset Quotes eld
+\end_inset
+
+Resultados
+\begin_inset Quotes erd
+\end_inset
+
+, apresenta os resultados obtidos na caracterização dos fluidos de perfuração
+ e na metodologia elaborada para injeção de fluidos bem como a elaboração
+ das análises.
+\end_layout
+
+\begin_layout Standard
+O Capítulo 5, 
+\begin_inset Quotes eld
+\end_inset
+
+Conclusões
+\begin_inset Quotes erd
+\end_inset
+
+, mostra as conclusões obtidas no trabalho realizado e as recomendações
+ para trabalhos futuros.
 \end_layout
 
 \begin_layout Section
@@ -263,293 +503,57 @@ name "sec:Objetivos"
 \end_layout
 
 \begin_layout Standard
-Os objetivos deste trabalho são:
-\end_layout
-
-\begin_layout Itemize
-Objetivo geral:
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-[.....descrever de forma clara, direta, objetiva, o objetivo geral da 
-\begin_inset Newline newline
-\end_inset
-
-monografia/dissertação/tese].
-\end_layout
-
-\begin_layout Itemize
-Note que esta diretamente relacionado ao escopo do problema, a solução do
- problema apresentado.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Objetivos específicos:
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-[.....descrever de forma clara, direta, objetiva, cada objetivo específico].
-\end_layout
-
-\begin_layout Itemize
-[.....descrever de forma clara, direta, objetiva, cada objetivo específico].
-\end_layout
-
-\begin_layout Itemize
-Note que não são as etapas a serem realizadas no trabalho, as etapas aparecem
- no capítulo de metodologia, aqui você deve colocar, por exemplo, questões
- da física do problema, da matemática do problema, da modelagem numérica
- computacional (ou experimental) e que serão resolvidas com seu trabalho.
- Ou seja, são as coisas específicas que serão resolvidas para resolver o
- problema geral.
- 
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-A 
-\emph on
-originalidade do tema
-\emph default
- esta associada à ....
- [descrever o que é inovador em seu trabalho, aquilo que você fez e que
- se destaca]...
-\end_layout
-
-\begin_layout Section
-Organização do Documento
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Organização do Documento
-\end_layout
+Esta dissertação foi inserida em um projeto do Laboratório de Fluidos do
+ LENEP/UENF com a Petrobras.
+ A motivação surgiu em conjunto com a Dissertação de Mestrado do aluno Caio
+ Morais 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Morais_2020"
+literal "false"
 
 \end_inset
 
-
-\begin_inset CommandInset label
-LatexCommand label
-name "sec:Organizacao-do-Documento"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Lembre-se, cada capítulo deve iniciar com uma descrição do que vai ser visto.
- Você deve copiar para seção 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "sec:Organizacao-do-Documento"
-
-\end_inset
-
- exatamente o mesmo texto do início de cada capítulo.
- A ideia é ajudar o leitor: lembre-se, hoje em dia a maioria das pessoas
- irá ler seu trabalho aos poucos, as vezes um capítulo por dia, assim, a
- descrição no início do capítulo ajuda o leitor a se situar.
- 
-\end_layout
-
-\begin_layout Itemize
-A descrição da organização do documento auxilia o leitor, além de ajudar
- o autor a organizar seu trabalho.
-\end_layout
-
-\begin_layout Itemize
-Esta parte deve ser feita logo no início do trabalho e tem como objetivo
- ajudar a organizar as ideias.
-\end_layout
-
-\begin_layout Itemize
-Veja exemplo a seguir.
-\end_layout
-
-\begin_layout Standard
-Apresenta-se nesta seção a organização do documento.
-\end_layout
-
-\begin_layout Standard
-No Capítulo 2, 
-\begin_inset Quotes eld
-\end_inset
-
-Revisão Bibliográfica
-\begin_inset Quotes erd
-\end_inset
-
-, apresenta-se uma revisão bibliográfica detalhada dos trabalhos, técnicos
- e científicos, que estão diretamente relacionados ao presente trabalho.
-\end_layout
-
-\begin_layout Standard
-No Capítulo 3, 
-\begin_inset Quotes eld
-\end_inset
-
-Metodologia
-\begin_inset Quotes erd
-\end_inset
-
-, apresenta-se a metodologia científica a ser utilizada no desenvolvimento
- deste trabalho.
- Inclui-se informações sobre motivação, área da pesquisa, intrumentos (materiais
-, equipamentos, softwares) utilizados, dados e formas de análise e interpretação.
+, e pelo trabalho em equipe na Dissertação de Mestrado do Aluno Daniel Fernandes.
+ A análise envolve o fechamento ou não da fratura, eficiência e estabilização
+ de reboco, invasão de filtrado de fluido de perfuração e dano à formação.
  
 \end_layout
 
 \begin_layout Standard
-No Capítulo 4, 
-\begin_inset Quotes eld
-\end_inset
-
-Revisão dos Conceitos e Modelos a Serem Utilizados
-\begin_inset Quotes erd
-\end_inset
-
-, apresenta-se um conjunto de conceitos e modelos desenvolvidos por outros
- autores mas que estão diretamente relacionados a este trabalho e que serão
- amplamente utilizados.
- Especialistas da área poderão pular a leitura deste capítulo.
-\end_layout
-
-\begin_layout Standard
-No Capítulo 5, 
-\begin_inset Quotes eld
-\end_inset
-
-Desenvolvimento
-\begin_inset Quotes erd
-\end_inset
-
-, apresenta-se os modelos/métodos/algoritmos/ensaios que foram desenvolvidos.
-\end_layout
-
-\begin_layout Standard
-No Capítulo 6, 
-\begin_inset Quotes eld
-\end_inset
-
-Resultados e Análises
-\begin_inset Quotes erd
-\end_inset
-
-, apresenta-se os resultados obtidos e análises desenvolvidas.
-\end_layout
-
-\begin_layout Standard
-No Capítulo 7, 
-\begin_inset Quotes eld
-\end_inset
-
-Conclusões
-\begin_inset Quotes erd
-\end_inset
-
-, apresenta-se neste capítulo as conclusões e sugestões para trabalhos futuros.
-\end_layout
-
-\begin_layout Standard
-Apresenta-se a seguir as 
-\begin_inset Quotes eld
-\end_inset
-
-Referências Bibliográficas
-\begin_inset Quotes erd
-\end_inset
-
- e os 
-\begin_inset Quotes eld
-\end_inset
-
-Apêndices
-\begin_inset Quotes erd
-\end_inset
-
-:
-\end_layout
-
-\begin_layout Standard
-Apêndice_A: 
-\begin_inset Quotes eld
-\end_inset
-
-XXX
-\begin_inset Quotes erd
-\end_inset
-
-, ...
-\end_layout
-
-\begin_layout Standard
-Apêndice_B: 
-\begin_inset Quotes eld
-\end_inset
-
-XXX
-\begin_inset Quotes erd
-\end_inset
-
-, ...
-\end_layout
-
-\begin_layout Standard
-Apêndice_C: 
-\begin_inset Quotes eld
-\end_inset
-
-XXX
-\begin_inset Quotes erd
-\end_inset
-
-, ...
+O objetivo principal é analisar a dinâmica de formação de reboco em fraturas
+ baseando-se na relação de tamanho das partículas de carbonato de cálcio
+ adicionadas ao fluido e a espessura das fraturas.
+ A análise envolveu o tempo necessário para formação e estabilização do
+ reboco e consequentemente para a obstrução da fratura, bem como o volume
+ total perdido de fluido.
+ Para atingir os objetivos propostos, foram realizadas as seguintes etapas:
 \end_layout
 
 \begin_layout Itemize
-Nota: Todo material auxiliar, não diretamente relacionado ao trabalho deve
- estar nos apêndices! 
-\begin_inset Newline newline
-\end_inset
-
-Ou seja, nos capítulos COLOCAR SOMENTE MATERIAL DIRETAMENTE RELACIONADO
- AO SEU TRABALHO! 
-\begin_inset Newline newline
-\end_inset
-
-Isto faz com a linha de raciocínio se desenvolva naturalmente, fazendo com
- que a leitura do material fique gostosa.
-\begin_inset Newline newline
-\end_inset
-
-Um documento que tem layout e formatação adequada (como este modelo - não
- mude!), e cuja leitura é fluida (gostosa), é meio caminho andado para uma
- boa defesa.
-\begin_inset Newline newline
-\end_inset
-
-Some aí um bom documento de apresentação, com apresentação bem ensaiada
- e teremos 50% do sucesso garantido.
- Os outros 50% referem-se a importância e qualidade do trabalho desenvolvido!
+Desenvolver uma metodologia de fraturamento de carbonatos em que seja possível
+ ter o controle da espessura das fraturas;
 \end_layout
 
 \begin_layout Itemize
-Nota: 
-\color red
-Lembre-se que se a figura, foto, esquemas, etc, for colorido o mesmo deve
- obrigatoriamente impresso em cores.
+Desenvolver e extender uma metodologia de injeção em fluxo transversal de
+ fluido de perfuração apresentada por 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Malgaresi_2015,Morais_2020"
+literal "false"
+
+\end_inset
+
+ em testemunhos fraturados de rochas sintéticas e naturais que faça previsão
+ qualitativa de invasão de filtrado tal como ocorre na perfuração de poços;
+\end_layout
+
+\begin_layout Itemize
+Comparar qualitativamente a influência de diferentes distribuições de tamanho
+ de partículas de carbonato de cálcio nas formulações de fluido de perfuração,
+ validá-los com modelos disponíveis na literatura, e verificar a performance
+ dessas diferentes composições.
 \end_layout
 
 \end_body

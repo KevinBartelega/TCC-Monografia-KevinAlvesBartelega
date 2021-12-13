@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass abnt
 \begin_preamble
 \usepackage {graphicx}
@@ -23,16 +25,18 @@
 \language_package default
 \inputencoding iso8859-1
 \fontencoding global
-\font_roman default
-\font_sans default
-\font_typewriter default
-\font_math auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -75,6 +79,7 @@
 \suppress_date false
 \justification true
 \use_refstyle 0
+\use_minted 0
 \index Índice
 \shortcut idx
 \color #008000
@@ -89,7 +94,10 @@
 \tocdepth 1
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle fancy
@@ -166,85 +174,8 @@ addcontentsline{toc}{chapter}{Nomenclatura}
 \end_layout
 
 \begin_layout Standard
-A nomenclatura está dividida em: alfabeto latino, alfabeto grego, sub-índices,
- super-índices, símbolos e acrônimos, sendo apresentada em ordem alfabética.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Normalmente é feita no final do trabalho.
- Alterar o texto introdutório para ficar de acordo com a monografia/dissertação/
-tese.
-\end_layout
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Existem duas maneiras de gerar a nomenclatura:
-\end_layout
-
-\begin_layout Plain Layout
-1) - A maneira antiga, em que você copia para este arquivo todos os termos/ítens
- utilizados no seu documento.
- Normalmente esta cópia é feita a medida que o documento é gerado, ou seja,
- logo após inserir uma nova equação/fórmula ou definição, copia para cá
- o termo utilizado, sua descrição e unidades.
- Mas, para gerar a versão final, tem de verificar um a um os termos.
-\end_layout
-
-\begin_layout Plain Layout
-2) - A partir do LyX 2.0 existe a opção de inserir lista de nomenclatura(Inserir-
->ListaIndice->Nomenclatura).
- Neste caso, você precisa indicar, ao longo da monografia/dissertação/tese,
- o que entra na nomenclatura.
- 
-\end_layout
-
-\begin_layout Plain Layout
-O LyX/LaTeX automaticamente monta a nomenclatura para você.
- Se usar esta opção você deve retirar o arquivo nomenclatura do arquivo
- master(pode colocar como comentário), e deve inserir no lugar a "nomenclatura"
- (comando Inserir->ListaIndice->Nomenclatura).
-\end_layout
-
-\begin_layout Plain Layout
-Dica: use a maneira antiga!
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\emph on
-Note que os termos são colocados como equações - digite ctrl+m ou selecione
- o ícone de equações;
-\end_layout
-
-\begin_layout Plain Layout
-isto garante que a fonte utilizada para definir o termo e a fonte usada
- nas equações seja a mesma.
-\end_layout
-
-\begin_layout Plain Layout
-Se você não colocar dentro de equações ficarão diferentes!
-\end_layout
-
-\end_inset
-
-
+A nomenclatura apresentada em ordem alfabética está dividida em: alfabeto
+ latino, alfabeto grego, sub-índices, super-índices, símbolos e acrônimos.
 \end_layout
 
 \begin_layout Section*
@@ -264,8 +195,8 @@ Alfabeto Latino
 \begin_layout Standard
 \align left
 \begin_inset Tabular
-<lyxtabular version="3" rows="12" columns="2">
-<features rotate="0" tabularvalignment="middle">
+<lyxtabular version="3" rows="15" columns="2">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="2cm">
 <column alignment="left" valignment="top" width="14cm">
 <row>
@@ -287,21 +218,38 @@ Alfabeto Latino
 \begin_inset Text
 
 \begin_layout Plain Layout
-Área [
-\begin_inset Formula $m²$
+Área da seção transversal [
+\begin_inset Formula $in²$
 \end_inset
 
 ]
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-a unidade é obrigatória!
 \end_layout
 
 \end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $D$
+\end_inset
 
 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diâmetro do testemunho [
+\begin_inset Formula $in$
+\end_inset
+
+]
 \end_layout
 
 \end_inset
@@ -312,7 +260,7 @@ a unidade é obrigatória!
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $B^{r}$
+\begin_inset Formula $d$
 \end_inset
 
 
@@ -324,61 +272,7 @@ a unidade é obrigatória!
 \begin_inset Text
 
 \begin_layout Plain Layout
-Reflexão do conjunto 
-\emph on
-
-\begin_inset Formula $B$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $C(\mathbf{u})$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Função autocorrelação
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-\begin_inset Formula $dl$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Variação elementar do comprimento [
+Diâmetro poro [
 \begin_inset Formula $m$
 \end_inset
 
@@ -389,59 +283,7 @@ Variação elementar do comprimento [
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $E_{x}^{i}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Bola centrada em um ponto 
-\begin_inset Formula $x$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-\begin_inset Formula $f$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Determinada fase de um escoamento
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -455,12 +297,12 @@ Determinada fase de um escoamento
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Força [
-\begin_inset Formula $Kg\times m/s²$
+\begin_inset Formula $N$
 \end_inset
 
 ]
@@ -470,7 +312,7 @@ Força [
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -484,7 +326,7 @@ Força [
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -503,9 +345,7 @@ Aceleração da gravidade [
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\emph on
-\begin_inset Formula $I$
+\begin_inset Formula $h$
 \end_inset
 
 
@@ -517,14 +357,14 @@ Aceleração da gravidade [
 \begin_inset Text
 
 \begin_layout Plain Layout
-Imagem binária
+Altura
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -536,7 +376,7 @@ Imagem binária
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -551,13 +391,13 @@ Permeabilidade [
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \emph on
-\begin_inset Formula $l$
+\begin_inset Formula $L$
 \end_inset
 
 
@@ -565,11 +405,11 @@ Permeabilidade [
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Comprimento
+Comprimento do testemunho
 \family roman
 \series medium
 \shape up
@@ -579,7 +419,7 @@ Comprimento
 \noun off
 \color none
  [
-\begin_inset Formula $m$
+\begin_inset Formula $cm$
 \end_inset
 
 ]
@@ -593,9 +433,7 @@ Comprimento
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\emph on
-\begin_inset Formula $M$
+\begin_inset Formula $P$
 \end_inset
 
 
@@ -607,7 +445,173 @@ Comprimento
 \begin_inset Text
 
 \begin_layout Plain Layout
-Meio poroso
+Pressão [
+\begin_inset Formula $psia$
+\end_inset
+
+]
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $q$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Vazão [
+\begin_inset Formula $ml/min$
+\end_inset
+
+]
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Re$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Número de Reynolds [
+\begin_inset Formula $-$
+\end_inset
+
+]
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $r$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Raio da partícula [
+\begin_inset Formula $\mu m$
+\end_inset
+
+]
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $T$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Torque [
+\begin_inset Formula $N.m$
+\end_inset
+
+]
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $u$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Velocidade Darcy [
+\begin_inset Formula $m/s$
+\end_inset
+
+]
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $V$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Velocidade de filtração [
+\begin_inset Formula $m/s$
+\end_inset
+
+]
 \end_layout
 
 \end_inset
@@ -637,8 +641,8 @@ Alfabeto Grego
 \begin_layout Standard
 \align left
 \begin_inset Tabular
-<lyxtabular version="3" rows="11" columns="2">
-<features rotate="0" tabularvalignment="middle">
+<lyxtabular version="3" rows="10" columns="2">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="2cm">
 <column alignment="left" valignment="top" width="14cm">
 <row>
@@ -646,7 +650,7 @@ Alfabeto Grego
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\beta$
+\begin_inset Formula $\alpha$
 \end_inset
 
 
@@ -658,8 +662,8 @@ Alfabeto Grego
 \begin_inset Text
 
 \begin_layout Plain Layout
-Compressibilidade [
-\begin_inset Formula $l/Pa$
+Fator de forma [
+\begin_inset Formula $-$
 \end_inset
 
 ]
@@ -673,7 +677,7 @@ Compressibilidade [
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\gamma_{a}$
+\begin_inset Formula $\gamma$
 \end_inset
 
 
@@ -685,17 +689,8 @@ Compressibilidade [
 \begin_inset Text
 
 \begin_layout Plain Layout
-Peso específico da água 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\noun off
-\color none
-[
-\begin_inset Formula $kg/m²\times s²$
+Tensão de cisalhamento [
+\begin_inset Formula $Pa$
 \end_inset
 
 ]
@@ -721,8 +716,8 @@ Peso específico da água
 \begin_inset Text
 
 \begin_layout Plain Layout
-Comprimento [
-\begin_inset Formula $m$
+Espessura da fratura [
+\begin_inset Formula $\mu m$
 \end_inset
 
 ]
@@ -732,11 +727,11 @@ Comprimento [
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\zeta(\mathbf{u})$
+\begin_inset Formula $\eta,\,\kappa$
 \end_inset
 
 
@@ -744,58 +739,12 @@ Comprimento [
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Função conectividade
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\theta$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Ângulo
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\tau$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Tensão cisalhante [
-\begin_inset Formula $N/m²$
+Índice de consistência do fluido [
+\begin_inset Formula $Pa.s^{(1-n)}$
 \end_inset
 
 ]
@@ -805,7 +754,7 @@ Tensão cisalhante [
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -817,39 +766,12 @@ Tensão cisalhante [
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Viscosidade [
-\begin_inset Formula $N.s/m^{2}$
-\end_inset
-
-]
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\nu$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Viscosidade cinemática [
-\begin_inset Formula $m^{2}/s$
+\begin_inset Formula $cP$
 \end_inset
 
 ]
@@ -875,8 +797,8 @@ Viscosidade cinemática [
 \begin_inset Text
 
 \begin_layout Plain Layout
-Massa específica [
-\begin_inset Formula $Kg/m³$
+Massa específica da partícula [
+\begin_inset Formula $g/cm^{3}$
 \end_inset
 
 ]
@@ -890,8 +812,7 @@ Massa específica [
 \begin_inset Text
 
 \begin_layout Plain Layout
- 
-\begin_inset Formula $\sigma$
+\begin_inset Formula $\tau$
 \end_inset
 
 
@@ -903,8 +824,8 @@ Massa específica [
 \begin_inset Text
 
 \begin_layout Plain Layout
-Tensão interfacial [
-\begin_inset Formula $Kg/m$
+Taxa de cisalhamento [
+\begin_inset Formula $Pa.m^{-1}$
 \end_inset
 
 ]
@@ -931,13 +852,63 @@ Tensão interfacial [
 
 \begin_layout Plain Layout
 Porosidade [
-\emph on
+\begin_inset Formula $-$
+\end_inset
 
-\begin_inset Formula $m³/m³$
+]
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\lambda$
 \end_inset
 
 
-\emph default
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Garganta de poro [
+\begin_inset Formula $\mu m$
+\end_inset
+
+]
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $f$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fator de fricção [
+\begin_inset Formula $-$
+\end_inset
+
 ]
 \end_layout
 
@@ -952,6 +923,7 @@ Porosidade [
 \end_layout
 
 \begin_layout Section*
+Sub-índices
 \begin_inset Index idx
 status open
 
@@ -961,22 +933,22 @@ Sub-índices
 
 \end_inset
 
-Sub-índices
+
 \end_layout
 
 \begin_layout Standard
 \align left
 \begin_inset Tabular
-<lyxtabular version="3" rows="10" columns="2">
-<features rotate="0" tabularvalignment="middle">
+<lyxtabular version="3" rows="15" columns="2">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="2cm">
 <column alignment="left" valignment="top" width="14cm">
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $ef$
+\begin_inset Formula $c$
 \end_inset
 
 
@@ -984,11 +956,11 @@ Sub-índices
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Efetivo
+Reboco
 \end_layout
 
 \end_inset
@@ -999,9 +971,33 @@ Efetivo
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $D$
+\end_inset
 
-\emph on
-eq
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Arrasto
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $eq$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1017,33 +1013,11 @@ Equivalente
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\emph on
-i
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Índice
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $nw$
+\begin_inset Formula $eff$
 \end_inset
 
 
@@ -1051,11 +1025,11 @@ i
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Não molhante
+Efetiva
 \end_layout
 
 \end_inset
@@ -1066,9 +1040,10 @@ Não molhante
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $G$
+\end_inset
 
-\emph on
-p
+
 \end_layout
 
 \end_inset
@@ -1077,7 +1052,53 @@ p
 \begin_inset Text
 
 \begin_layout Plain Layout
-Poroso
+Gravitacional
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $f$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fratura
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $P$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Permeante
 \end_layout
 
 \end_inset
@@ -1088,7 +1109,7 @@ Poroso
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $rf$
+\begin_inset Formula $p,\,p$
 \end_inset
 
 
@@ -1100,7 +1121,7 @@ Poroso
 \begin_inset Text
 
 \begin_layout Plain Layout
-Relativa a fase f
+Fator de forma/ plástica
 \end_layout
 
 \end_inset
@@ -1111,9 +1132,10 @@ Relativa a fase f
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $m$
+\end_inset
 
-\emph on
-S
+
 \end_layout
 
 \end_inset
@@ -1122,7 +1144,76 @@ S
 \begin_inset Text
 
 \begin_layout Plain Layout
-Matriz sólida
+Matriz
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $mp$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Máximo diâmetro do poro
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $mf$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Matriz/fratura
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $R$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Testemunho
 \end_layout
 
 \end_inset
@@ -1133,7 +1224,10 @@ Matriz sólida
 \begin_inset Text
 
 \begin_layout Plain Layout
-T
+\begin_inset Formula $s$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1142,36 +1236,37 @@ T
 \begin_inset Text
 
 \begin_layout Plain Layout
-Total
+Partícula
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $W$
+\end_inset
 
-\emph on
-x
+
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Posição
+Espessura
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1183,11 +1278,11 @@ Posição
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Molhante
+Fluido
 \end_layout
 
 \end_inset
@@ -1207,6 +1302,61 @@ status open
 
 \begin_layout Plain Layout
 Super-índices
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="2cm">
+<column alignment="left" valignment="top" width="14cm">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $n$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Índice de comportamento do fluido [
+\begin_inset Formula $-$
+\end_inset
+
+]
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Símbolos
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Símbolos
 \end_layout
 
 \end_inset
@@ -1218,7 +1368,7 @@ Super-índices
 \align left
 \begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="2">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="2cm">
 <column alignment="left" valignment="top" width="14cm">
 <row>
@@ -1226,9 +1376,10 @@ Super-índices
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $\partial$
+\end_inset
 
-\emph on
-c
+
 \end_layout
 
 \end_inset
@@ -1237,29 +1388,7 @@ c
 \begin_inset Text
 
 \begin_layout Plain Layout
-Complemento
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-i
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Índice
+Derivada parcial
 \end_layout
 
 \end_inset
@@ -1270,7 +1399,7 @@ i
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $nw$
+\begin_inset Formula $d$
 \end_inset
 
 
@@ -1282,80 +1411,7 @@ i
 \begin_inset Text
 
 \begin_layout Plain Layout
-Não molhante
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-r
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Reflexão
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section*
-Símbolos
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Símbolos
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align left
-\begin_inset Tabular
-<lyxtabular version="3" rows="6" columns="2">
-<features rotate="0" tabularvalignment="middle">
-<column alignment="left" valignment="top" width="2cm">
-<column alignment="left" valignment="top" width="14cm">
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\oplus$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Operador de dilatação
+Derivada total
 \end_layout
 
 \end_inset
@@ -1366,7 +1422,7 @@ Operador de dilatação
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\ominus$
+\begin_inset Formula $\Delta$
 \end_inset
 
 
@@ -1378,76 +1434,7 @@ Operador de dilatação
 \begin_inset Text
 
 \begin_layout Plain Layout
-Operador de erosão
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\circ$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Operador de abertura
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\bullet$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Operador de fechamento
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\left\langle \right\rangle $
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Média geométrica
+Delta
 \end_layout
 
 \end_inset
@@ -1500,8 +1487,8 @@ Acrônimos
 \begin_layout Standard
 \align left
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="2">
-<features rotate="0" tabularvalignment="middle">
+<lyxtabular version="3" rows="13" columns="2">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="2cm">
 <column alignment="left" valignment="middle" width="14cm">
 <row>
@@ -1509,22 +1496,92 @@ Acrônimos
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\emph on
-ASCII
+API
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\emph on
-American Standard Code for Information Interchange
-\emph default
- (Código Padrão Americano para o Intercâmbio de Informações)
+\shape italic
+American Petroleum Institute
+\shape default
+ (instituto de petróleo americano)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ECD
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\shape italic
+Equivalent Circulation Density
+\shape default
+ (densidade equivalente de circulação)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+HPHT
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\shape italic
+High Temperature High Pressure
+\shape default
+ (alta temperatura alta pressão)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+IPT
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\shape italic
+Ideal Packing Theory
+\shape default
+ (teoria do empacotamento ideal)
 \end_layout
 
 \end_inset
@@ -1535,9 +1592,7 @@ American Standard Code for Information Interchange
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\emph on
-C++
+LCM
 \end_layout
 
 \end_inset
@@ -1547,28 +1602,21 @@ C++
 
 \begin_layout Plain Layout
 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\noun off
-\color none
-Linguagem de programação com recursos para orientação a objetos
+\shape italic
+Lost Circulation Material
+\shape default
+ (material controladore de perda de circulação)
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\emph on
-GCS
+OBM
 \end_layout
 
 \end_inset
@@ -1577,20 +1625,22 @@ GCS
 \begin_inset Text
 
 \begin_layout Plain Layout
-Grafo de Conexão Serial
+
+\shape italic
+Oil Based Mud
+\shape default
+ (fluido base óleo)
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\emph on
-GMRES
+PPA
 \end_layout
 
 \end_inset
@@ -1600,28 +1650,21 @@ GMRES
 
 \begin_layout Plain Layout
 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\noun off
-\color none
-Solver que utiliza o método do Resíduo Mínimo Generalizado
+\shape italic
+Particle Plugging Apparatus
+\shape default
+ (aparato de plugue de partículas)
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\emph on
-IDF
+PPT
 \end_layout
 
 \end_inset
@@ -1630,20 +1673,22 @@ IDF
 \begin_inset Text
 
 \begin_layout Plain Layout
-Imagem de Distância ao Fundo
+
+\shape italic
+Permeabiliy plugging test
+\shape default
+ (teste de permeabilidade de plugue)
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\emph on
-lib_ldsc
+PSD
 \end_layout
 
 \end_inset
@@ -1652,20 +1697,22 @@ lib_ldsc
 \begin_inset Text
 
 \begin_layout Plain Layout
-Biblioteca computacional para análise de imagens de meios porosos
+
+\shape italic
+Particle Size Distribution
+\shape default
+ (distribuição do tamanho de partículas)
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\emph on
-LVP
+ROP
 \end_layout
 
 \end_inset
@@ -1674,24 +1721,22 @@ LVP
 \begin_inset Text
 
 \begin_layout Plain Layout
-Laboratório Virtual de Petrofísica (
-\emph on
-Software
-\emph default
-)
+
+\shape italic
+Rate of Penetration
+\shape default
+ (taxa de penetração da broca)
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\emph on
-SDK
+SBM
 \end_layout
 
 \end_inset
@@ -1701,14 +1746,58 @@ SDK
 
 \begin_layout Plain Layout
 
-\emph on
-Software Development Kit
-\emph default
- (Kit para Desenvolvimento de 
-\emph on
-softwares
-\emph default
-)
+\shape italic
+Synthetic Based Mud
+\shape default
+ (fluido base sintético)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+WBM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\shape italic
+Water Based Mud
+\shape default
+ (fluido base água)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+WSM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\shape italic
+Wellbore Strengthening Material 
+\shape default
+(material de fortalecimento de poço)
 \end_layout
 
 \end_inset

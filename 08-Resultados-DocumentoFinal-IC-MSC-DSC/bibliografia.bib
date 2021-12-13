@@ -1,29 +1,31 @@
+% Encoding: UTF-8
+@String{LENEP  = {Laboratï¿½rio de Engenharia e Exploraï¿½ï¿½o de Petrï¿½leo}}
 %--------------------------------------------------------------------
 % NAME: andre.bib (18/02/2002)
 %
-% O que é um arquivo BiBTeX?
-% É um arquivo em modo texto (tipo ASCII), que inclui referências completas para os
-% trabalhos (artigos/relatórios/teses/etc) a serem citados em sua monografia/dissertação/tese.
+% O que ï¿½ um arquivo BiBTeX?
+% ï¿½ um arquivo em modo texto (tipo ASCII), que inclui referï¿½ncias completas para os
+% trabalhos (artigos/relatï¿½rios/teses/etc) a serem citados em sua monografia/dissertaï¿½ï¿½o/tese.
 %
 % Porque usar?
-% A vantagem de usar uma base de dados com as referencias bibliográficas
-% (como este arquivo), é que seu editor científico (ex: o LyX) 
-% poderá gerar as citações nos mais variados formatos acadêmicos.
+% A vantagem de usar uma base de dados com as referencias bibliogrï¿½ficas
+% (como este arquivo), ï¿½ que seu editor cientï¿½fico (ex: o LyX) 
+% poderï¿½ gerar as citaï¿½ï¿½es nos mais variados formatos acadï¿½micos.
 %
-% Como faço para usar?
-% No caso do LyX(2.0.2), você insere a base bibliográfica usando:
+% Como faï¿½o para usar?
+% No caso do LyX(2.0.2), vocï¿½ insere a base bibliogrï¿½fica usando:
 % Lyx->Inserir->Listas e Indices->Bibliografia BiBTeX
 %
-% INSTRUÇÕES:
-% 0- Use o find (crtl-s ##)  para localizar as diferentes seções desta base de dados
-%    para próximo ítem basta digitar ctrl-s novamente (no emacs!).
+% INSTRUï¿½ï¿½ES:
+% 0- Use o find (crtl-s ##)  para localizar as diferentes seï¿½ï¿½es desta base de dados
+%    para prï¿½ximo ï¿½tem basta digitar ctrl-s novamente (no emacs!).
 % 1-Use o emacs ou um editor simples para editar este arquivo
-%   Pode acentuar normalmente, usando çá,,; 
+%   Pode acentuar normalmente, usando ï¿½ï¿½,,; 
 
 % 2-Use o emacs (menu BIBTEX) para verificar a consistencia das entradas
-% Se tiver alguma inconsistência o emacs deve informar.
+% Se tiver alguma inconsistï¿½ncia o emacs deve informar.
 
-% 3-Use o programa bibtool para gerar saída formatada.
+% 3-Use o programa bibtool para gerar saï¿½da formatada.
 % ex: bibtool bibliografia
 
 % 4-Use as entradas normalmente no Lyx ou em outro editor tex.
@@ -35,10 +37,10 @@
 %   Para eliminar caracteris iso, e deixar somente ASCII, use o bibtool.
 %     bibtool -r iso2tex -i iso.bib -o ascii.bib
 
-%  6- Codificação de caracteres. Este arquivo deve ser salvo com a Codificação ISO-8859-1
-%  que é o latin. Se salvar com outra Codificação os caracteres acentuados podem ficar errados.
+%  6- Codificaï¿½ï¿½o de caracteres. Este arquivo deve ser salvo com a Codificaï¿½ï¿½o ISO-8859-1
+%  que ï¿½ o latin. Se salvar com outra Codificaï¿½ï¿½o os caracteres acentuados podem ficar errados.
 
-%  7- Note neste modelo que as CHAVES não tem espaço nem usam acentos
+%  7- Note neste modelo que as CHAVES nï¿½o tem espaï¿½o nem usam acentos
 %  Exemplo:
 %  mastersthesis{adb-mestrado, 
 %  e jamais 
@@ -49,18 +51,18 @@
 %--------------------------------------------------------------------
 % Para facilitar a localizacao das chaves, defina um padrao, como exemplo:
 % adb    - artigos pessoais
-% imgan  - artigos de análise de imagem
+% imgan  - artigos de anï¿½lise de imagem
 % pm     - artigos sobre meios porosos
-% rec    - artigos reconstrução
-% perc   - artigos percolação 
+% rec    - artigos reconstruï¿½ï¿½o
+% perc   - artigos percolaï¿½ï¿½o 
 % perm   - artigos permeabilidade
 % me     - artigos multi-escala
-% prob   - artigos probabilidade, processos estocásticos
+% prob   - artigos probabilidade, processos estocï¿½sticos
 % microt - artigos micro tomografia
-% numan  - artigos sobre métodos numéricos 
-% math   - artigos matemáticos
+% numan  - artigos sobre mï¿½todos numï¿½ricos 
+% math   - artigos matemï¿½ticos
 % sl     - software livre
-% prog   - artigos/manuais programação
+% prog   - artigos/manuais programaï¿½ï¿½o
 % hst    - artigos histerese
 % prog-cpp
 % prog-HOWTO
@@ -76,259 +78,589 @@
 %  author =       "G. B. Johnson and W. W. Howells and A. N. Other",
 %  author =       "Firstname Jones and Firstname Norman and Firstname Hazel and Firstname Robinson",
 %  author =       "sobrenome, nome",
-% Para preservar, isto é, manter um nome use {Nome}
+% Para preservar, isto ï¿½, manter um nome use {Nome}
 
-% Definição de strings
-@string{LMPT   = {Laboratório de Meios Porosos e Propriedades Termofísicas}}
-@String{UFSC   = {Universidade Federal de Santa Catarina}}
-@String{LENEP  = {Laboratório de Engenharia e Exploração de Petróleo}}
+% Definiï¿½ï¿½o de strings
+@string{LMPT   = {Laboratï¿½rio de Meios Porosos e Propriedades Termofï¿½sicas}}
 @String{UENF   = {Universidade Estadual do Norte Fluminense}}
+@String{UFSC   = {Universidade Federal de Santa Catarina}}
 
-%--------------------------------------------------------------------
-
-
-%--------------------------------------------------------------------
-% ## MESTRADO,  DOUTORADO, CONCURSOS  Andre
-%--------------------------------------------------------------------
-@PhdThesis{adb-tese,
-  author = 	 {André Duarte Bueno},
-  title = 	 {Estudo Geométrico das Representações Tridimensionais da Estrutura Porosa e Grafo de 
-                  Conexão Serial Para a Determinação da Permeabilidade Intrínseca de Rochas-Reservatório de Petróleo},
-  school = 	 {UFSC},
-  year = 	 {2001},
-  month = 	 {8},
-  key = 	 {rec-adb-tese}
+@Article{Calcada_2015,
+  author    = {L. A. Cal{\c{c}}ada and O. {Duque Neto} and S. C. Magalh{\~{a}}es and C. M. Scheid and M. N. {Borges Filho} and A. T. A. Waldmann},
+  title     = {Evaluation of suspension flow and particulate materials for control of fluid losses in drilling Operation},
+  pages     = {1--10},
+  volume    = {131},
+  month     = jul,
+  publisher = {Elsevier {BV}},
+  year      = {2015},
 }
 
-% incluir memorial UENF
-% incluir projeto UENF
-
-@mastersthesis{adb-mestrado,
-  author	= {André Duarte Bueno},
-  title		= {Transferência de Calor e Umidade em Telhas:
-		  Simulação e Análise Experimental},
-  school	= {Programa de Pós-Graduação em Engenharia Civil da Universidade Federal de Santa Catarina},
-  year		= {1994},
-  type		= {Tese de Mestrado},
-  address	= {Florianópolis},
-  month		= {agosto},
-  note		= {Nota},
-  key		= {Transferência de Calor, Telhas, tiles, meios porosos, transport in porous media}
+@InProceedings{Salimi_Alikarami_2006,
+  author    = {Salimi, S. and Alikarami, R.},
+  title     = {Mechanism of fluid invasion in naturally fractured reservoirs: experimental study},
+  publisher = {{SPE}},
+  month     = feb,
+  year      = {2006},
 }
 
-
-% Monografia concurso
-@TechReport{adb-monografia-ufsc,
-  author = 	 {André Duarte Bueno},
-  title = 	 {Método de Reconstrução da Gaussiana Truncada 2: Análise das Representações Obtidas e Resultados},
-  institution =  {UFSC},
-  year = 	 {2001},
-  key = 	 {rec-adb-monografia-ufsc}
+@InProceedings{Sharma_1992,
+  author    = {D. Jiao and M. Sharma},
+  title     = {Formation damage due to static and dynamic filtration of water-based muds},
+  publisher = {Society of Petroleum Engineers},
+  year      = {1992},
 }
 
-%--------------------------------------------------------------------
-% ## Artigos em revistas Andre
-%--------------------------------------------------------------------
-@article{adb-thirdmasonry,
-  author	= {André Duarte Bueno and Paulo Cesar Philippi and Roberto Lamberts},
-  title		= {Influence of Water Vapour Sorption on the Thermal
-		  Behavior of Mortar Samples},
-  journal	= {Proceedings of the Third Internacional Masonry Conference},
-  year		= {1994},
-  Address	= {London},
-  pages		= {2-54},
- month		= {March}
+@Article{Sharma_1993,
+  author    = {D. Jiao and M. Sharma},
+  title     = {Mechanism of cake buildup in crossflow filtration of colloidal suspensions},
+  number    = {2},
+  pages     = {454--462},
+  volume    = {162},
+  month     = feb,
+  publisher = {Elsevier {BV}},
+  year      = {1993},
 }
 
-%--------------------------------------------------------------------
-% ## Artigos em congressos 
-%--------------------------------------------------------------------
-@inproceedings{adb-zonaconforto,
-  author	= {André Duarte Bueno and  Roberto Lamberts},
-  title		= {Proposta de Zona de Conforto na Carta Psicométrica},
-  publisher	= {Anais do I Encontro Nacional de Normalização  Ligada ao Uso Racional de Energia e ao Conforto Ambiental em Edificações},
-  address	= {Florianópolis},
-  year		= {1991}
+@Article{Kumar_Savari_2011,
+  author    = {Kumar, A. and Savari, S. and Halliburton},
+  title     = {Lost circulation control and wellbore strengthening: looking beyond particle size distribution},
+  address   = {Texa Houston},
+  month     = apr,
+  publisher = {American Association of Drilling Engineers - AADE},
+  year      = {2011},
 }
 
-%--------------------------------------------------------------------
-% ## Manuais 
-%--------------------------------------------------------------------
-@manual{adb-prog-apostilaprogramacao-v03,
-  author	= {André Duarte Bueno},
-  title		= {Apostila de Programação Orientada a Objeto},
-  organization	= {UFSC-EMC-Laboratório de Meios Porosos e Propriedades  Termofísicas},
-  address	= {Florianópolis},
-  year		= {1997}
+@InProceedings{Mansour_2017,
+  author    = {A. Mansour and C. Ezeakacha and S. Salehi},
+  title     = {Smart lost circulation materials for productive zones},
+  publisher = {{SPE}},
+  month     = oct,
+  year      = {2017},
 }
 
-%--------------------------------------------------------------------
-% ## Não publicado 
-%--------------------------------------------------------------------
-@unpublished{adb-prog-simulacaotelha,
-  author	= {André Duarte Bueno and Paulo Cesar Philippi},
-  title		= {Simulações da Transferência de Calor e Umidade, em Telhas Expostas ao Meio Ambiente},
-  year		= {1996},
-  key		= {Heat and Mass Transfer in Tiles, porous media, mass  transfer},
-  note          = {Incompleto}
+@Article{Ezeakacha_2019,
+  author    = {Ezeakacha, P. and Salehi, S.},
+  title     = {Experimental and statistical investigation of drilling fluid loss in porous media: Part 2 (Fractures)},
+  pages     = {257--266},
+  volume    = {65},
+  month     = may,
+  publisher = {Elsevier {BV}},
+  year      = {2019},
 }
 
-%--------------------------------------------------------------------
-% ## Relatório Andre
-%--------------------------------------------------------------------
-
-@techreport{adb-rel2003,
-  author	= {Fernando S. Moraes and André Duarte Bueno},
-  title		= {Relatório Individual do Projeto: Inferência Sismica Elástica Aplicada a Problemas de Caracterização de Reservatórios},
-  institution	= {Laboratório De Engenharia e Exploração de Petróleo- LENEP},
-  year		= {2003},
-  type		= {Relatório},
-  number	= {1}
+@InProceedings{Tian_2014,
+  author    = {Tian, Y.},
+  title     = {Experimental study on stress sensitivity of naturally fractured reservoirs},
+  publisher = {{SPE}},
+  month     = oct,
+  year      = {2014},
 }
 
-%--------------------------------------------------------------------
-% Livro 
-%--------------------------------------------------------------------
-@Book{adb-prog-livroCpp,
-  author = 	 {André Duarte Bueno},
-  title = 	 {Programação Orientada a Objeto com C++ - Aprenda a Programar em Ambiente Multiplataforma com Software Livre},
-  publisher = 	 {Novatec},
-  year = 	 {2003},
-  address = 	 {São Paulo}
+@Article{Therond_2018,
+  author    = {E. Therond and S. Taoutaou and S. G. James and P. W. Way and P. Gomes and A. Dondale},
+  title     = {Understanding lost circulation while cementing: field study and laboratory research},
+  number    = {01},
+  pages     = {77--86},
+  volume    = {33},
+  month     = jan,
+  publisher = {Society of Petroleum Engineers ({SPE})},
+  year      = {2018},
 }
 
-%--------------------------------------------------------------------
-% ## Teses
-%--------------------------------------------------------------------
-
-@PhDThesis{tese-nathan,
-  author	= {Nathan  Mendes},
-  title		= {Modelos Para Previsão da Transferência de Calor e de Umidade em Elementos Porosos de Edificações},
-  school	= {Universidade Federal de Santa Catarina, Programa de Pós-Graduação em Engenharia Mecânica},
-  year		= {1997},
-  type		= {Tese de Doutoramento},
-  address	= {Florianópolis},
-  month		= {8}
+@Article{Razavi_2016,
+  author    = {O. Razavi and A. K. Vajargah and E. {van Oort} and M. Aldin and S. Govindarajan},
+  title     = {Optimum particle size distribution design for lost circulation control and wellbore strengthening},
+  pages     = {836--850},
+  volume    = {35},
+  month     = sep,
+  publisher = {Elsevier {BV}},
+  year      = {2016},
 }
 
-%--------------------------------------------------------------------
-% Anais de Congressos
-%--------------------------------------------------------------------
-
-@InProceedings{pm-brakel-mercurypor,
-  author = 	 {V. J. Brakel and S Modry and M Svata},
-  title = 	 {Mercury Porosimetry: State of the Art},
-  pages = 	 {p.1},
-  year = 	 {1981},
-  publisher = 	 {Powder Technology},
-  volume = 	 {v.29},
+@InProceedings{Mokhtari_2017,
+  author    = {M. Mokhtari and A. Hayatdavoudi and R. Nizamutdinov and H. Rizvi and F. Nath},
+  title     = {Characterization of complex fracture propagation in naturally fractured formations using digital image correlation technique},
+  publisher = {{SPE}},
+  month     = jan,
+  year      = {2017},
 }
 
-%--------------------------------------------------------------------
-% Artigos
-%--------------------------------------------------------------------
-@Article{perc-ioannidis-chatzis,
-  author	= {M. Ioannidis and I. Chatzis},
-  title		= {Network Modeling of Pore Structure and Transport Properties of Porous Media},
-  journal	= {Chem. Eng. Sci},
-  volume	= {48},
-  pages		= {.951-972},
-  year		= {1993}
+@InProceedings{Miranda_2017,
+  author    = {C. R. Miranda and J. L. Oliveira and G. M. Cavalcante and A. R. d{\textquotesingle}Almeida and R. F. Pereira and R. L. Santos and R. Surmas},
+  title     = {Materials for controlling severe lost circulation - laboratory evaluation},
+  publisher = {{SPE}},
+  month     = may,
+  year      = {2017},
 }
 
-%--------------------------------------------------------------------
-% ## Assunto dos artigos abaixo...
-%--------------------------------------------------------------------
-@Article{Pavel-hysteresys,
-  author = 	 {B.Plohr and D. Marchesin and Pavel Bedrikovetsky and P. Krause},
-  title = 	 {Modeling hysteresys in porous media flow via relaxation},
-  journal = 	 {Computacional Geosciences},
-  year = 	 {2001},
-  volume = 	 {5},
-  pages = 	 {225-256}
+@InProceedings{Kulkarni_2013,
+  author    = {S. D. Kulkarni and S. Savari and S. Maghrabi and D. E. Jamison and A. Kumar},
+  title     = {Normal stress rheology of drilling fluids and potential in lost circulation control},
+  publisher = {{SPE}},
+  month     = apr,
+  year      = {2013},
 }
 
-
-%--------------------------------------------------------------------
-% ## tex/latex
-%--------------------------------------------------------------------
-
-@Book{SL-latex-lyxtut,
-  author = 	 {Amir Karger},
-  title = 	 {O Tutorial de Lyx},
-  year = 	 {2004},
-  address = 	 {},
-  publisher = 	 {LyX Team - http://www.lyx.org}
+@Article{Salimi_2011,
+  author    = {S. Salimi and A. Ghalambor},
+  title     = {Experimental study of formation famage during underbalanced-drilling in naturally fractured formations},
+  number    = {10},
+  pages     = {1728--1747},
+  volume    = {4},
+  month     = oct,
+  publisher = {{MDPI} {AG}},
+  year      = {2011},
 }
 
-@Book{SL-latex-lyxUG,
-  editor = 	 {LyX-Team},
-  title = 	 {The LyX User's Guide},
-  year = 	 {2004},
-  address = 	 {},
-  publisher = 	 {LyX Team - http://www.lyx.org}
+@InProceedings{Ramasamy_2019,
+  author    = {J. Ramasamy and C. Gooneratne and M. Amanullah},
+  title     = {Current methods and novel solutions for mitigating lost circulation},
+  publisher = {{IPTC}},
+  month     = mar,
+  year      = {2019},
 }
 
-@Book{SL-latex-lyxEF,
-  editor = 	 {LyX-Team},
-  title = 	 {Extended LyX Features},
-  year = 	 {2004},
-  address = 	 {},
-  publisher = 	 {LyX Team - http://www.lyx.org}
+@Article{Nasiri_2017,
+  author    = {A. Nasiri and A. Ghaffarkhah and M. {Keshavarz Moraveji} and A. Gharbanian and M. Valizadeh},
+  title     = {Experimental and field test analysis of different loss control materials for combating lost circulation in bentonite mud},
+  pages     = {1--8},
+  volume    = {44},
+  month     = aug,
+  publisher = {Elsevier {BV}},
+  year      = {2017},
 }
 
-@Book{SL-latex-demo,
-  author = 	 {Klauss Steding-Jessen},
-  title = 	 {Latex demo: Exemplo com Latex 2e},
-  year = 	 {2000},
-  address = 	 {},
-  publisher = 	 {}
+@InProceedings{Alsaba_Nygaard_2_2014,
+  author    = {M. Alsaba and R. Nygaard and A. Saasen and O. Nes},
+  title     = {Laboratory evaluation of sealing wide fractures using conventional lost circulation materials},
+  publisher = {{SPE}},
+  month     = oct,
+  year      = {2014},
 }
 
-@Book{SL-latex-companion,
-  author = 	 {Michel Grossens and Frank Mittelbach and Alexander Samarin},
-  title = 	 {Latex Companion},
-  year = 	 {1993},
-  address = 	 {New York},
-  publisher = 	 {Addison-Wesley}
+@InProceedings{Alkinani_2019,
+  author    = {H. H. Alkinani and Abo Taleb T. Al-Hameedi and Shari Dunn Norman and Ralph E. Flori and Mortadha T. Alsaba and Ahmed S. Amer and Waleed H. Al-Bazzaz},
+  title     = {Economic analysis of lost circulation events to optimize the drilling process in basra oil fields, iraq},
+  publisher = {{IPTC}},
+  month     = mar,
+  year      = {2019},
 }
 
-@Book{SL-latex-Guide2e,
-  author = 	 {Helmut Kopla e Patrick W. Daly},
-  title = 	 {A Guide to Latex 2e},
-  year = 	 {1995},
-  address = 	 {New York},
-  publisher = 	 {Addison-Wesley},
-  edition = 	 {2}
+@InProceedings{Sharma_2_1993,
+  author    = {D. Jiao and M. M. Sharma},
+  title     = {Investigation of dynamic mud cake formation: the concept of minimum overbalance pressure},
+  publisher = {{SPE}},
+  month     = oct,
+  year      = {1993},
 }
 
-@Book{SL-latex-donald,
-  author = 	 {Donald E. Knuth},
-  title = 	 {The Texbook},
-  year = 	 {1986},
-  address = 	 {},
-  publisher = 	 {Addison-Wesley}
+@Article{Kalantariasl_2013,
+  author    = {A. Kalantariasl and P. Bedrikovetsky},
+  title     = {Stabilization of external filter cake by colloidal forces in a {\textquotedblleft}Well{\textendash}Reservoir{\textquotedblright} System},
+  number    = {2},
+  pages     = {930--944},
+  volume    = {53},
+  month     = dec,
+  publisher = {American Chemical Society ({ACS})},
+  year      = {2013},
 }
 
-
-@Book{SL-latex-lamport,
-  author = 	 {Leslie Lamport},
-  title = 	 {Latex - A Document Preparation System},
-  year = 	 {1985},
-  address = 	 {},
-  publisher = 	 {Addison-Wesley}
+@InProceedings{Fordham_1988,
+  author    = {E. J. Fordham and H. K. J. Ladva and C. Hall and J. F. Baret and J. D. Sherwood},
+  title     = {Dynamic filtration of bentonite muds under different flow conditions},
+  publisher = {{SPE}},
+  month     = oct,
+  year      = {1988},
 }
 
-
-
-
-%--------------------------------------------------------------------
-% ## Referencia online
-%--------------------------------------------------------------------
-@ONLINE{RefOnline,
-author = {Doe, Ringo},
-title = {This is a test entry of type {@ONLINE}},
-month = jun,
-year = {2009},
-url = {http://www.test.org/doe/}
+@InProceedings{Sanfillippo_1997,
+  author    = {F. Sanfillippo and M. Brignoli and F. J. Santarelli and C. Bezzola},
+  title     = {Characterization of conductive fractures while drilling},
+  publisher = {{SPE}},
+  month     = jun,
+  year      = {1997},
 }
+
+@Article{Lietard_1999,
+  author    = {O. Lietard and T. Unwin and D. J. Guillot and M. H. Hodder},
+  title     = {Fracture width logging while drilling and drilling mud/loss-circulation-material selection guidelines in naturally fractured reservoirs},
+  number    = {03},
+  pages     = {168--177},
+  volume    = {14},
+  month     = sep,
+  publisher = {Society of Petroleum Engineers ({SPE})},
+  year      = {1999},
+}
+
+@InProceedings{Beda_Carugo_2001,
+  author    = {G. Beda and C. Carugo},
+  title     = {Use of mud microloss analysis while drilling to improve the formation evaluation in fractured reservoir},
+  publisher = {{SPE}},
+  month     = sep,
+  year      = {2001},
+}
+
+@InProceedings{Lavrov_Tronvoll_2004,
+  author    = {A. Lavrov and J. Tronvoll},
+  title     = {Modeling mud loss in fractured formations},
+  publisher = {{SPE}},
+  month     = oct,
+  year      = {2004},
+}
+
+@Article{Mansour_2018,
+  author    = {A. K. Mansour and A. D. Taleghani},
+  title     = {Smart loss circulation materials for drilling highly fractured zones},
+  address   = {Abu Dhabi UAE},
+  month     = jan,
+  publisher = {SPE/IADC Middle East Drilling Conference and Exhibition},
+  year      = {2018},
+}
+
+@Article{Feng_Gray_2017,
+  author    = {Y. Feng and K. E. Gray},
+  title     = {Review of fundamental studies on lost circulation and wellbore strengthening},
+  pages     = {511--522},
+  volume    = {152},
+  month     = apr,
+  publisher = {Elsevier {BV}},
+  year      = {2017},
+}
+
+@InProceedings{Alsaba_Nygaard_2014,
+  author    = {M. Alsaba and R. Nygaard and G. Hareland and O. Contreras},
+  title     = {Review of lost circulation materials and treatments with an updated classification},
+  publisher = {Fluids Technical Conference and Exhibition},
+  address   = {Houston, Texas},
+  month     = apr,
+  year      = {2014},
+}
+
+@InProceedings{Chellappah_2012,
+  author    = {K. Chellappah and M. Aston},
+  title     = {A new outlook on the ideal packing theory for bridging solids},
+  publisher = {{SPE}},
+  month     = feb,
+  year      = {2012},
+}
+
+@Book{Chhabra_2008,
+  author    = {R. P. Chhabra, J. F. Richardson},
+  title     = {Non-newtonian flow and applied rheology: engineering applications},
+  edition   = {2},
+  publisher = {Butterworth-Heinemann},
+  series    = {Butterworth-Heinemann/IChemE},
+  year      = {2008},
+}
+
+@Book{Golf-Racht_1982,
+  author    = {T. D. {Van Golf{\textendash}Racht}},
+  title     = {Fundamentals of fractured reservoir engineering},
+  publisher = {Elsevier, Academic Press},
+  series    = {Developments in Petroleum Science 12},
+  year      = {1982},
+}
+
+@Book{Tarek_2010,
+  author  = {T. Ahmed},
+  title   = {Reservoir engineering handbook, fourth edition},
+  edition = {4},
+  year    = {2010},
+}
+
+@Book{Caenn_2011,
+  author    = {R. Caenn and H. C. H. Darley and G. R. Gray},
+  title     = {Composition and properties of drilling and completion fluids},
+  publisher = {Gulf Professional Pub},
+  year      = {2011},
+}
+
+@Article{Abrahams_1977,
+  author    = {A. Abrams},
+  title     = {Mud design to minimize rock impairment due to particle invasion},
+  number    = {05},
+  pages     = {586--592},
+  volume    = {29},
+  month     = may,
+  publisher = {Society of Petroleum Engineers ({SPE})},
+  year      = {1977},
+}
+
+@InProceedings{Alberty_2004,
+  author    = {M. W. Alberty and M. R. McLean},
+  title     = {A physical model for stress cages},
+  publisher = {{SPE}},
+  month     = sep,
+  year      = {2004},
+}
+
+@Article{Carson_1982,
+  author    = {A. Abrams},
+  title     = {The impact of common problems in geothermal drilling and completion},
+  number    = {05},
+  pages     = {586--592},
+  volume    = {29},
+  month     = may,
+  publisher = {Society of Petroleum Engineers ({SPE})},
+  year      = {1977},
+}
+
+@Article{Cook_2012,
+  author = {Cook, J. and Growcock, F. and Guo, Q. and Hodder, M. and van Oort, E.},
+  title  = {Stabilizing the wellbore to prevent lost circulation},
+  pages  = {26-35},
+  volume = {23},
+  month  = {12},
+  year   = {2011},
+}
+
+@InProceedings{Dupriest_2005,
+  author    = {F. E. Dupriest},
+  title     = {Fracture closure stress ({FCS}) and lost returns practices},
+  publisher = {{SPE}},
+  month     = feb,
+  year      = {2005},
+}
+
+@Article{Martins_2005,
+  author    = {A. T. A. Waldmann and A. L. Martins and A. F. L. Aragao and R. F. T. Lomba},
+  title     = {Predicting and monitoring fluid invasion in exploratory drilling},
+  number    = {04},
+  pages     = {268--275},
+  volume    = {20},
+  month     = dec,
+  publisher = {Society of Petroleum Engineers ({SPE})},
+  year      = {2005},
+}
+
+@Article{Neff_2000,
+  author  = {J. Neff and S. Mckelvie},
+  title   = {Environmental impacts of synthetic based drilling fluids},
+  pages   = {140},
+  journal = {Report prepared for Minerals Management Service (MMS) by Robert Ayers & Associates},
+  month   = {jan},
+  year    = {2000},
+}
+
+@InProceedings{Majidi_2011,
+  author    = {R. Majidi and S. Z. Miska and J. Zhang},
+  title     = {Fingerprint of mud losses into natural or Induced fractures},
+  publisher = {{SPE}},
+  month     = jun,
+  year      = {2011},
+}
+
+@InProceedings{Morita_1990,
+  author    = {N. Morita and A. D. Black and G. F. Guh},
+  title     = {Theory of lost circulation pressure},
+  publisher = {{SPE}},
+  month     = sep,
+  year      = {1990},
+}
+
+@Article{Waldmann_2014,
+  author    = {T. Waldmann},
+  title     = {Efforts to control fluid losses in offshore drilling},
+  address   = {Texas Houston},
+  month     = apr,
+  publisher = {American Association of Drilling Engineers - AADE},
+  year      = {2014},
+}
+
+@InProceedings{Whitfill_2008,
+  author    = {D.Whitfill},
+  title     = {Lost circulation material selection, particle size distribution and fracture modeling with fracture simulation software},
+  publisher = {{SPE}},
+  month     = aug,
+  year      = {2008},
+}
+
+@Article{VanOort_2011,
+  author    = {E. {Van Oort} and J. Friedheim and T. Pierce and J. Lee},
+  title     = {Avoiding losses in depleted and weak zones by constantly strengthening wellbores},
+  number    = {04},
+  pages     = {519--530},
+  volume    = {26},
+  month     = dec,
+  publisher = {Society of Petroleum Engineers ({SPE})},
+  year      = {2011},
+}
+
+@InProceedings{Contreras_2014,
+  author    = {O. Contreras and G. Hareland and M. Husein and R. Nygaard and M. Alsaba},
+  title     = {Wellbore strengthening in sandstones by means of nanoparticle based drilling fluids},
+  publisher = {{SPE}},
+  month     = sep,
+  year      = {2014},
+}
+
+@InProceedings{Vickers2006ANM,
+  author    = {S. R. Vickers and M. S. Cowie and T. Jones and A. J. Twynam},
+  title     = {A new methodoly that surpasses current bridging theories to efficiently seal a varied pore throat distribution as found in natural reservoir formations},
+  publisher = {AADE},
+  year      = {2006},
+}
+
+@InProceedings{Canson_1985,
+  author    = {B. E. Canson},
+  title     = {Lost circulation treatments for naturally fractured, vugular, or cavernous formations},
+  publisher = {Society of Petroleum Engineers},
+  year      = {1985},
+}
+
+@Article{Sharma_1996,
+  author    = {D. Jiao and M. Sharma},
+  title     = {Mud induced formation damage in fractured reservoirs},
+  number    = {01},
+  pages     = {11--16},
+  volume    = {11},
+  month     = mar,
+  publisher = {Society of Petroleum Engineers ({SPE})},
+  year      = {1996},
+}
+
+@Article{Almagro_2014,
+  author  = {S. P. Almagro and C. Frates and J. Garand and A. Meyer},
+  title   = {Sealing fractures: advances in lost circulation control treatments},
+  pages   = {4-13},
+  volume  = {26},
+  journal = {Oilfield Review},
+  month   = {09},
+  year    = {2014},
+}
+
+@Article{API_2014,
+  author  = {R. {API 13B-2}},
+  title   = {Recommended practice for field testing oil{\textendash}based drilling fluids},
+  pages   = {156},
+  volume  = {fifth edition},
+  journal = {API},
+  year    = {2014},
+}
+
+@Book{Dake_2014,
+  author    = {L. P. {Dake, 2014}},
+  date      = {2014},
+  title     = {Reservoir engineering fundamentals},
+  pages     = {464p},
+  publisher = {Elsevier},
+}
+
+@Article{Rosa_2006,
+  author = {A. Rosa and R. Carvalho and D. Xavier},
+  date   = {2006},
+  title  = {Petroleum reservoir engineering},
+  pages  = {808p},
+}
+
+@Article{Morais_2020,
+  author      = {C. A. {Morais, 2020}},
+  date        = {2020},
+  title       = {Experimental study of drilling fluid loss in naturally fractured formations},
+  institution = {LENEP},
+}
+
+@Article{Malgaresi_2015,
+  author      = {G. S. {Malgaresi, 2015}},
+  date        = {2015},
+  title       = {Methodology for analyzing drilling fluid filtrate loss in transverse flow},
+  institution = {LENEP},
+}
+
+@Book{Miska_2011,
+  author    = {Mitchell, R. F. and Miska, S. Z.},
+  date      = {2011},
+  title     = {Fundamentals of drilling engineering},
+  publisher = {Society of Petroleum Engineers},
+  volume    = {v. 2. 5, 13, 14, 15, 18, 20, 23},
+}
+
+@Book{Skalle_2013,
+  author    = {Skalle, P.},
+  date      = {2013},
+  title     = {Drilling fluid engineering},
+  edition   = {3 ed},
+  pages     = {23},
+  publisher = {BookBoon},
+}
+
+@Article{Gentil_2007,
+  author    = {V. P. {Gentil, 2007}},
+  date      = {2007},
+  title     = {Corrosion},
+  publisher = {LTC},
+}
+
+@Book{Tiab_2012,
+  author    = {D. Tiab and E. C. Donaldson},
+  title     = {Petrophysics. theory and practice of measuring reservoir rock and fluid transport properties},
+  publisher = {Gulf Professional Pub},
+  series    = {EngineeringPro collection},
+  year      = {2012},
+}
+
+@Book{Bourgonye_1986,
+  author    = {A. T. {Bourgoyne Jr.} and K. K. Milheim and M. M. Chenevert and F. S. {Young Jr.}},
+  title     = {Applied drilling engineering},
+  edition   = {First Printing,},
+  publisher = {Society of Petroleum Engineers},
+  series    = {SPE textbook series 2},
+  year      = {1986},
+}
+
+@Article{Cunha_2015,
+  author      = {R. R. Cunha and G. F. Cruz and C. C. Correa},
+  date        = {2015},
+  title       = {Preliminary study on the use of glycerin from biodiesel production as a base for petroleum base oil refining fluids},
+  pages       = {82},
+  address     = {Macae},
+  institution = {LENEP},
+}
+
+@InProceedings{Dick_2000,
+  author    = {M. A. Dick and T. J. Heinz and C. F. Svoboda and M. Aston},
+  booktitle = {All Days},
+  title     = {Optimizing the selection of bridging particles for reservoir drilling fluids},
+  publisher = {{SPE}},
+  month     = feb,
+  year      = {2000},
+}
+
+@Article{Kauffer_1973,
+  author       = {M. Kaeuffer},
+  date         = {1973},
+  journaltitle = {Congres International de IA.F.T.P.v., Rouen},
+  title        = {Determination de loptimum de remplissage granulometrique et quelques proprieties sy rattachant},
+}
+
+@Article{Andreasen_1930,
+  author       = {A. H. M. Andreasen and J. Andreson},
+  date         = {1930},
+  journaltitle = {50},
+  title        = {Kolloid Z},
+}
+
+@Article{Xu_2017,
+  author    = {C. Xu and Y. Kang and L. You and Z. You},
+  title     = {Lost circulation control for formation damage prevention in naturally fractured reservoir: mathematical model and experimental study},
+  number    = {05},
+  pages     = {1654--1670},
+  volume    = {22},
+  journal   = {{SPE} Journal},
+  month     = jun,
+  publisher = {Society of Petroleum Engineers ({SPE})},
+  year      = {2017},
+}
+
+@Article{Wang_2019,
+  author    = {G. Wang and Y. Huang and S. Xu},
+  title     = {Laboratory investigation of the selection criteria for the particle size distribution of granular lost circulation materials in naturally fractured reservoirs},
+  pages     = {103000},
+  volume    = {71},
+  journal   = {Journal of Natural Gas Science and Engineering},
+  month     = nov,
+  publisher = {Elsevier {BV}},
+  year      = {2019},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}

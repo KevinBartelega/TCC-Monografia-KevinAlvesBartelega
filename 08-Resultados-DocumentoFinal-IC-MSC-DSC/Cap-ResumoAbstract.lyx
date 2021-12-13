@@ -1,7 +1,9 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass abnt
 \begin_preamble
 \usepackage {graphicx}
@@ -21,18 +23,20 @@
 \maintain_unincluded_children false
 \language brazilian
 \language_package default
-\inputencoding latin1
+\inputencoding iso8859-1
 \fontencoding global
-\font_roman default
-\font_sans default
-\font_typewriter default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
-
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -56,16 +60,26 @@
 \pdf_pdfusetitle true
 \papersize a4paper
 \use_geometry true
-\use_amsmath 1
-\use_esint 0
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
+\justification true
 \use_refstyle 0
+\use_minted 0
 \index Índice
 \shortcut idx
 \color #008000
@@ -80,7 +94,10 @@
 \tocdepth 1
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle fancy
@@ -96,7 +113,11 @@
 \begin_layout Standard
 
 \emph on
-Titulo do Trabalho...Titulo do Trabalho...Titulo do Trabalho...
+Estudo Experimental da Formação de Reboco em Formações Naturalmente Fraturadas
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -160,128 +181,49 @@ addcontentsline{toc}{chapter}{Resumo}
 \end_inset
 
 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Este trabalho objetiva, através da análise de imagens de rochas reservatório
- de petróleo, estudar, simular e determinar as propriedades petrofísicas
- que descrevem o escoamento multifásico no meio poroso.
- Tais informações descrevem a interação dinâmica entre os fluidos e o meio
- poroso, sendo então imprescindíveis para a compreensão do comportamento
- de produção dos reservatórios.
 \end_layout
 
-\end_inset
-
+\begin_layout Standard
+Um dos desafios encontrados pela equipe de perfuração de poços é o monitoramento
+ e controle da perda de fluido (filtrado) de perfuração ocorrida durante
+ o trabalho.
+ Diretamente relacionado a isso esta o processo de formação do reboco que
+ ocorre na parede do poço.
+ Basicamente, ele é uma camada fina de baixíssima permeabilidade constituído
+ por parte dos componentes do fluido de perfuração e que se forma dado o
+ influxo deste fluido pela rocha.
  
 \end_layout
 
 \begin_layout Standard
-Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
- aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
- aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
- aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
- aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
- aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
- aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
- aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
- aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
- aqui...Resumo aqui...Resumo aqui...Resumo aqui...
-\end_layout
-
-\begin_layout Itemize
-O resumo deve ser feito no início do trabalho, na etapa de especificação
- do trabalho (ajuda a esclarecer as ideias).
+Devido à grande discussão na literatura, o processo de formação de reboco
+ em formações rochosas bem consolidadas bem como a perda de fluido típica
+ esperada em uma perfuração neste cenário são previsíveis com razoável confiança.
+ No entanto, este mesmo desafio em formações naturalmente fraturadas ainda
+ requer estudos mais concisos e detalhados.
  
 \end_layout
 
-\begin_layout Itemize
-Deve ter aproximadamente 200-500 palavras.
+\begin_layout Standard
+Neste trabalho foi extendida uma metodologia experimental que analisa qualitativ
+amente a perda de fluido de perfuração base água com partículas de carbonato
+ de cálcio com 4 diferentes distribuições do tamanho (micronizado, fino,
+ intermerdiário e médio), aplicadas como materiais controladores de perda
+ de circulação em injeção de fluxo transversal em testemunhos de rochas
+ sintéticas e naturais com fraturas de abertura variando entre 50 e 750
  
-\end_layout
+\begin_inset Formula $\mu m$
+\end_inset
 
-\begin_layout Itemize
-A versão final deve ser feita depois das correções sugeridas pela banca.
-\end_layout
-
-\begin_layout Itemize
-O resumo deve ser completo, simples e direto, pois é um elemento externo
- a Tese/Dissertação/Monografia, disponibilizado em bibliotecas eletrônicas.
- Um bom resumo irá convencer o leitor a baixar o arquivo, se for ruim, com
- certeza seu trabalho não será lido - por melhor que seja a parte técnica!
-\end_layout
-
-\begin_layout Itemize
-Um bom resumo é completo e tem a mesma ordem do documento final:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Colocação do problema, 
-\series bold
-objetivos e metodologia
-\series default
-, seguido de desenvolvimento, simulações/experimentos, 
-\series bold
-resultados
-\series default
-, análises e 
-\series bold
-conclusões
-\series default
 .
+ Através dessa metodologia foi possível comparar a influência das diferentes
+ distribuições do tamanho de partículas e das aberturas de fratura na dinâmica
+ de perda de fluido em testemunhos fraturados.
+ Além disso, modelou-se o processo de formação do reboco por meio de um
+ balanço de torques para um melhor entendimento de como se dá seu crescimento.
+ Por fim, foi a feita avaliação dos critérios de seleção de partículas para
+ obstrução das fraturas.
  
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Evite colocar citações no resumo; se o fizer, incluir a referência completa.
- Veja o exemplo a seguir:
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\paragraph_spacing double
-Embora obtendo resultados muito expressivos, métodos de predição da permeabilida
-de intrínseca baseados no campo local de velocidades, como em Santos 
-\emph on
-et al.
-\emph default
-(2001) (Santos, L.O.E; Philippi, P.C; Damiani, M.C; Fernandes, C.P; 2001, 
-\emph on
-Using three-dimensional reconstructed microstructures for predicting intrinsic
- permeability of reservoir- rocks based on a boolean lattice gas method
-\emph default
-, Submitted to Journal of Petroleum Science and Engineering), são computacionalm
-ente caros e não se espera que sejam usados na rotina diária da engenharia
- de petróleo.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Segundo 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "metcient-LaudemiraSilvaRabelo"
-
-\end_inset
-
-, "A NBR 6028 (1990) esclarece que um resumo deve passar informações suficientes
- sobre todo o conteúdo do texto, possibilitando ao leitor a decisão de lê
- em sua totalidade.
- É solicitado que o resumo contenha objetivo, método, resultados e as conclusões
- do trabalho.
- ...
- O resumo deve ser escrito em parágrafo único, numa seqüência corrente de
- frases lógicas sem nenhuma enumeração de tópicos.
- A norma 6028 (1990) explicita também que a primeira frase deve explicar
- o tema do artigo, dando-se preferência ao uso da terceira pessoa do singular
- e do verbo na voz ativa.
- Embora o artigo possa ter sido escrito por vários autores, a primeira pessoa
- do plural (nós) não deve ser utilizado.
- Deve-se, ainda, evitar o uso de frases negativas, símbolos, equações, tabelas,
- quadros etc no resumo ".
 \end_layout
 
 \begin_layout Standard
@@ -291,7 +233,7 @@ key "metcient-LaudemiraSilvaRabelo"
 Palavras chave: 
 \series default
 \size default
-[até 5 palavras chaves].
+Fratura, LCM, filtração, reboco, perda de fluido.
 \end_layout
 
 \begin_layout Standard
@@ -303,9 +245,15 @@ Palavras chave:
 
 \begin_layout Standard
 
+\lang american
+Experimental Study of Mudcake Formation in Naturally Fractured Formations
 \emph on
-Titulo do Trabalho em ingles...Titulo do Trabalho em ingles...Titulo do Trabalho
- em ingles...
+\lang brazilian
+
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -369,74 +317,61 @@ addcontentsline{toc}{chapter}{Abstract}
 \end_inset
 
 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-This work aims, through image analysis of oil reservoir rocks, study, simulate
- and determine the petrophysical properties that describe the multiphase
- flow in porous medium.
- Such information describes the dynamic interaction between the fluid and
- the porous media, is essential to understanding the behavior of reservoirs
- producing.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
-[coloque aqui o resumo em inglês].
-\lang english
 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-
-\lang english
-Note que o documento tem uma língua, que pode ser setada utilizando-se Document-
-Settings->Language.
-\end_layout
-
-\begin_layout Plain Layout
-
-\lang english
-Note que partes do texto podem ser definidos como tendo outra linguagem.
- Selecione o texto, vá em Edit->TextStyle->Customized, ou Edit->Language.
-\end_layout
-
-\end_inset
-
-
+\lang american
+One of the challenges faced by the well drilling team is monitoring and
+ control of drilling fluid (filtrate) loss that occurs during work.
+ Directly related to it, there is the process of mudcake formation that
+ occurs on the well wall.
+ Basically, it is a thin layer of very low permeability consisting of part
+ of the drilling fluid components that is formed during drilling due to
+ the influx of this fluid.
 \end_layout
 
 \begin_layout Standard
-Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
- aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
- aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
- aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
- aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
- aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
- aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
- aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
- aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo aqui...Resumo
- aqui...Resumo aqui...Resumo aqui...Resumo aqui...
-\begin_inset space ~
-\end_inset
 
+\lang american
+Due to the wide discussion in the literature, the process of mudcake formation
+ in consolidated rock formations as well as the typical fluid loss expected
+ from drilling a well in this scenario are predictable with reasonable confidenc
+e.
+ However, this same challenge in naturally fractured formations still requires
+ more concise and detailed studies.
+ 
+\end_layout
 
-\begin_inset Newline newline
-\end_inset
+\begin_layout Standard
 
+\lang american
+In this work, an experimental methodology was extended to qualitatively
+ analyze the loss of water-based drilling fluid with calcium carbonate particles
+ with 4 different particle size distributions (micronized, fine, intermediate,
+ and medium), in cross flow injection in synthetic and natural rock cores
+ with fracture openings ranging from 50 to 750 um.
+ Through this methodology it was possible to compare the influence of different
+ particle size distributions and fracture openings on the drilling fluid
+ loss dynamics in fractured cores.
+ In addition, mudcake formation was modeled by means of a torque balance
+ for a better understanding of its growth.
+ Finally, it was made an evaluation of the particle size selection criteria
+ for fracture obstruction.
+ 
+\end_layout
+
+\begin_layout Standard
 
 \series bold
 \size large
 Keywords: 
 \series default
 \size default
-[até 5 palavras chaves em inglês].
+\lang american
+Fracture, LCM, filtration, mud cake, fluid loss
+\lang brazilian
+.
 \end_layout
 
 \end_body

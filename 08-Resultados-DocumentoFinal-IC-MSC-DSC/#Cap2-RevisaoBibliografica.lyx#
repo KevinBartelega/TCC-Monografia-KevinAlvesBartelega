@@ -1,0 +1,6205 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass abnt
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+\end_preamble
+\use_default_options false
+\master Monografia-Dissertacao-Tese-master.lyx
+\maintain_unincluded_children false
+\language brazilian
+\language_package default
+\inputencoding iso8859-1
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement ph
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{
+\backslash
+thechapter
+\backslash
+space - Revisão Bibliográfica} 
+\backslash
+rhead{} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Revisão Bibliográfica
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Revisão Bibliográfica
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "cha:Revisão-Bibliográfica"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Apresenta-se neste capítulo uma revisão bibliográfica sobre a perfuração
+ de poços de petróleo, fluido de perfuração, materiais empregados no controle
+ de perda de circulação, materiais para fortalecimento do poço, reservatórios
+ naturalmente fraturados e alguns modelos experimentais para injeção de
+ fluido em fluxo transversal e direto.
+ 
+\end_layout
+
+\begin_layout Section
+Perfuração de poços de petróleo
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Perfuração de poços de petróleo
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Perfuração-de-poços"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A descoberta de uma jazida de petróleo em uma nova área é uma tarefa que
+ envolve um longo estudo e análise de dados geofísicos e geológicos das
+ bacias sedimentares.
+ Somente após um exaustivo prognóstico do comportamento das diversas camadas
+ do subsolo, os geólogos e geofísicos decidem propor a perfuração de um
+ poço, que é a etapa que mais investimentos exige em todo o processo de
+ prospecção 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bourgonye_1986"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+A perfuração de um poço de petróleo é realizada através de uma sonda rotativa.
+ Plataformas rotativas são usadas para quase todas as operações de perfuração.
+ Os equipamentos dela são agrupados nos chamados “sistemas”.
+ As rochas são perfuradas pela ação da rotação e peso aplicados a uma broca
+ existente na extremidade de uma coluna de perfuração.
+ Os fragmentos da rocha são removidos continuamente através de um fluido
+ de perfuração ou lama.
+ O fluido é injetado por bombas para o interior da coluna através da cabeça
+ de injeção (
+\shape italic
+swivel
+\shape default
+) e retorna à superfície através do espaço anular formado pelas paredes
+ do poço e pela coluna 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bourgonye_1986"
+literal "true"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Existem duas formas ou condições de se operar um poço: 
+\shape italic
+overbalanced
+\shape default
+ e 
+\shape italic
+underbalanced
+\shape default
+.
+ Na condição 
+\shape italic
+overbalanced
+\shape default
+ a pressão dentro do poço é maior que a pressão do reservatório.
+ Assim, há influxo do fluido de perfuração para o interior da rocha.
+ Apesar de bastante difundida na indústria pelo seu baixo custo, apresenta
+ desvantagens como perda de fluido para o reservatório que propicia dano
+ à formação e reduz drasticamente ou mesmo elimina a capacidade de produção
+ do poço.
+ Por sua vez, a forma de operação 
+\shape italic
+underbalanced 
+\shape default
+é bastante eficiente no que se refere ao dano à formação já que não viabiliza
+ perda de filtrado.
+ No entanto, é menos utilizada devido ao alto custo uma vez que há influxo
+ de fluidos nativos da formação para o poço e existe a contaminação do fluido
+ de perfuração e do cascalho.
+ Assim, são necessários tratamentos desse fluido com objetivo de recirculação
+ quanto para o tratamento do cascalho para posterior descarte.
+ Além disso, investimentos em equipamento de segurança são requeridos para
+ se prevenir a ocorrência de 
+\shape italic
+kicks
+\shape default
+ e 
+\shape italic
+blowouts
+\shape default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Rosa_2006,Caenn_2011"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Fluido de perfuração
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Fluido-de-perfuração"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A perfuração e completação bem-sucedida de um poço de petróleo dependem
+ das propriedades do fluido de perfuração.
+ O custo dele é relativamente baixo, porém a escolha do fluido adequado
+ e a manutenção das propriedades certas durante a perfuração podem influenciar
+ o quão oneroso ficará o poço.
+ Por exemplo, o número de dias de plataforma necessários para perfurar até
+ a profundidade total depende da taxa de penetração da broca e da prevenção
+ de atrasos causados pelo desmoronamento de folhelhos, por tubos de perfuração
+ presos, por perdas de circulação etc., todos os quais influenciados pelas
+ propriedades do fluido 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Caenn_2011"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Durante a perfuração, o fluido é bombeado dos tanques de lama para dentro
+ dos tubos através de orifícios na broca.
+ A lama que flui varre os fragmentos e cascalhos e os carrega de volta pelo
+ espaço anular entre o tubo de perfuração e o poço ou revestimento para
+ a superfície.
+ A lama é então passada por um sistema integrado de telas de agitação e
+ hidrociclones para remover os cascalhos.
+ É então circulada de volta para os tanques de lama onde o ciclo se repete.
+\end_layout
+
+\begin_layout Subsection
+Funções do fluido de perfuração 
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Funções-do-Fluido"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Caenn_2011"
+literal "false"
+
+\end_inset
+
+ mostraram que na perfuração rotativa, as principais funções executadas
+ pelo fluido de perfuração são:
+\end_layout
+
+\begin_layout Enumerate
+Carrear os cascalhos gerados pela broca pelo espaço anular e permitir sua
+ separação na superfície;
+\end_layout
+
+\begin_layout Enumerate
+Formar uma estrutura semelhante a um gel para manter os cascalhos em suspensão
+ quando a circulação é interrompida;
+\end_layout
+
+\begin_layout Enumerate
+Resfriar, lubrificar e limpar a broca;
+\end_layout
+
+\begin_layout Enumerate
+Reduzir o atrito entre a coluna de perfuração e as laterais do poço;
+\end_layout
+
+\begin_layout Enumerate
+Manter a estabilidade das seções não revestidas do poço e controlar a pressão
+ e fluxo de fluidos das formações;
+\end_layout
+
+\begin_layout Enumerate
+Reduzir dano à formação pelo crescimento de um reboco fino e de baixa permeabili
+dade que sele os poros e outras aberturas nas formações perfuradas pela
+ broca;
+\end_layout
+
+\begin_layout Subsection
+Classificação dos fluidos de perfuração 
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Classificação-dos-fluidos"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Segundo 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Caenn_2011"
+literal "false"
+
+\end_inset
+
+, o principal critério de classificação de um fluido de perfuração se baseia
+ no constituinte principal da fase contínua ou dispersante, sendo eles:
+ fluido base água (WBM, do inglês, 
+\shape italic
+water based mud
+\shape default
+), fluido base óleo (OBM, do inglês, 
+\shape italic
+oil based mud
+\shape default
+ ), fluido base sintética (SBM, do inglês, 
+\shape italic
+synthetic based mud
+\shape default
+) e fluido base gás ou ar.
+\end_layout
+
+\begin_layout Subsubsection
+WBM
+\end_layout
+
+\begin_layout Standard
+Partículas sólidas como barita, argila, soda cáustica, lignitos, lignossulfatos
+ e/ou polímeros solúveis em água ficam suspensos na fase contínua (água
+ doce ou salgada); óleo pode estar emulsionado em água.
+ Apresentam algumas vantagens tais como baixo custo, maior disponibilidade
+ da fase contínua, menos poluente, maior taxa de penetração da broca (ROP,
+ do inglês
+\shape italic
+, rate of penetratio
+\shape default
+n) e maior agregação de LCMs.
+ Dentre as limitaçãoes destaca-se alta solubilidade de sais, provocando
+ alterações indesejadas no peso do fluido, alto grau de corrosividade, dano
+ à formação acentuado e restrições de uso em formações argilosas de folhelhos
+ hidratáveis.
+ Basicamente, as argilas reagem quimicamente com a água do fluido de perfuração
+ que incham.
+ Este fenômeno pode restringir significativamente a produção de hidrocarbonetos.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+OBM
+\end_layout
+
+\begin_layout Standard
+Partículas sólidas como barita, argilas, emulsificantes, cloreto de cálcio,
+ lignita e cal ficam suspensas na fase contínua (óleo diesel ou óleo mineral
+ convencional); água ou salmoura pode estar emulsionada no óleo.
+ Foram desenvolvidos para superar certas características indesejáveis dos
+ WBMs.
+ As OBMs oferecem potenciais vantagens como melhores qualidades lubrificantes
+ com menores coeficientes de atrito ideais para perfurações direcionais,
+ maiores pontos de ebulição e menores pontos de congelamento, baixa solubilidade
+ de sais, perfuração de folhelhos hidratáveis e maior estabilidade térmica
+ em tempaturas elevadas.
+ Como desvantagem, o custo da preparação que WBM, são mais agressivas ao
+ ambiente e têm menores ROP.
+\end_layout
+
+\begin_layout Subsubsection
+SBM
+\end_layout
+
+\begin_layout Standard
+A indústria precisou se enquadrar em novas diretrizes ambientais visto que
+ os OBMs são tóxicos e os cascalhos gerados estão sempre cobertos de óleo.
+ A resposta veio com uma nova classe de fluidos de perfuração cuja base
+ é um material orgânico sintético insolúvel em água, por exemplo, éter,
+ éster, parafinas, olefinas.
+ Eles foram desenvolvidos para fornecer uma alternativa ambientalmente superior
+ aos OBMs já que possuem certas vantagens técnicas tais como menor toxicicidade,
+ e degradação mais rápida.
+ Acredita-se que os SBMs tenham impactos ambientais intermediários entre
+ os anteriores.
+ Possuem a desvantagem de um alto custo de fabricação.
+\end_layout
+
+\begin_layout Subsubsection
+Base gás ou ar
+\end_layout
+
+\begin_layout Standard
+Incluem aqueles em que o gás seco é a fase contínua (ar, gás natural) e
+ aqueles em que o gás é a fase descontínua (espumas, névoas).
+ A finalidade original da utilização desses fluidos era evitar a perda de
+ água e o dano resultante para zonas produtoras.
+ Entretanto, outros benefícios foram derivados como uma perfuração mais
+ rápida, o melhor desempenho da broca e a detecção imediata de hirocarbonetos.
+ Como desvantagens, há possibilidade de incêndios e explosões.
+\end_layout
+
+\begin_layout Subsection
+Aditivos 
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Aditivos"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+São materiais adicionados às formulações de fluido de perfuração para melhorar
+ seu desempenho.
+ Alguns dos principais tipos de aditivos e suas funções estão na Tabela
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:aditivos_fluido"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="27" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Classificação
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Função
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Aditivos
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Controle de pH
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Controlam o grau de acidez 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cal, 
+\begin_inset Formula $CaCO_{3}$
+\end_inset
+
+,
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+e alcalinidade 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $NaHCO_{3}$
+\end_inset
+
+, 
+\begin_inset Formula $NaOH$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Floculantes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Agrupam partículas,
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Salmoura, cal hidratada,
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+aumentam a viscosidade
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+polímeros, 
+\begin_inset Formula $NaHCO_{3}$
+\end_inset
+
+,
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+e limpeza do poço
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+gesso, sais
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dispersantes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dispersam partículas,
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Taninos, polifosfatos
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+diminuindo a viscosidade
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+lignossulfonatos
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Viscosificantes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aumentam a viscosidade
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bentonita, argilas,
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+e sustentação de sólidos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+polímeros, CMC
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Adensantes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aumento da densidade da
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Barita, óxidos de ferro, 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+lama e estabilização do poço
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $CaCO_{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lubrificantes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Reduzem o atrito da lama
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Óleo, surfactantes, 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+grafite, glicóis
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tensoativos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Reduzem a tensão superficial
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Surfactantes
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Emulsificantes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mantêm uma mistura 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ácidos graxos,
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+de dois imiscíveis
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+amina, detergentes
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Redutores de filtrado
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diminuir a perda de lama 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bentonita, argilas, 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+amido, CMC, lignita
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bactericida
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diminuem a quantidade
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Para-formaldeído, 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+de bactérias
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $NaOH$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Inibidores de corrosão
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Evitam a corrosão 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cal hidratada, 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+e incrustações no ﬂuido
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+amina ou fosfato
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Inibidores de argila
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Reduzem a hidratação 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gesso, silicato de sódio,
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+de argilas 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+lignossulfonatos
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Estabilizadores
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aumentam a estabilidade 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Polímeros acrílicos,
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+de temperatura
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+reológica 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+lignosulfatos
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Aditivos e suas funções no fluido de perfuração.
+ Fonte: modificado de 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Miska_2011,Skalle_2013,Malgaresi_2015,Morais_2020"
+literal "false"
+
+\end_inset
+
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:aditivos_fluido"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Propriedades dos fluidos de perfuração
+\end_layout
+
+\begin_layout Subsubsection
+Densidade
+\end_layout
+
+\begin_layout Standard
+Peso por unidade de volume que um fluido deve possuir.
+ A pressão exercida por uma coluna de fluido é fundamentada nesta propriedade.
+ Para impedir o influxo de fluidos da formação e gerar um reboco fino de
+ baixa permeabilidada, a pressão da coluna de lama deve execeder a pressão
+ de poros por pelo menos 200 psi (pressão que os fluidos da formação exercem
+ nos poros da rochas) cujo gradiente varia de 0,43 psi/ft até 0,52 psi/ft.
+ Para a segurança do poço, há uma tendência de se fornecer uma densidade
+ de lama bem superior àquela necessária para controle dos fluidos da formação.
+ Uma desvantagem é o aumento da pressão nas paredes do poço com a consequente
+ indução de fraturas 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Caenn_2011,API_2014"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Propriedades de fluxo
+\end_layout
+
+\begin_layout Standard
+As propriedades de fluxo desempenham um papel importante na perfuração,
+ como por exemplo na remoção dos cascalhos.
+ Um desempenho insatisfatório pode gerar problemas graves como redução da
+ ROP, aprisionamento dos tubos de perfuração, perda de circulação e até
+ mesmo 
+\shape italic
+blowout
+\shape default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Calcada_2015"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Os regimes de fluxo são relações entre pressão e velocidade.
+ O fluxo laminar prevalece em baixas velocidades e é função das propriedades
+ viscosas do fluido.
+ Já o turbulento regido pelas propriedades inerciais, apenas indiretamente
+ influenciado pela viscosidade.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+pH, alcalinidade, condutividade elétrica, lubricidade, corrosividade
+\end_layout
+
+\begin_layout Standard
+A acidez de um fluido é expressa pelo 
+\series bold
+pH
+\series default
+.
+ O controle ótimo de alguns sistemas de lama baseia-se nele, assim como
+ na detecção e no tratamento de alguns contaminantes.
+ A lama produzida por bentonita e água doce apresenta um pH de 8 a 9.
+ Dentre outras razões para controlar o pH está mitigação da corrosão.
+ 
+\end_layout
+
+\begin_layout Standard
+As medições da 
+\series bold
+alcalinidade
+\series default
+ e do teor de cal das lamas são úteis para controlar suas propriedades.
+ Métodos rotineiros de análise de água permitem calcular as concentrações
+ de hidroxila, carbonato e bicarbonato 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "API_2014"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+A determinação da 
+\series bold
+resistividade
+\series default
+ envolve por fluxo de corrente elétrica.
+ Indica estabilidade das emulsões de água em óleo e contabiliza a quantidade
+ de íons livres na solução.
+\end_layout
+
+\begin_layout Standard
+A exigência de 
+\series bold
+lubrificação 
+\series default
+é crítica em poços direcionais, poços desviados, e para evitar adesão às
+ paredes.
+ Testes de lubricidade servem para avaliar o coeficente de atrito dos fluidos.
+\end_layout
+
+\begin_layout Standard
+A 
+\series bold
+corrosão
+\series default
+ é a principal causa de falhas em tubos de perfuração.
+ Nesse sentido, são adicionados inibidores de corrosão.
+ No programa de fluidos deve-se dar atenção não somente ao efeito corrosivo
+ do fluido de perfuração, mas também aos efeitos dos inibidores no próprio
+ fluido de perfuração, já que algum deles afetam as propriedades das lamas
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Gentil_2007"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Reologia e modelos de fluido de perfuração 
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Reologia-e-modelos"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Um gráfico da tensão de cisalhamento versus taxa de cisalhamento é conhecido
+ como curva de consistência, ou modelo de fluxo, cuja forma depende da natureza
+ do fluido testado.
+ A Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Reologia_fluido_modelos"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ compara as curvas de consistência para os modelos:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figuras/Modelos_de_Fluxo.png
+	lyxscale 25
+	scale 15
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+a) Principais modelos aplicados na modelagem de fluidos de perfuração; b)
+ Destaque para propriedades físico-químicas tais como viscosidade, viscosidade
+ plástica e tensão limite de escoamento 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Caenn_2011"
+literal "false"
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Reologia_fluido_modelos"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As equações correspondentes aos modelos expostos na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Reologia_fluido_modelos"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ são apresentadas na Tabela 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Modelos-reológicos-e"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ abaixo:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Modelo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Equação
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Newtoniano
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\tau=\mu\gamma$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Plástico de Bingham
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\tau=\mu_{p}\gamma+\tau_{0}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lei de Potência
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\tau=\kappa\gamma^{n}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Herschel-Buckley
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\tau=\kappa\gamma^{n}+\tau_{0}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Modelos reológicos e suas respectivas equações 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Caenn_2011"
+literal "false"
+
+\end_inset
+
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Modelos-reológicos-e"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Modelo Newtoniano
+\end_layout
+
+\begin_layout Standard
+Para fluidos que contém partículas menores que uma molécula (por exemplo,
+ água, soluções salinas, óleo, glicerina), as curvas de consistência são
+ linhas retas que passam pela origem.
+ A viscosidade de um fluido newtoniano é definida pela inclinação da sua
+ curva e não muda com a taxa de cisalhamento.
+\end_layout
+
+\begin_layout Subsubsection
+Modelo Plástico de Bingham
+\end_layout
+
+\begin_layout Standard
+Suspensões tais como as lamas de perfuração, que contém partículas maiores
+ que moléculas em quantidades significativas, são classificas como fluidos
+ não-newtonianos.
+ Lamas de argila com alto teor de sólidos se enquadram nesse modelo, o qual
+ postula que uma tensão finita deve ser aplicada para se iniciar o fluxo,
+ e que em tensões mais altas o fluxo será newtoniano.
+ A curva de consistência nesse caso é descrita pela Tensão Limite de Escoamento
+ (TLE, ou YS, do inglês, 
+\shape italic
+yield strength
+\shape default
+) e pela viscosidade plástica conforme Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Reologia_fluido_modelos"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+A tensão de cisalhamento dividida pela taxa de cisalhamento (em uma dada
+ taxa de cisalhamento qualquer) é conhecida como viscosidade efetiva ou
+ aparente.
+ A diminuição dela com o aumento da taxa de cisalhamento é chamada de afinamento
+ por cisalhamento.
+ Tal propriedade é desejável, porque a viscosidade efetiva será relativamente
+ baixa em altas taxas de cisalhamento, que prevalecem no tubo de perfuração,
+ reduzindo assim as pressões de bombeamento, e relativamente alta em baixas
+ taxas de cisalhamento, que prevalecem no espaço anular, aumentando as capacidad
+e de carreamento de cascalho, por exemplo.
+\end_layout
+
+\begin_layout Subsubsection
+Modelo Lei de Potência
+\end_layout
+
+\begin_layout Standard
+Lamas de perfuração, que consistem em polímeros e pouco ou nenhum sólido
+ particulado.
+ Fluidos que se encaixam nesse modelo são pseudoplásticos e dliatantes.
+ O coeficiente 
+\begin_inset Formula $\kappa$
+\end_inset
+
+ é a resistência ao escoamento; 
+\begin_inset Formula $n$
+\end_inset
+
+ corresponde aproximadamente a TLE e mede a taxa de variação da viscosidade
+ com a taxa de cisalhamento.
+ Para 
+\begin_inset Formula $n<1$
+\end_inset
+
+ o ﬂuido é pseudoplástico, para 
+\begin_inset Formula $n>1$
+\end_inset
+
+ o ﬂuido é dilatante e para 
+\begin_inset Formula $n=1$
+\end_inset
+
+ , o ﬂuido é Newtoniano.
+\end_layout
+
+\begin_layout Standard
+A maioria das lamas de perfuração apresentam um comportamento intermediário
+ entre plásticos de Bingham e fluidos ideais de Lei de Potência.
+ Devido às forças interpartículas, os índices não são constantes em baixas
+ taxas de cisalhamento, isso explica a inclinação típica dessas curvas.
+\end_layout
+
+\begin_layout Subsubsection
+Modelo Herschel-Buckley
+\end_layout
+
+\begin_layout Standard
+Combina as características do modelo de Plástico de Bingham com o de Lei
+ de Potência.
+ Como ocorre no modelo de Bingham, existe uma TLE para o início do fluxo.
+ A partir desse ponto, atua a Lei de Potência.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Lavrov_Tronvoll_2004"
+literal "false"
+
+\end_inset
+
+ mostraram que, quando o índice consistência (
+\begin_inset Formula $n$
+\end_inset
+
+) da lei de potência diminui, a quantidade de perda de lama tende a aumentar.
+ Alguns autores relacionaram a redução da perda de fluido de perfuração
+ em fraturas naturais devido a fluidos de viscosidade relativamente alta.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kulkarni_2013"
+literal "false"
+
+\end_inset
+
+ mostraram que dado características visco-elásticas dos fluidos, uma completa
+ determinação do estado de tensão (em adição à convencional reologia de
+ tensão de cisalhamento) é essencial para descrição do comportamento reológico
+ do fluido de perfuração.
+ 
+\end_layout
+
+\begin_layout Section
+Definição de perda de circulação, cenários de ocorrência, implicações e
+ abordagens 
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Definição-de-Perda"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Perda de circulação
+\end_layout
+
+\begin_layout Standard
+A indústria de óleo e gás tem feito esforços no desenvolvimento de tecnologias
+ em novas fontes de hidrocarbonetos encontradas em reservatórios remotos
+ com complexidade geológica variada.
+ Nesse sentido, um dos desafios enfrentados pelas empresas brasileiras é
+ combater a perda de circulação em formações carbonáticas naturalmente fraturada
+s.
+ Tal cenário é muito comum na camada do pré-sal brasileiro 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Calcada_2015"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+A perda de circulação é definida como a perda de fluido de perfuração através
+ dos poros, fissuras ou fraturas das formações rochosas a serem perfuradas.
+ Os tipos de perda são classificados de acordo com a sua severidade ou taxa
+ de perda como indicado na Tabela 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Classificação-da-perda"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="17" columns="4">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Fluido
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Perda
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Severidade (
+\begin_inset Formula $bbl/h$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Cenário
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="left" valignment="middle" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Base água
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pequena 
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $<25$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Qualquer tipo de formação
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(infiltração)
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(e.g.
+ arenitos permeáveis)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Parcial
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $25-100$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Arenitos grosseiros (cascalhos), 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(média)
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+fraturas naturais ou induzidas
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Severa 
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $100-500$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fraturas, falhas, vugs, cavernas,
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(massiva)
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+formações muito permeáveis
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Total
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Impossível manter 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fraturas, falhas, vugs, cavernas
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(completa)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+o poço cheio
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pequena 
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $<10$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Qualquer tipo de formação
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(infiltração)
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(e.g.
+ arenitos permeáveis)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Base óleo 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Parcial 
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $10-30$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Arenitos grosseiros (cascalhos), 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ou sintético
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(média)
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+fraturas naturais ou induzidas
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Severa 
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $>30$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fraturas, falhas, vugs, cavernas,
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(massiva)
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+formações muito permeáveis
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Total 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Impossível manter 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fraturas, falhas, vugs, cavernas
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(completa)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+o poço cheio
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Classificação da perda de circulação de acordo com a severidade 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Calcada_2015"
+literal "false"
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Classificação-da-perda"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Esquema_Perda_Circulção"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ representa um sistema generalizado de classificação de perdas que pode
+ ocorrer em formações naturalmente fraturadas, formações cavernosas, de
+ grande permeabilidade ou em regiões de fraturas induzidas pela atividade
+ de perfuração.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figuras/Perda_de_Circulação.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Classificação esquemática da perda de circulação 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Alsaba_Nygaard_2014"
+literal "false"
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Esquema_Perda_Circulção"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Em concordância com a Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Esquema_Perda_Circulção"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kumar_Savari_2011"
+literal "false"
+
+\end_inset
+
+ e outros autores descreveram as zonas de perda de circulação como:
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Formações permeáveis:
+\series default
+ forma mais comum de ocorrência.
+ Em razão da grande permeabilidade, por conta dos grandes tamanhos dos poros,
+ as partículas sólidas do fluido de perfuração podem não formar um reboco
+ estável e assim há perda para a formação.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Fraturas naturais:
+\series default
+ fraturas naturais permeáveis causam alguns dos incidentes de perda de circulaçã
+o mais problemáticos.
+ Isso é devido à falta de informações exatas sobre o tamanho e espessura
+ das fraturas 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Beda_Carugo_2001"
+literal "false"
+
+\end_inset
+
+.
+ As aberturas podem variar de alguns mícrons a 3-5 mm.
+ Perdas através de rochas carbonáticas, dolomíticas e poços geotérmicos
+ são mais comumente encontradas 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ezeakacha_2019"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Fraturas cavernosas:
+\series default
+ carbonatos vugulares são as que apresentam maiores dificuldades para tratamento
+ de perdas.
+ Através dos períodos geológicos do tempo, carbonatos, dolomitos e sal podem
+ ser dissolvidos por água conata.
+ Isso leva à criação de fraturas e cavernas que variam desde pequenos tamanhos
+ até túneis 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Beda_Carugo_2001"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Fraturas induzidas:
+\series default
+ a forma e estrutura desse tipo de fratura estão sujeitas à natureza da
+ formação e a efeitos mecânicos da operação 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ramasamy_2019"
+literal "false"
+
+\end_inset
+
+.
+ Ocorrem em formações perfuradas com uma elevada densidade equivalente de
+ circulação (ECD, do inglês, 
+\shape italic
+equivalent circulation density
+\shape default
+) e por causa da pressão do poço.
+ A depender da pressão do poço e da pressão de propagação das fraturas o
+ comprimento e a largura delas podem variar drasticamente com perdas linearmente
+ proporcionais ao diferencial de pressão
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Majidi_2011"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Segundo
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Feng_Gray_2017"
+literal "false"
+
+\end_inset
+
+, a perda de circulação é comumente encontrada em formações que possuem
+ uma janela operacional estreita de peso de lama, ou seja, um pequena margem
+ de operação de perfuração entre a pressão de poros e a pressão de fraturas.
+ Uma pequena fratura pode gerar perdas de resistência à tração das rochas,
+ facilitando a propagação dela.
+ Por sua vez, uma grande fratura quando presente pode reduzir a pressão
+ máxima que um poço pode suportar.
+ 
+\end_layout
+
+\begin_layout Subsection
+Custos
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Custos"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A perda de fluido é comumente responsável por 10 a 20% do custo total de
+ um poço produtivo ou de exploração.
+ Os custos do poço, por sua vez, representam de 35 a 50% do custo total
+ de um projeto geotérmico típico, portanto, cerca de 3,5 a 10% do custo
+ total pode ser atribuído à perda de circulação 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Carson_1982"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Incidentes de perda podem levar a uma série de consequências não desejadas
+ e custar milhões de dólares ou mais.
+ Os atrasos na operação e perdas de fluido podem resultar no abandono do
+ poço 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kumar_Savari_2011"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Estimou-se que a quantidade de fluido perdido foi de 1,8 milhões de barril
+ por ano 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Alsaba_Nygaard_2_2014"
+literal "false"
+
+\end_inset
+
+.
+ Perdas de circulação sozinhas somaram cerca de 2 a 4 bilhões de dólares
+ anuais devido ao tempo não produtivo.
+ Somado a isso, perdas incontroladas de fluido podem danificar a formação
+ e ter um efeito negativo no seu potencial de produção 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Cook_2012"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Normalmente, 1/3 dos poços perfurados pela Petrobras apresentam perdas de
+ circulação 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Waldmann_2014,Calcada_2015"
+literal "false"
+
+\end_inset
+
+.
+ Cerca de 26% dos poços ao redor do mundo também.
+ O custo diário para se controlar perdas de circulação em operações de perfuraçã
+o são de 65,000.00 USD para operações
+\shape italic
+ onshore
+\shape default
+, e de 120,000.00 USD em 
+\shape italic
+offshore
+\shape default
+.
+ O número dias gastos para se controlar tais eventos são, respectivamente,
+ 3 e 7 dias 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Mansour_2017"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Alkinani_2019"
+literal "false"
+
+\end_inset
+
+ apresentaram fluxogramas para escolha do melhor tratamento com custo mínimo
+ para o combate à perda de circulação.
+ Dados de mais de 1000 poços perfurados foram utilizados juntamente de conceitos
+ econômicos e de probabilidade.
+ Além disso, soluções alternativas para mitigar a perda de circulação, alterando
+ especificamente o projeto do poço também foram propostas para ajudar a
+ mitigar as perdas de lama e minimizar o tempo não produtivo custos.
+\end_layout
+
+\begin_layout Subsection
+Consequências operacionais
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Consequências-Operacionais"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Feng_Gray_2017"
+literal "false"
+
+\end_inset
+
+ destacaram alguns problemas de controle de poço tais como: invasão de fluidos
+ para o poço/
+\shape italic
+kick
+\shape default
+, 
+\shape italic
+blowout
+\shape default
+ de superfície e instabilidade do poço devida à pressão reduzida no espaço
+ anular causada pela perda de circulação.
+ Em alguns casos, o poço pode colapsar, soterrar ferramentas de perfuração
+ e emperrar os tubos.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ramasamy_2019"
+literal "false"
+
+\end_inset
+
+ concluíram que os equipamentos de fundo do poço (BHA, do inglês, 
+\shape italic
+bottomhole assembly
+\shape default
+) e os parâmetros da dinâmica de perfuração, como peso sobre à broca, torque
+ e ROP, juntamente com os parâmetros hidráulicos do fluido de perfuração,
+ como tipo, peso da lama, materiais de fortalecimento e taxa de fluxo devem
+ ser otimizados para minimizar as chances de futuros problemas operacionais.
+\end_layout
+
+\begin_layout Subsection
+Impactos na qualidade do reservatório
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Impactos-na-Qualidade"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A suspensão de partículas finas que entram na formação enquanto o reboco
+ está sendo formado é conhecida como jato de lama (
+\shape italic
+spurt mud
+\shape default
+).
+ O fluido que subsequentemente entra é o filtrado do fluido de perfuração
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Caenn_2011"
+literal "false"
+
+\end_inset
+
+.
+ A invasão pode provocar danos irreversíveis na formação, e assim reduzir
+ sua produtividade nos períodos iniciais da produção ou em tempos longos
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Martins_2005"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Segundo 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Caenn_2011"
+literal "false"
+
+\end_inset
+
+ a produtividade de um reservatório poderia ser reduzida por um dos quatro
+ mecanismos a seguir:
+\end_layout
+
+\begin_layout Itemize
+A permeabilidade de uma rocha reservatório contendo argilas nativas pode
+ ser reduzida por meio do inchamento delas quando do contato com o filtrado
+ invasor;
+\end_layout
+
+\begin_layout Itemize
+A pressão de alguns reservatórios não é suficientemente alta para remover
+ todo o filtrado aquoso dos poros da rocha quando o poço é colocado em produção.
+ O filtrado remanescente nos poros reduz o espaço disponível para fluxo
+ de petróleo ou gás, fenômeno conhecido por bloqueio de água;
+\end_layout
+
+\begin_layout Itemize
+Partículas finas provenientes da lama transportadas durante a fase de jato
+ poderiam bloquear canais de fluxo;
+\end_layout
+
+\begin_layout Itemize
+Poderia ocorrer precipitação mútua entre os sais dissolvidos no filtrado
+ e aqueles na água intersticial de formação.
+ 
+\end_layout
+
+\begin_layout Subsection
+Abordagens de controle de perda de circulação
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Mecanismos-de-Controle"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Melhores práticas de perfuração, seleção do fluido de perfuração e o uso
+ de material de fortalecimento de poço (WSMs, do inglês, 
+\shape italic
+wellbore strengthening material
+\shape default
+s) são essenciais para prevenir perdas.
+ Porém, dado que ela ocorre com frequência, métodos efetivos de remediação
+ como o uso de LCM também são uma grande prioridade tanto para mitigar essas
+ perdas quanto para uma perfuração bem sucedida 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Calcada_2015"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Nesse sentido, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kumar_Savari_2011,Alsaba_Nygaard_2014,Feng_Gray_2017"
+literal "false"
+
+\end_inset
+
+ descreveram as abordagens a seguir:
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Preventiva
+\series default
+: tratamentos que são aplicados antes de se entrar em zonas passíveis de
+ perda com o objetivo de prevenir a ocorrência e "fortalecer" o poço.
+ Dito de outra forma, englobam técnicas usadas para plugar e selar fraturas
+ enquanto se perfura para melhorar o gradiente de fratura e aumentar a janela
+ operacional do poço pelo uso LCMs próprios.
+ Basicamente, o LCM acelera o desenvolvimento de uma reboco na parede do
+ poço selando qualquer micro fratura pré-existente ou induzida pela perfuração.
+ Isso previne a comunicação de pressões do poço coms as fraturas, aumentando-se
+ a pressão requerida para propagação dela.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Corretiva
+\series default
+: os tratamentos corretivos tentam mitigar as perdas pela criação de plugues
+ ou selos nas fraturas usando LCM após evento de perda.
+ O objetivo é impedir a propagação da fratura e aumentar a pressão máxima
+ que um poço pode sustentar sem perdas significativas de fluidos.
+ A partir da detecção, são adicionados continuamente aditivos ao sistema
+ para ligar/selar a formação permeável, por exemplo, pela utilização de
+ uma “pílula” (
+\shape italic
+curable pill
+\shape default
+).
+ 
+\end_layout
+
+\begin_layout Standard
+O uso desses materiais aumenta o custo da perfuração.
+ No entanto, dada a ação preventiva e/ou corretiva deles, o custo final
+ do poço é reduzido uma vez que haverá menores perdas de circulação.
+ Tudo isso influi decisivamente na otimização do tempo não produtivo 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Calcada_2015"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+O aparato de plugue de partículas (PPA, do inglês, 
+\shape italic
+particle plugging apparatus
+\shape default
+) e o aparelho de perda de fluido de alta pressão e alta temperatua (HPHT,
+ do inglês, 
+\shape italic
+high temperature high pressure
+\shape default
+) são frequentemente utilizados na abordagem corretiva como testes padrões
+ para se avaliar a performance dos LCM pela capacidade deles em selarem
+ discos com fenda que simulam fraturas naturais / induzidas ou discos de
+ cerâmica.
+ Os fluidos de perfuração contendo LCM são forçados a passar por esses discos
+ que simulam a formação.
+ O desempenho deles é testado pela avaliação da perda total de fluido e
+ pelo tempo necessário para formar um selo 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Alsaba_Nygaard_2014"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+No entanto, não existem testes ou métodos de interpretação padronizados
+ que avaliam o desempenho do LCM quando tratamentos preventivos são aplicados.
+ A dificuldade em padronizar os métodos de teste deve-se à discordância
+ sobre os mecanismos de fortalecimento do poço como será mostrado a seguir
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Alsaba_Nygaard_2014"
+literal "true"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Wellbore Strengthening
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Wellbore-Strengthening"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Feng_Gray_2017"
+literal "false"
+
+\end_inset
+
+ definiram 
+\shape italic
+Wellbore Strengthening
+\shape default
+ como abordagens utilizadas na engenharia de perfuração para aumentar artificial
+mente a pressão máxima que um poço pode suportar sem perdas intoleráveis
+ de circulação.
+ Em outras palavras, procura-se aumentar a pressão efetiva da fratura e
+ a janela operacioanal de peso de lama.
+ Tudo isso pode ser conseguido por selamento de fraturas, criação de plugs
+ e pontes nas regiões susceptíveis a perdas.
+\end_layout
+
+\begin_layout Standard
+Existem três principais modelos que explicam o porquê desses tratamentos
+ “fortalecerem” o poço.
+ Como foi descrito pelos mesmos autores, não é a “força” da rocha ou poço
+ que passará por mudanças, mas sim a distribuição de pressão nas proximidades
+ do poço e fraturas e/ou a distribuição de pressão dos fluidos dentro delas.
+ Eles são: 
+\begin_inset Quotes eld
+\end_inset
+
+Modelo de tensão em gaiola
+\begin_inset Quotes erd
+\end_inset
+
+ (SCM, do inglês,
+\shape italic
+ Stress cage model
+\shape default
+ )
+\shape italic
+,
+\shape default
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Modelo de tensão de fechamento da fratura
+\begin_inset Quotes erd
+\end_inset
+
+ (FCSM, do inglês,
+\shape italic
+ Fracture closure ctress model
+\shape default
+), e 
+\begin_inset Quotes eld
+\end_inset
+
+Modelo da resistência da propagação da fratura
+\begin_inset Quotes erd
+\end_inset
+
+ (FPRM, do inglês, 
+\shape italic
+Fracture propagation resistence model
+\shape default
+ ).
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+1: SCM
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Alberty_2004"
+literal "false"
+
+\end_inset
+
+ descreveram o SCM como ligação ou criação de plugues em fraturas com pequenas
+ perdas de circulação próximas à garganta delas e que criam uma tensão circunfer
+encial (
+\shape italic
+HP, 
+\shape default
+do inglês
+\shape italic
+, hoop stress
+\shape default
+) ao redor do poço.
+ A Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:SCM"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ mostra o processo esquemático.
+ Quando a fratura é criada na parede do poço, as partículas do LCM são forçadas
+ para dentro dela.
+ As maiores são as primeiras a ocuparem a entrada da fratura.
+ Depois, as menores plugam os espaços entre as maiores e também entre partículas
+ e superfície da fratura.
+ Feito isso, o fluido aprisionado filtra para a formação e assim forças
+ compressivas são transferidas para o plugue.
+ Finalmente, a fratura é selada completamente e tem-se um aumento da HP
+ o que deixa a fratura mais difícil de ser re-aberta
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figuras/SCM.png
+	lyxscale 15
+	scale 10
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Stress cage model
+\shape default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Alberty_2004"
+literal "false"
+
+\end_inset
+
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:SCM"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+2: FCSM
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Dupriest_2005"
+literal "false"
+
+\end_inset
+
+ propôs um modelo focado no aumento da tensão de fechamento da fratura que
+ age no plano dela e que a mantém fechada.
+ Isso é conseguido pelo seu alargamento e selamento por uma massa imóvel.
+ A Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:FCSM"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ mostra o processo esquemático do FCSM.
+ a) Uma fratura na parede do poço é primeiramente criada e alargada o que
+ aumenta a tensão compressiva na rocha adjacente.
+ b) As partículas de LCM são forçadas para dentro da fratura, há filtração
+ e formação de uma massa imóvel dentro da fratura que isola a extremidade
+ final dela da pressão do poço.
+ c) A massa imóvel continua crescendo até seu empacotamento de volta à parede
+ do poço.
+ d) A FCS aumentada e o isolamento do final da fratura dificultam uma posterior
+ extensão dela.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figuras/FCSM.png
+	lyxscale 15
+	scale 15
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Fracture Closure Stress Model
+\shape default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Dupriest_2005"
+literal "false"
+
+\end_inset
+
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:FCSM"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Contreras_2014"
+literal "false"
+
+\end_inset
+
+ fez uma tentativa de fortalecer o poço usando fluidos de perfuração que
+ continham LCM tradicional e nanopartículas em amostras de arenitos e folhelhos.
+ O autor concluiu que a formação de uma massa imóvel, tal como descrito
+ na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:FCSM"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ foi o principal mecanismo de fortalecimento do poço.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+3: FPRM
+\end_layout
+
+\begin_layout Standard
+Diferentemente dos dois modelos anteriores o FPRM não objetiva alterar a
+ distribuição de tensões ao redor do poço para aumentar o HP ou FCS, ou
+ seja, o reboco não é formado na face do poço ou entrada da fratura.
+ Ao contrário, este modelo proposto por 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Morita_1990"
+literal "false"
+
+\end_inset
+
+ e 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "VanOort_2011"
+literal "false"
+
+\end_inset
+
+ assume que um reboco pode se formar ao longo do comprimento da fratura
+ e tipicamente próxima da sua ponta.
+ O modelo é mostrado na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:FPRM"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ abaixo.
+ O reboco então pode selar o final da fratura e prevenir a comunicação com
+ o poço, portanto, a resistência à propagação da fratura pode ser aumentada.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../../../TCC 2021/Final Paper/FigurasTCC/VanOor_2011_ok.png
+	lyxscale 15
+	scale 12
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\shape italic
+Fracture Propagation Resistence Model
+\shape default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Morita_1990,VanOort_2011"
+literal "true"
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:FPRM"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Razavi_2016"
+literal "false"
+
+\end_inset
+
+ mostraram que a pressão de propagação de fratura pode ser melhorada adicionando
+-se LCM apropriados.
+\end_layout
+
+\begin_layout Section
+Lost Circulation Materials (LCM)
+\end_layout
+
+\begin_layout Standard
+Os LCMs podem ser usados sozinhos ou em tratamentos combinados com outros
+ aditivos.
+ Anteriormente, materiais como mármore, grafite sintético, fibras granulares
+ duras, mica, concha de ostra, misturas de cascas de ervas, mica, coque
+ de petróleo, atapulgita, cascas de sementes de algodão e de nozes, couro
+ desfiado, serragem, palha, partículas sólida disponíveis perto do local
+ de perfuração e restos de materiais ou resíduos de processos de fabricação
+ eram utilizados 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Canson_1985,Nasiri_2017,Ramasamy_2019"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Classificação
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Alsaba_Nygaard_2014"
+literal "false"
+
+\end_inset
+
+ fizeram uma nova classificação dos LCMs em 7 categorias: granular; flocular;
+ fibroso; mistura de LCMs; solúveis em ácido/água; nanopartículas e polímero-ati
+vador.
+\end_layout
+
+\begin_layout Subsubsection
+Granular
+\end_layout
+
+\begin_layout Standard
+Forma um selo na face da formação ou dentro da fratura.
+ Estão disponíveis em um amplo 
+\shape italic
+range
+\shape default
+ de distribuição do tamanho de partículas (PSD, do inglês, 
+\shape italic
+particle size distribution
+\shape default
+).
+ Isso é útil já que primeiro as grandes partículas preenchem o espaço e
+ depois as menores 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Nasiri_2017"
+literal "false"
+
+\end_inset
+
+.
+ Possuem rigidez e elevada resistência ao esmagamento.
+ Exemplos são: grafite, cascas de nozes, carbonato de cálcio, gilsonita,
+ bentonita grosseira, asfalto e perlita.
+\end_layout
+
+\begin_layout Subsubsection
+Flocos
+\end_layout
+
+\begin_layout Standard
+Materiais finos e achatados e com uma ampla área superficial.
+ São capazes selar rachaduras, grandes espaços e poros 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Nasiri_2017"
+literal "false"
+
+\end_inset
+
+.
+ Não possuem um elevado nível de rigidez e formam uma espéficie de tapete
+ na face de formações permeáveis.
+ Exemplos incluem: celofane, mica, casca de algodão, vermiculita, resíduos
+ de espiga de milho e carbonato de cálcio flocular.
+\end_layout
+
+\begin_layout Subsubsection
+Fibroso
+\end_layout
+
+\begin_layout Standard
+LCM comprido, filamentoso, fino e flexível.
+ Formam uma estrutura de suporte que serve como meio filtrante para que
+ as partículas menores do fluido de perfuração se depositem e formem um
+ selo.
+ São um dos materiais mais adequados para controlar a perda de lama em formações
+ porosas
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Nasiri_2017"
+literal "false"
+
+\end_inset
+
+.
+ Incluem fibras de celulose, de nylon, minerais, pó de serra e papel rasgado.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ezeakacha_2019"
+literal "false"
+
+\end_inset
+
+ analisaram a perda de fluido de perfuração para fraturas verticais e horizontai
+s com diferentes larguras com foco na evolução do reboco em cilindros espessos
+ com fendas.
+ Foi utilizado um aparato para teste de permeabilidade de plugue (PPT, do
+ inglês, 
+\shape italic
+permeabiliy plugging test
+\shape default
+ ) para três diferentes concentrações de fibra de cedro adicionadas a WBM,
+ a saber, 5 lb/gal; 15lb/gal e 30 lb/gal e testadas para cada tipo de fratura.
+ Os resultados mostraram que o aumento da concentração de fibras de cedro
+ (5 para 15 ppb) revelou uma diminuição média de 58,1% da perda dinâmica
+ de fluidos ao longo de três larguras de fratura vertical (500 μm, 1000
+ μm e 2000 μm).
+ De 5 lb/gal para 30 ppg, as perdas dinâmicas também diminuíram.
+ Como conclusão, o PSD da fibra e a orientação na entrada da fratura tem
+ impactos consideráveis na perda dinâmica de fluido.
+\end_layout
+
+\begin_layout Subsubsection
+Mistura de LCMs
+\end_layout
+
+\begin_layout Standard
+Foi observado que misturar dois ou mais tipos de LCMs gerou-se uma melhor
+ performance em mitigar as perdas devido a diferentes propriedades e tamanhos
+ de partículas.
+ Um exemplo de combinação é mármore moído e grafita resiliente (RGC, do
+ inglês, 
+\shape italic
+resilient graphite carbon
+\shape default
+).
+ Esta última tem um formato angular e prove lubricidade ao fluido o que
+ melhora a ROP e diminui o torque e arrasto.
+ A propriedade de resiliência é extensão na qual um material recupera sua
+ forma após compressão quando a carga aplicada é removida.
+ Combinações desse tipo oferecem resiliência suficiente para promover boa
+ resistência ao esmagamento, com vistas a diminuir perdas de circulação
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kumar_Savari_2011"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Solúvel em ácido/solúvel em água
+\end_layout
+
+\begin_layout Standard
+LCMs convencionais têm uma desvantagem em danificar a formação em algumas
+ aplicações.
+ Sendo assim, o uso de LCMs solúveis em ácido/água considerados não danosos
+ tem crescido.
+ Exemplos: carbonato de cálcio, fibras minerais; sais apropriados, respectivamen
+te.
+\end_layout
+
+\begin_layout Subsubsection
+Nanopartículas
+\end_layout
+
+\begin_layout Standard
+Nanopartículas podem ser descritas como partículas sólidas de tamanhos variados
+ entre 1 e 100 nm ou de magnitude menor que bentonita.
+ Exemplos incluem sílica, hidróxido de ferro e carbonato de cálcio.
+ Partículas de silica se mostraram eficientes na formação de um selo espesso
+ de baixa permeabilidade em microfraturas nas formações de folhelhos Marcellus
+ e Mancos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Nasiri_2017"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Duplo componente Polímero-Ativador
+\end_layout
+
+\begin_layout Standard
+O polímero pode ser do tipo absorvedor de água ou que muda de forma.
+ O ativador é tipicamente um químico que pode mudar o pH, salinidade.
+ Um exemplo utilizado por 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ramasamy_2019"
+literal "false"
+
+\end_inset
+
+ foi uma mistura de água, fibras alifáticas, polímero molhável à água ativado
+ por PH com uma solução de um hidróxido de metal (ativador).
+ Esta solução ativa o polímero, o torna absorvedor de água e aumenta de
+ tamanho.
+ As fibras alifáticas criam uma rede que mantém a massa em crescimento unida
+ até o final do processo.
+ Tudo isso promove a geração instantânea de uma massa espessa.
+ O LCM gerado in situ não apresentou perdas de jato nem perda de filtrado
+ durante o período de testes.
+ Além disso, este LCM possui um módulo de rigidez em gel (GSM, do inglês,
+ 
+\shape italic
+gel stiffness modulus
+\shape default
+ ) em até 70 vezes em comparação com os LCMs convencionais.
+ GSM é a medida de rigidez de um objeto e a extensão na qual ele resiste
+ a uma deformação aplicada.
+ A TLE também foi maior.
+ Os resultados mostraram que o sistema inovador tem o potencial de mitigar
+ as perdas moderadas encontradas durante a perfuração em zonas fraturadas
+ e cavernosas.
+\end_layout
+
+\begin_layout Subsection
+Cimento
+\end_layout
+
+\begin_layout Standard
+Em decorrência da maior densidade e reologia do cimento a ECD durante é
+ maior na cimentação.
+ Invasões decorrentes de perda de cimento podem ocasionar danos à formação
+ e custar o reparo de um poço.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Therond_2018"
+literal "false"
+
+\end_inset
+
+ testaram a performance do cimento em relação às perdas de circulação.
+ Amostras cúbicas de arenito foram submetidos a diversos testes utilizando
+ fluido de perfuração não-aquoso e pasta de cimento API Classe H.
+ A Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Therong2018"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ abaixo mostra que a pasta de cimento efetivamente preveniu perdas no cubo
+ fraturado pela formação de um novo reboco.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figuras/Rocha com cimento.png
+	lyxscale 80
+	scale 50
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename Figuras/Rocha fraturada.png
+	lyxscale 80
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+a) Preenchimento da fratura pelo cimento.
+ b) Um corte longitudinal no bloco.
+ Nele é possível ver a zona invadida pelo filtrado originado do cimento
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Therond_2018"
+literal "false"
+
+\end_inset
+
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Therong2018"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Outra bateria de testes mostraram que o cimento sempre ajudaria a reduzir
+ perdas quando elas forem “totais” após perfuração com o fluido não aquoso.
+ Para outras perdas (“severa”, “parcial” e “pequena”) o cimento não as reduziu.
+ 
+\end_layout
+
+\begin_layout Subsection
+Smart Lost Circulation Materials
+\end_layout
+
+\begin_layout Standard
+Várias desvantagens do uso dos LCMs tais como dificuldades em selar grandes
+ fraturas; falhas em trabalhos HPHT, quando o selo derrete ou não suporta
+ elevadas pressões; danos às zonas produtoras que afetam a produtividade
+ foram apontadas por 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Mansour_2017"
+literal "false"
+
+\end_inset
+
+.
+ Diante disso, propuseram um material inteligente expansível feito de polímeros
+ que guardam forma (SMPs, do inglês, 
+\shape italic
+shape memory polymers)
+\shape default
+ que podem atuar nas abordagens preventiva e corretiva.
+\end_layout
+
+\begin_layout Standard
+Os SMPs têm a habilidade de se deformar e se fixar em uma forma temporária.
+ Nesse processo cíclico e programável, eles transformam a energia mecância
+ aplicada por uma carga em energia interna, e podem liberar essa energia
+ segundo algum estímulo externo (temperatura, por exemplo) que causam a
+ mudança na sua morfologia.
+ Eles são mais baratos que os LCMs convencionais, mais leves, biodegradáveis
+ e biocompatíveis.
+\end_layout
+
+\begin_layout Standard
+Essa capacidade de mudança na forma permite que os LCMs inteligentes entrem
+ nas ferramentas em um tamanho pequeno e depois se expandam em uma temperatura
+ específica dentro da fratura.
+ Como eles são biodegradáveis, não causam danos à formação já que o ácido
+ os dissolve.
+ A liberação da tensão compressional pode chegar até 13Mpa ao redor do poço
+ 
+\begin_inset Quotes eld
+\end_inset
+
+fortalecendo-o
+\begin_inset Quotes erd
+\end_inset
+
+, tal com explicado na Seção 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Wellbore-Strengthening"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Mansour_2018"
+literal "false"
+
+\end_inset
+
+ fizeram simulações para encontrar uma relação entre tamanho das fraturas,
+ tamanho das partículas do LCM inteligente e eficiência de selo.
+ A mistura de partículas de tamanho diferentes gerou resultados mais efetivos
+ já que o empacotamento delas e as pontes que se formaram foram melhores.
+\end_layout
+
+\begin_layout Subsection
+Seleção do Tamanho de Partícula
+\end_layout
+
+\begin_layout Standard
+A PSD do LCM é usada para denotar a quantidade de partículas de tamanhos
+ diferentes contidas em um fluido com o objetivo de minimizar a perda dele.
+ O tamanho ótimo das combinações é selecionado baseando-se em diversos modelos
+ e diferentes critérios a depender da escala investigada 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ezeakacha_2019"
+literal "false"
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Alsaba_Nygaard_2_2014"
+literal "false"
+
+\end_inset
+
+ verificou que um PSD adequado é um parâmetro crítico para obstrução de
+ fraturas.
+ A seguir são apresentados alguns modelos de seleção de tamanho de partícula.
+\end_layout
+
+\begin_layout Subsubsection
+Método de Abrams
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Abrahams_1977"
+literal "false"
+
+\end_inset
+
+ propôs correlações entre as dimensões dos poros das rochas e PSD para minimizar
+ danos à formação.
+ Foram realizados testes com areias não consolidadas de permeabilidade de
+ 4 a 6 Darcy e em testemunhos de dolomita com permeabilidade de 5 a 50 mD.
+ Os testes foram feitos em um modelo radial com WBM contendo materiais obturante
+s e através do monitoramento da pressão em alguns pontos do testemunho,
+ calculou-se a profundidade de invasão.
+\end_layout
+
+\begin_layout Standard
+Conhecendo-se o tamanho médio da garganta de poros, o tamanho dos LCMs deveria
+ ser igual ou maior que 1/3 do tamanho do poro, e a concentração deles de
+ pelo menos 5% em volume dos sólidos na mistura final da lama, incluindo
+ os da perfuração, para que ocorra a formação de uma ponte efetiva.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+D\left(50\right)=\frac{\lambda}{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A título de exemplificação, o range do tamanho de poros em amostras de carbonato
+s é de 1-20 micrômetros, usualmente menor que 5 micrômetros 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Salimi_Alikarami_2006"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Teoria do Empacotamento Ideal 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kauffer_1973,Dick_2000"
+literal "false"
+
+\end_inset
+
+ prupuseram a Teoria do Empacotamento Ideal (IPT, do inglês, 
+\shape italic
+ideal packing theory
+\shape default
+).
+ Eles objeivaram ir além do tamanho de partícula necessário para iniciar
+ uma ponte e ivestigar uma sequência de empacotamento ideal para selar todos
+ os vazios, inclusive aqueles formados pelos agentes obturantes, criando
+ dessa maneira uma formulação de fluido minimamente invasivo e sem danos
+ à formação.
+\end_layout
+
+\begin_layout Standard
+Esta teoria adota uma abordagem gráfica que se baseia na relação linear
+ formada entre porcentagem do volume acumulado de partículas versus raiz
+ quadrada do diâmetros delas 
+\begin_inset Formula $\left(\sqrt{D}\right)$
+\end_inset
+
+.
+ A IPT usa esta relação linear para otimizar a PSD combinando com dados
+ do tamanho de poros a partir de análises de lâminas de rocha ou informações
+ de permeabilidade para determinar a sequência de empacotamento ideal.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Dick_2000"
+literal "false"
+
+\end_inset
+
+descreveram investigaram a sequência de empacotamento ideal de partículas
+ em fluidos para perfurar poços do Mar no Norte e na Colombia.
+ Os fluidos utilizados foram WBM contendo carbonato de cálcio e mámore moído
+ como obturantes, o qual foi aplicado em testemunhos de 50 a 80 mD.
+ SBM também foram aplicados em rochas de 100 a 600 mD com partículas obturantes
+ de bartita e carbonato de cálcio.
+ Concluiu-se com esses estudos que 2 a 3% em volume (20 a 30 lb/bbl ou 60
+ a 90 kg/m3) de uma mistura adequada de agentes obturantes pode fornecer
+ uma obstrução ideal em zonas permeáveis, divergindo dessa maneira da Teoria
+ de Abrams que indica o uso de 5% em volume total de sólidos.
+\end_layout
+
+\begin_layout Subsubsection
+Método de Vickers
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Vickers2006ANM"
+literal "false"
+
+\end_inset
+
+ aplicaram testes PPA e de 
+\shape italic
+return permeability
+\shape default
+ para minimizar perdas de fluido.
+ Sugeriram que as PSD, da menores para as maiores, 
+\begin_inset Formula $D_{10}$
+\end_inset
+
+ , 
+\begin_inset Formula $D_{25}$
+\end_inset
+
+ , 
+\begin_inset Formula $D_{50}$
+\end_inset
+
+ , 
+\begin_inset Formula $D_{75}$
+\end_inset
+
+ e 
+\begin_inset Formula $D_{90}$
+\end_inset
+
+ fossem aplicadas para que rapidamente fechassem a maior aberturas dos poros,
+ depois a abertura do tamanho médio e uma fração menor do tamanho dos poros.
+ Os cinco parâmetros devem ser conhecidos para realizar o método Vickers
+ e devem ser a base para que os sólidos obstruam os poros e ocorra perda
+ mínima para o reservatório.
+ Os critérios são apresentados abaixo:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $D_{90}$
+\end_inset
+
+ = maior tamanho da garganta de poros;
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $D_{75}<2/3$
+\end_inset
+
+ da garganta de poros;
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $D_{50}=1/3$
+\end_inset
+
+ do tamanho médio da garganta de poros (critério de 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Abrahams_1977"
+literal "true"
+
+\end_inset
+
+);
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $D_{25}=1/7$
+\end_inset
+
+ do tamanho médio da garganta de poros;
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $D_{10}>$
+\end_inset
+
+ menor garganta de poros.
+\end_layout
+
+\begin_layout Standard
+Além disso, os autores recomendaram que a concentração do material de ligação
+ deve ser superior a 30 lb/bbl para WBM ratificando o trabalho de 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Dick_2000"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Método Halliburton
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Whitfill_2008"
+literal "false"
+
+\end_inset
+
+ propuseram um método baseado no tamanho do poro ou na abertura estimada
+ de fratura.
+ Possui materiais com tamanho previamente modelados e configurados no software
+ desenvolvido.
+ De acordo com este método, nos casos de regiões fraturadas, a distribuição
+ do tamanho 
+\begin_inset Formula $D_{90}$
+\end_inset
+
+ dos LCMs deve ser igual a espessura prevista da fratura para que assim
+ ocorra sua obstrução na entrada.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Método Chellappah e Aston
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Chellappah_2012"
+literal "false"
+
+\end_inset
+
+ adotaram a um método semelhante ao IPT.
+ O modelo 
+\shape italic
+power-law
+\shape default
+ proposto por autores anteriores foi otimizado por eles.
+ Nele, uma relação entre o volume acmulado (CV, do inglês, 
+\shape italic
+cumulative volume
+\shape default
+) e o tamanho da partícula 
+\begin_inset Formula $(D)$
+\end_inset
+
+ se relacionam com um expoente x, dito por eles de valor 
+\begin_inset Formula $1$
+\end_inset
+
+ para design ótimo do LCM:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+CV=100\left(\frac{d}{d_{100}}\right)^{x}\label{eq:CV}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+onde de acordo com os autores 
+\begin_inset Formula $d_{100}$
+\end_inset
+
+ é definido por:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+d_{100}=\frac{100}{80}d_{mp}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+O valor 
+\begin_inset Formula $d_{mp}$
+\end_inset
+
+ é o tamanho do máximo diâmetro do poro.
+\end_layout
+
+\begin_layout Standard
+O valor do expoente x foi entre 
+\begin_inset Formula $1/2$
+\end_inset
+
+ e 
+\begin_inset Formula $2/3$
+\end_inset
+
+ para 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Andreasen_1930"
+literal "false"
+
+\end_inset
+
+, enquanto 
+\begin_inset Formula $1/2$
+\end_inset
+
+ para 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Dick_2000"
+literal "false"
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Chellappah_2012"
+literal "false"
+
+\end_inset
+
+ concluíram que o valor ótimo de x está mais perto de 
+\begin_inset Formula $1$
+\end_inset
+
+ do que 
+\begin_inset Formula $1/2$
+\end_inset
+
+, e que misturas com ampla gama de partículas apresentaram menores perdas
+ do que misturas com PSD estreito.
+\end_layout
+
+\begin_layout Subsubsection
+Método de Alsaba
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Alsaba_Nygaard_2_2014"
+literal "false"
+
+\end_inset
+
+ também usou como critério a dimensão da fratura.
+ Sugeriu que o
+\begin_inset Formula $D_{50}$
+\end_inset
+
+ de um LCM deve ser maior ou igual a 
+\begin_inset Formula $3/10$
+\end_inset
+
+ da largura da fratura, e o 
+\begin_inset Formula $D_{90}$
+\end_inset
+
+ maior ou igual a 
+\begin_inset Formula $6/5$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Método de Wang
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Wang_2019"
+literal "false"
+
+\end_inset
+
+ realizaram experimentos em um aparato que simulou fraturas com abertura
+ entre 1 mm e 3 mm e comprimento de 30 cm.
+ Foi utilizado WBM com carbonato de cálcio de tamanhos variando entre 0,1
+ mm a 3,2 mm como obturante.
+ Foi proposto um novo critério para selecionar a PSD dos LCMs em reservatórios
+ naturalmente fraturados.
+ Ele garante com 90% de confiabilidade que os LCMs formem um selo estável
+ e firme dentro da fratura.
+ Através dos experimentos verificou-se que a razão entre o tamanho característic
+o das partículas 
+\begin_inset Formula $D_{90}$
+\end_inset
+
+ e a abertura da fratura deve variar de 0,5 a 0,7.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Uma característica em comum dos métodos descritos até aqui é a dependência
+ da determinação do tamanho das gargantas dos poros.
+ Porém, conforme foi dito por 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Chellappah_2012"
+literal "false"
+
+\end_inset
+
+ em aplicações de WBS ao invés de se utilizar o tamanho médio da garganta
+ de poros, pode ser utilizado a abertura média da fratura para se determinar
+ o PSD.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Razavi_2016"
+literal "true"
+
+\end_inset
+
+ conduziram experimentos em amostras de arenito Berea.
+ Um SBM foi circulado, ora com LCM ora sem.
+ Os LCM foram: grafita (30 ppb, nas distribuições fina, média e grosseira)
+ e gilsonite (nomeadas 1 e 2).
+ Na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Razavi_2016"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, estão a amostra fraturada e imagens da propagação das fraturas feitas
+ por scanner axial de tomografia computadorizada( CAT
+\shape italic
+ Scan
+\shape default
+, do inglês, c
+\shape italic
+omputerized axial tomography scan
+\shape default
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Usuario/Desktop/TCC 2021/Biblioteca/Controle Papers TCC/12) Razavi et al. (2016)/Amosta fraturada.png
+	lyxscale 70
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+a) Amostra fraturada; b) Imagem do poço (antes do experimento); c) Imagem
+ do poço após fratura induzida; d) Seção transversal completa 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Razavi_2016"
+literal "false"
+
+\end_inset
+
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Razavi_2016"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A análise de seções finas foi feita para se ter uma visão mais detalhada
+ da geometria das fraturas induzidas e os selo formados.
+ Imagens petrofísicas foram tiradas das seções usando luz plana polarizada
+ para determinar a mineralogia das rochas e a presença de LCM nas fraturas.
+ Foi possível observar que os selos formados estão localizados próximos
+ a ponta da fratura e não na entrada perto do poço.
+ O selo é constituído de partículas grosseiras de grafita e finas de barita.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Usuario/Desktop/TCC 2021/Biblioteca/Controle Papers TCC/12) Razavi et al. (2016)/Imagem CAT.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+a) Imagem tomada de uma amostra fraturada com SBM/LCM de grafit; b) Imagem
+ ampliada do retângulo vermelho.
+ O tamanho médio da largura da fratura, partículas grosseiras e finas são
+ respectivamente, 163μm, 147 μm e 45 μm 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Razavi_2016"
+literal "false"
+
+\end_inset
+
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Razavi_2016-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As conclusões obtidas foram que um ótimo PSD dos materiais utilizados na
+ mistura é crítico para maximizar os benefícios de fortalecimento do poço
+ além de ser independente do tipo de LCM utilizado.
+ Em outras palavras, diferentes tipos de LCM podem apresentar semelhantes
+ PSD.
+ Aquele que tiver uma seleção ótima trará mais benefícios.
+ O PSD ótimo encontrado teve uma distribuição bimodal com com partículas
+ finas e grosseira.
+\end_layout
+
+\begin_layout Section
+Reservatórios Fraturados
+\end_layout
+
+\begin_layout Standard
+Reservatórios naturalmente fraturados correspondem a mais de 50% dos recursos
+ de óleo e gás bem como representam alvos econômicos atrativos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Tarek_2010"
+literal "false"
+
+\end_inset
+
+.
+ No entanto, muitos desafios na recuperação efetiva desses tipos de reservatório
+s são encontrados em decorrência de fraturas variando de fissuras microscópicas
+ até estruturas quilométricas tais como falhas que criam uma rede complexa
+ de fluxo 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Tiab_2012"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+A maioria das explorações 
+\shape italic
+offshore
+\shape default
+ atualmente realizadas pela Petrobras no Brasil apresentaram uma profundidade
+ média de 5500 m que, em situação extrema, atingiu 7000 m.
+ Este cenário inclui reservatórios depletados, zonas de pré e pós-sal e
+ carbonatos naturalmente fraturados 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Calcada_2015"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Definição
+\end_layout
+
+\begin_layout Standard
+Os sistemas de fraturas são encontrados em variados ambientes deposicionais
+ incluindo carbonatos, arenitos e folhelhos e servem como principais rotas
+ para o transporte de fluido.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Tian_2014"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Dada a existência de fraturas, a anisotropia de permeabilidade é muito maior
+ que em reservatórios não fraturados.
+ Consequentemente, detalhes do desenvolvimento, orientação, densidade e
+ extensão dessas redes de fraturas são vitais para as atividades na indústria
+ de E&P de petróleo e gás.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Tian_2014"
+literal "false"
+
+\end_inset
+
+ classificou-nas em macro e microfraturas:
+\end_layout
+
+\begin_layout Itemize
+Macrofraturas: descontínuas e que não podem ser investigadas em uma amostra
+ única devido ao comprimento, de metros a centenas de metros.
+ Após compactação, fraturas desse tipo podem manter um alto valor de condutivida
+de que assegura a taxa de produção.
+ Mesmo que haja redução na condutividade quando a fratura é sensível à tensão,
+ maiores problemas na produção não se farão presentes.
+\end_layout
+
+\begin_layout Itemize
+Microfraturas: são tratadas como meios porosos contínuos.
+ Elas são divididas em 
+\shape italic
+mated fractures
+\shape default
+ e 
+\shape italic
+unmated fractures
+\shape default
+ baseando-se na abertura:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\shape italic
+mated fractures
+\shape default
+: possuem faces opostas congruentes que se encaixam perfeitamente, pouco
+ fluido de preenchimento e são significativamente sensíveis à mudança de
+ pressão.
+ Dada a produção, elas permanecem fechadas e a contribuição ao fluxo é negligenc
+iável.
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+unmated fractures
+\shape default
+: possuem faces opostas não congruentes que não se encaixam perfeitamente.
+ São representativas de fraturas naturais cuja origem vem de tensões de
+ cisalhamento ou mineralização parcial.
+ São muito pequenas em tamanho e visualmente indetectáveis.
+ Ganharam uma capacidade de suporte ou auto sustentação de grão dada à superfíci
+e rugosa e ao deslocamento da fratura.
+ Assim, durante a etapa de produção servem juntas das macrofraturas como
+ rotas de migração principais.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+A maioria dos estudos laboratoriais propostos até 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Tian_2014"
+literal "false"
+
+\end_inset
+
+ sugeriam que a depleção do reservatório levaria a grandes perdas na condutivida
+de dele, por mudanças significativas na abertura da fratura.
+ A conclusão foi que uma fratura é fortemente sensível à mudança de pressão
+ de confinamento no laboratório, porém fracamente sensível à mudança de
+ pressão do reservatório durante a produção.
+ Assim, significativas reduções de produção não seriam relacionadas a uma
+ suposta diminuição da abertura da fratura.
+\end_layout
+
+\begin_layout Subsection
+Caracterização e identificação de fraturas
+\end_layout
+
+\begin_layout Standard
+A maioria das técnicas utilizadas para se detectar fraturas naturais não
+ as diferenciam entre fraturas abertas e fechadas, por exemplo, perfis de
+ imagens.
+\end_layout
+
+\begin_layout Standard
+Outra técnica para detectar a presença de fraturas se dá pela medida das
+ perdas de lama que consistem em monitorar o nível dela nos tanques com
+ sensores acústicos, flutuantes e pás colocadas dentro da linha de fluxo.
+ 
+\end_layout
+
+\begin_layout Standard
+Nos últimos anos, esses sensores foram parcialmente substituídos pelos medidores
+ de vazão eletromagnéticos mais precisos.
+ Essas ferramentas são capazes de medir a vazão da lama com uma precisão
+ de cerca de 
+\begin_inset Formula $\pm\,15-20$
+\end_inset
+
+ 
+\begin_inset Formula $litros/min$
+\end_inset
+
+ e são menos afetadas pelas variáveis da perfuração.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Beda_Carugo_2001"
+literal "false"
+
+\end_inset
+
+ pela integração entre dados de perfis de imagem e de perda de lama, conseguiram
+ distinguir fraturas permeáveis e seladas, bem como diferenciar o tipo de
+ zona de perda, tal como na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Forma-do-diferencial"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Geralmente, a lama perdida nas fraturas induzidas é devolvida após um curto
+ período de tempo, já que são muito sensíveis às mudanças de pressão dada
+ operações de perfuração.
+ As perdas de lama por fraturas naturais normalmente ocorrem sem interferência
+ das condições de perfuração.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Usuario/Desktop/TCC 2021/Biblioteca/Controle Papers TCC/27) Beda & Carugo (2001)/Eventos.PNG
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Forma do diferencial de fluxo e variações no nível do tanque de lama para
+ diferentes eventos de perde de lama 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Beda_Carugo_2001"
+literal "false"
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Forma-do-diferencial"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Mokhtari_2017"
+literal "false"
+
+\end_inset
+
+ utilizaram uma correlação de imagem digital em carbonatos naturalmente
+ fraturados da Fm.
+ Buda, Texas para caracterização de fraturas.
+ Geralmente, as fraturas naturais são pontos de fraqueza elástica (menor
+ resistência à tração) e algumas delas são determinantes na iniciação e
+ propagação de fraturas induzidas baseadas na orientação, localização e
+ o estado de tensão.
+ Nesse sentido, a Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Medidas-da-deformação"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ mostra o quão um meio heterogêneo com fraturas naturais pode influenciar
+ o desenvolvimento de fraturas induzidas.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../../../TCC 2021/Final Paper/FigurasTCC/Mokthari_2017_ok.png
+	lyxscale 20
+	scale 10
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Medidas da deformação do carbonato da Fm.
+ Buda com fraturas naturais.
+ Os resultados do padrão feito pelo software representaram bem a amostra
+ fraturada 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Mokhtari_2017"
+literal "false"
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Medidas-da-deformação"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Histórico de modelos experimentais para injeção de fluido de perfuração
+ em fluxo transversal e direto
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Sharma_1992"
+literal "true"
+
+\end_inset
+
+ investigaram a invasão de suspensões de bentonita para 24 amostras de arenito
+ Berea, durante filtração em fluxo transversal para medir a extensão e profundid
+ade do dano à formação pelo filtrado e partículas da lama.
+ Um sistema de circulação e um 
+\shape italic
+core holder
+\shape default
+ de filtração dinâmica ilustrado na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:a)-Diagrama-esquemático"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ foram usados.
+ Segundo eles, o dano à formação pela liberação de finos e migração de partícula
+s pode ser significativo durante perdas de jato, antes do reboco se formar.
+ Então, para minimizar o dano à formação a composição da lama deve ser ajustada
+ para que um reboco externo estável, forte e de baixa permeabilidade seja
+ formado.
+ Dada a formação do reboco, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Sharma_1993"
+literal "true"
+
+\end_inset
+
+ concluíram que pelo fato da permeabilidade do reboco ser muito menor que
+ a permeabilidade do meio, a magnitude do fluxo de filtrado é fortemente
+ controlada pela espessura e permeabilidade dele.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/Usuario/Desktop/TCC2021GitHub/TCC-Monografia-KevinAlvesBartelega/08-Resultados-DocumentoFinal-IC-MSC-DSC/Figuras/Sharma_1992_a.png
+	lyxscale 60
+	scale 50
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename C:/Users/Usuario/Desktop/TCC2021GitHub/TCC-Monografia-KevinAlvesBartelega/08-Resultados-DocumentoFinal-IC-MSC-DSC/Figuras/Sharma_1992_b.png
+	lyxscale 60
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+a) Diagrama esquemático do sistema de circulação; b) Diagrama esquemático
+ do 
+\shape italic
+Core Holder
+\shape default
+ de filtração dinâmica 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Sharma_1992"
+literal "true"
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:a)-Diagrama-esquemático"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Sharma_1996"
+literal "true"
+
+\end_inset
+
+ descreveram o uso de dois diferentes obturantes, carbonato de cálcio (
+\begin_inset Formula $CaCO_{3}$
+\end_inset
+
+) e fibras solúveis em ácidos para reduzir sólidos e filtração em amostras
+ de arenitos fraturados.
+ Os resultados mostraram que o uso de aditivos fribrosos são muito mais
+ efetivos que aditivos granulares como 
+\begin_inset Formula $CaCO_{3}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Segundo 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Salimi_Alikarami_2006"
+literal "true"
+
+\end_inset
+
+, dois tipos de filtração estão envolvidas na perfuração de um poço de óleo
+ ou gás:
+\end_layout
+
+\begin_layout Enumerate
+Filtração estática: ocorre quando a lama não está sendo circulada e o reboco
+ cresce sem um padrão ou distribuído;
+\end_layout
+
+\begin_layout Enumerate
+Filtração dinâmica: quando a lama está circulando e o crescimento do reboco
+ é limitado pela ação erosiva do fluxo de lama.
+ 
+\end_layout
+
+\begin_layout Standard
+Nesse sentido, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Salimi_Alikarami_2006"
+literal "true"
+
+\end_inset
+
+ e 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Salimi_2011"
+literal "true"
+
+\end_inset
+
+ analisaram a invasão de fluido de perfuração em reservatórios carbonáticos
+ de granulometira fina e fraturados durante perfuração 
+\shape italic
+overbalanced
+\shape default
+.
+ Foram utilizados um aparato de teste dinâmico de dano à formação, 
+\shape italic
+core holder 
+\shape default
+do tipo 
+\shape italic
+Hassler
+\shape default
+ e o software 
+\shape italic
+Labview
+\shape default
+.
+ Para isso, 10 amostras representativas de foram selecionadas do afloramento
+ Faxe, Dinamarca.
+ Suas dimensões eram: 1,5 polegadas de diâmetro e 5-8 polegadas de comprimento.
+ A permeabilidade média das amostras fraturadas foi 3,86md e a porosidade
+ média 44%.
+ A vazão da bomba foi de 0,5 ml/min.
+ Todos os testes foram realizados com condições dinâmicas por 4 horas e
+ seguidos por condições estáticas por outras 16 horas.
+ Os resultados mostraram que a filtração do fluido é sensível ao regime
+ estático ou dinâmico aplicado.
+ Quando combinados, a perda ou invasão se mostrou maior.
+ Observou-se também que o aumento na pressão 
+\shape italic
+overbalanced
+\shape default
+ eleva a filtração do fluido.
+ O uso de obturantes, tais como 
+\begin_inset Formula $CaCO_{3}$
+\end_inset
+
+ na concentração 1,3 v/v%, pode reduzir a invasão cumulativa (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Saliimi2006_2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ As curvas de filtração para todas as amostras mostraram que o reboco se
+ formou em tempos curtos.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figuras/Salimi_2006_1 (2).PNG
+	lyxscale 80
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+O efeito do agente de ligação 
+\begin_inset Formula $CaCO_{3}$
+\end_inset
+
+ no comportamento da perda de fluido 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Salimi_Alikarami_2006"
+literal "true"
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Saliimi2006_2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Calcada_2015"
+literal "true"
+
+\end_inset
+
+ estudaram a eficiência de soluções de polímeros e suspensões particuladas
+ para selar diferentes tamanhos de fraturas em um simulador de fluxo de
+ fraturas (SFF, do inglês, 
+\shape italic
+Simulator of flow in fractures
+\shape default
+ ) (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:O-SFF-consiste"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ O equipamento possui duas seções de fluxo ascendente representados por
+ um poço anular de 12 1/4 –5 " (Geometria 1) e 8 1/2 –5 "(Geometria 2) com
+ uma haste de perfuração de 5 polegadas, que é comumente encontrada em poços
+ perfurados pela Petrobras nas camadas do pré-sal.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figuras/Calcada_1.PNG
+	lyxscale 80
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Esquema simplificado do SFF 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Calcada_2015"
+literal "true"
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:O-SFF-consiste"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As fraturas possuem aberturas laterais de 2, 5 e 10 mm, com um comprimento
+ de 1,5 m e com válvulas instaladas no final de cada fratura.
+ A pressão máxima de operação gira em torno de 150 psi.
+\end_layout
+
+\begin_layout Standard
+Foram feitas três formulações: água pura; água com polímeros/soluções (goma
+ xantana e amido) e água, polímero e materiais particulados/suspensões.
+ A Tabela 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Componentes-dos-fluidos"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ abaixo mostra os componentes utilizados.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Material
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\begin_inset Formula $d(0,1)\mu m$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\begin_inset Formula $d(0,5)\mu m$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\begin_inset Formula $d(0,9)\mu m$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\begin_inset Formula $\bar{dp}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Goma xantana (XG)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-x-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-x-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-x-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-x-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Amido
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-x-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-x-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-x-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-x-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Carbonato (0-53
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2,45
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13,84
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30,70
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15,45
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+FINE
+\begin_inset Formula $^{\circledR}$
+\end_inset
+
+ (SF)
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7,82
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+58,00
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+338,50
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+114,50
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0-400
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MEDIUM
+\begin_inset Formula $^{\circledR}$
+\end_inset
+
+ (SM) 
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6,23
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+32,64
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+470,69
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+137,93
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0-580
+\begin_inset Formula $\mu m$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+FINE
+\begin_inset Formula $^{\circledR}$
+\end_inset
+
+ e MEDIUM
+\begin_inset Formula $^{\circledR}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-x-
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-x-
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-x-
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-x-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(SFM)
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Componentes dos fluidos de perfuração base água (Adaptado de 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Calcada_2015"
+literal "true"
+
+\end_inset
+
+)
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Componentes-dos-fluidos"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Os carbonatos SFM associados com a mesma base polimérica anterior exibiram
+ um bom desempenho e maior capacidade de selamento de fraturas na vedação
+ das três fraturas.
+ As concentrações do obturante foram 17,5 lbm/bbl SF com 17,5 lbm/bbl SM.
+ Os tempo de formação de reboco foram, respectivamente, 1 min, 10 sec e
+ 5 min, independentemente se completo ou não.
+ 
+\end_layout
+
+\begin_layout Standard
+A Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Dinâmica-do-fechamento"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ abaixo mostra a eficiência do sistema em selar a fratura e após aproximadamente
+ 1 min o fluxo de retorno no espaço anular voltou ao nível inicial.
+ Entre 3 e 4 min ocorre o completo selamento da fratura de 10 mm.
+ O trandutor registra um pico de 2,34 psi e a vazão de retorno diminui uma
+ vez que fluido foi perdido para a fratura.
+ Na medida em que o selo é formado, o pico instantaneamente vai para zero,
+ mostrando que não há fluxo na fratura.
+ Durante o teste de compressão nenhum pico de pressão ocorreu o que reforça
+ o sucesso da formação do selo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figuras/Calcada_2.PNG
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Dinâmica do fechamento e abertura da fratura de 10 mm utilizando a geometria
+ 2 com a mistura de carbonato SFM 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Calcada_2015"
+literal "true"
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Dinâmica-do-fechamento"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Miranda_2017"
+literal "true"
+
+\end_inset
+
+ propuseram um aparato experimental para avaliar grandes perdas de circulação
+ em um tubo de vidro de 1,8 m de comprimento e 4,0 cm de diâmetro preenchido
+ com esferas de diâmetro uniforme de 8 ou 18 mm, no qual misturas de LCM
+ foram deslocados por um diferencial de pressão de 20 ou 100 psi.
+ As permeabilidade medidas dos tubos com esferas de 8 e 18 mm foram respectivame
+nte de 90kD e 430 kD.
+ O porquê do uso de uma coluna extensa e permeável está na limitação dos
+ aparatos convencionais para avaliar perdas de circulação (slots metálicos,
+ discos de cerâmica ou amostras naturais).
+ Estes últimos são úteis na simulação de formações permeáveis ou zonas depletada
+s, porém não tanto em cenários de perda severa que ocorrem em zonas cavernosas
+ ou em fraturas naturais ou induzidas.
+ O cenário de perda severa ocorreu sob o diferencial de pressão de 100 psi
+ e esferas de 18 mm.
+ Os LCM que obtiveram sucesso foram pastilhas compactadas de bentonita e
+ um material reativo não-metálico a base de silicatos de cálcio e alumímio,
+ misturados com ativadores e lama de cimento.
+\end_layout
+
+\end_body
+\end_document

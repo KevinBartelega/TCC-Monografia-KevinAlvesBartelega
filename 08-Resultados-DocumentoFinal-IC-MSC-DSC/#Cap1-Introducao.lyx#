@@ -1,0 +1,564 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass abnt
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+
+% Comentar linhas abaixo se não estiver usando pacote abntex
+% ou se o pacote ainda não foi instalado.
+% neste caso sugere-se usar citações no padrão apalike (lembra o da anbt).
+\usepackage[alf ,abnt-etal-cite=2 , abnt-year-extra-label=yes , abnt-etal-list=0]{abntcite}
+\usepackage {helvet}
+\renewcommand {\familydefault}{\sfdefault}
+\end_preamble
+\options normaltoc, sumarioincompleto
+\use_default_options false
+\maintain_unincluded_children false
+\language brazilian
+\language_package default
+\inputencoding iso8859-1
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref true
+\pdf_title "Título da Monografia - Dissertação - Tese"
+\pdf_author "Nome do Autor"
+\pdf_subject "Descrever assunto"
+\pdf_keywords "Copiar do resumo"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref page
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Introdução
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Introdução
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "cha:Introdução"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{
+\backslash
+thechapter
+\backslash
+space - Introdução}
+\backslash
+rhead{}
+\backslash
+pagenumbering{arabic}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Há diversas etapas desde exploração, perfuração, explotação até produção
+ de reservas de petróleo.
+ Através da perfuração do poço pioneiro é possível certificar a existência
+ ou não de hidrocarbonetos nas formações rochosas, e uma vez comprovada
+ a viabilidade econômica desta reserva, são realizadas novas perfurações
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bourgonye_1986"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+A perfuração é normalmente realizada de forma 
+\shape italic
+overbalanced
+\shape default
+, processo no qual a pressão dentro do poço exercida pelo peso do fluido
+ de perfuração é mais alta que a pressão do reservatório.
+ Esta forma apresenta benefícios, como a prevenção de 
+\shape italic
+kicks
+\shape default
+ e 
+\shape italic
+blowouts
+\shape default
+, no entanto, causa alguns prejuízos, como a invasão de fluidos que leva
+ a danos à formação 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Rosa_2006"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Para tentar minimizar esses danos, a preparação dos fluidos de perfuração
+ possui um papel decisivo.
+ Além das diversas funções e propriedades que lhes são designadas, tais
+ como lubrificar e resfriar a broca, transportar os detritos pelo espaço
+ anular até a superfície; a adição de material particulado tem ajudado a
+ diminuir o fenômeno da filtração.
+ Isso se traduz em termos práticos pela formação de um reboco de baixa permabili
+dade na parede do poço 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Caenn_2011"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Para o reboco ser formado de forma eficiente, é necessário o ajuste adequado
+ de diversos parâmetros como: a velocidade do fluxo, a distribuição de tamanho
+ de partículas adicionadas ao fluido, adição de polímeros, a reologia do
+ fluido, a permeabilidade do reservatório, o controle de espessura do reboco,
+ controle de invasão de partículas, entre outros 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Caenn_2011,Sharma_1992,Waldmann_2014"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Por mais eficiente que o reboco seja ele não se torna impermeável.
+ Na maioria dos casos o reboco formado para de crescer, lhe proporcionando
+ uma espessura fixa e uma baixa permeabilidade se comparada com a permeabilidade
+ do reservatório.
+ Esta película funciona como um filtro que deixa passar apenas o filtrado
+ do fluido de perfuração com uma vazão constante.
+ O filtrado assim invade continuamente o reservatório enquanto houver exposição
+ ao fluxo 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Dake_2014"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Com a preocupação de minimizar a perda de filtrado e o dano à formação bem
+ como respeitar as normas e políticas ambientais, os fluidos de perfuração
+ sofreram e vêm sofrendo alterações em relação a composição e aditivos.
+ Os mais utilizados são os fluidos base água e base óleo (sintético), no
+ entanto, cada um possui suas características que limitam sua utilização
+ em determinado cenário, devido a questões ambientais, no caso do fluido
+ base óleo, ou devido suas limitações operacionais, no caso do fluido base
+ água.
+ Desta forma, novas formulações de fluido com diferentes bases estão sendo
+ estudadas para tentar suprir tanto as limitações ambientais, quanto as
+ limitações operacionais.
+ Há diversos resultados que mostraram que a glicerina pode ser a revolução
+ na formulação de fluido de perfuração, apresentando tanto as vantagens
+ de um fluido base água e óleo 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Malgaresi_2015,Cunha_2015"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Saindo um pouco do fenômeno da perda de filtrado, dada a heterogeneidade
+ dos reservatórios nas bacias brasileiras 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Calcada_2015"
+literal "false"
+
+\end_inset
+
+, um outro gargalo que se propõe a resolver é a perda de circulação de fluido
+ através das fraturas encontradas no reservatórios 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Morais_2020"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Reservatórios de petróleo que contém fraturas naturais cujo efeito positivo
+ no escoamento de fluidos é significativo são denominados reservatórios
+ naturalmente fraturados.
+ Nesta categoria se encontram cerca de 20% das reservas mundiais de petróleo
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ezeakacha_2019"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Diferente do que ocorre nos sistemas convencionais de formações areníticas,
+ o comportamento do escoamento em reservatórios naturalmente fraturados
+ ainda é pouco compreendido e apresenta complexidades devido a interação
+ entre a matriz porosa e as fraturas.
+ Fraturas são estruturas tridimensionais, nas quais uma das dimensões (espessura
+) é, em geral, muito inferior às demais, porém, uma vez que estas se apresentam
+ na forma de uma malha suficientemente interligada, configuram trajetórias
+ de altíssima permeabilidade com ordem de grandeza bem maior que a da matriz
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Morais_2020"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Soluções práticas foram recomendadas para evitar perdas de fluido baseadas
+ em dados de perda de lama.
+ Elas identificam e caracterizam as fraturas condutivas que se interceptam
+ no poço e fornecem parâmetros necessários para controlar a perda de circulação.
+ Entretanto, independente do tipo de tratamento, um tempo significativo
+ de sonda pode ser perdido e algumas soluções podem complicar o projeto
+ de poço.
+ Dessa maneira, manter a estabilidade dele é uma tarefa importante durante
+ a perfuração em zonas fraturadas por motivos de segurança e econômicos.
+ 
+\end_layout
+
+\begin_layout Standard
+Os problemas de estabilidade do poço associados à perfuração nessas zonas
+ estão relacionados à natureza das fraturas pré-existentes (naturais) e
+ induzidas pela perfuração.
+ Assim, várias técnicas preventivas e corretivas já foram desenvolvidas.
+ A primeira medida a ser tomada é o ajuste das propriedades do fluido para
+ diminuir a densidade equivalente de circulação e consequentemente reduzir
+ o volume perdido dele.
+ A segunda medida é o uso de materiais controladores de perda de circulação
+ (LCM, do inglês, 
+\shape italic
+lost circulation materials
+\shape default
+) no fluido, os quais aumentam a rigidez da formação e consequentemente
+ sua estabilidade.
+ Esses aditivos também controlam a perda pela obstrução de canais de poros
+ e fraturas 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ezeakacha_2019,Alsaba_Nygaard_2014,Morais_2020"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Diante da complexidade dos reservatórios fraturados e das perdas bilionárias
+ anuais que a indústria sofre, existe a necessidade de se compreender os
+ fenômenos que ocorrem durante a perfuração deles.
+ Nesse sentido, este trabalho realizou um estudo experimental para reduzir
+ a perda de fluido de perfuração e filtrado pela otimização de formulações
+ de fluidos existentes através da simulação da dinâmica de fechamento de
+ fraturas e criação de reboco.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Apresenta-se a seguir a organização do documento.
+ Esta dissertação foi dividida em seis capítulos, mais 
+\begin_inset Quotes eld
+\end_inset
+
+Referências Bibliográficas
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+O Capítulo 1, 
+\begin_inset Quotes eld
+\end_inset
+
+Introdução
+\begin_inset Quotes erd
+\end_inset
+
+, apresenta uma introdução sobre o tema abordado, bem os objetivos que compõe
+ esta dissertação.
+ 
+\end_layout
+
+\begin_layout Standard
+O Capítulo 2, 
+\begin_inset Quotes eld
+\end_inset
+
+Referências Bibliográficas
+\begin_inset Quotes erd
+\end_inset
+
+, apresentará uma revisão bibliográfica sobre os assuntos relevantes ao
+ trabalho, conceitos sobre fluidos de perfuração, filtração e alguns trabalhos
+ experimentais sobre a perda de circulação de fluido em formações fraturadas.
+\end_layout
+
+\begin_layout Standard
+O Capítulo 3, 
+\begin_inset Quotes eld
+\end_inset
+
+Metodologia
+\begin_inset Quotes erd
+\end_inset
+
+, apresenta a metodologia experimental utilizada e elaborada para os testes
+ de injeção de fluido de perfuração e os modelos matemáticos.
+ Inclui informações sobre instrumentos, materiais, equipamentos, softwares,
+ processos de caracterização das amostras, preparo e caracterização dos
+ fluidos, assim como os procedimentos e condições de testes.
+\end_layout
+
+\begin_layout Standard
+O Capítulo 4, 
+\begin_inset Quotes eld
+\end_inset
+
+Resultados
+\begin_inset Quotes erd
+\end_inset
+
+, apresenta os resultados obtidos na caracterização dos fluidos de perfuração
+ e na metodologia elaborada para injeção de fluidos bem como a elaboração
+ das análises.
+\end_layout
+
+\begin_layout Standard
+O Capítulo 5, 
+\begin_inset Quotes eld
+\end_inset
+
+Conclusões
+\begin_inset Quotes erd
+\end_inset
+
+, mostra as conclusões obtidas no trabalho realizado e as recomendações
+ para trabalhos futuros.
+\end_layout
+
+\begin_layout Section
+Objetivos
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Objetivos
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Objetivos"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Esta dissertação foi inserida em um projeto do Laboratório de Fluidos do
+ LENEP/UENF com a Petrobras.
+ A motivação surgiu em conjunto com a Dissertação de Mestrado do aluno Caio
+ Morais 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Morais_2020"
+literal "false"
+
+\end_inset
+
+, e pelo trabalho em equipe na Dissertação de Mestrado do Aluno Daniel Fernandes.
+ A análise envolve o fechamento ou não da fratura, eficiência e estabilização
+ de reboco, invasão de filtrado de fluido de perfuração e dano à formação.
+ 
+\end_layout
+
+\begin_layout Standard
+O objetivo principal é analisar a dinâmica de formação de reboco em fraturas
+ baseando-se na relação de tamanho das partículas de carbonato de cálcio
+ adicionadas no fluido de perfuração e a espessura das fraturas.
+ A análise envolveu o tempo necessário para formação e estabilização do
+ reboco e consequentemente para a obstrução da fratura, bem como o volume
+ total perdido de fluido.
+ Para atingir os objetivos propostos, foram realizadas as seguintes etapas:
+\end_layout
+
+\begin_layout Itemize
+Desenvolver uma metodologia de fraturamento de carbonatos em que seja possível
+ ter o controle da espessura das fraturas;
+\end_layout
+
+\begin_layout Itemize
+Desenvolver e extender uma metodologia de injeção em fluxo transversal de
+ fluido de perfuração apresentada por 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Malgaresi_2015,Morais_2020"
+literal "false"
+
+\end_inset
+
+ em testemunhos fraturados de rochas sintéticas e naturais que faça previsão
+ qualitativa de invasão de filtrado tal como ocorre na perfuração de poços;
+\end_layout
+
+\begin_layout Itemize
+Comparar qualitativamente a influência de diferentes distribuições de tamanho
+ de partículas de carbonato de cálcio nas formulações de fluido de perfuração,
+ validá-los com modelos disponíveis na literatura, e verificar a performance
+ dessas diferentes composições.
+\end_layout
+
+\end_body
+\end_document
